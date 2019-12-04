@@ -2333,7 +2333,6 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			
 			font-weight: 400;
 		}
 		
@@ -2578,11 +2577,11 @@ input, select, textarea {
 
 			ul.items > li {
 				padding-left: 0;
-				margin: 0 0 3rem 0;
+				margin: 0 0 2rem 0;
 			}
 
 				ul.items > li > h3 {
-					margin: 0 0 1rem 0;
+					margin: 0 0 0 0;
 				}
 
 				ul.items > li > :last-child {
