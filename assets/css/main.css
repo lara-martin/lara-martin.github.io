@@ -3891,3 +3891,7 @@ input, select, textarea {
 div.text{
 	width: 800px;
 }
+
+a.label{
+	border-bottom: none;
+}
