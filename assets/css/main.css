@@ -2848,7 +2848,7 @@ input, select, textarea {
 		display: inline-block;
 		height: 4rem;
 		position: relative;
-		/*width: 6rem;*/
+		width: 6rem;
 	}
 
 		a.arrow .label {
