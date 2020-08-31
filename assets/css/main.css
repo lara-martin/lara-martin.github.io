@@ -164,7 +164,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #000000;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 1rem;
+		font-size: 1.2rem;
 		font-weight: 300;
 		letter-spacing: 0.0375em;
 		line-height: 2;
@@ -217,7 +217,7 @@ input, select, textarea {
 
 	h1 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 3rem;
+		font-size: 4rem;
 		font-weight: 700;
 		letter-spacing: -0.05em;
 		line-height: 1.1;
@@ -232,7 +232,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 0.875rem;
+		font-size: 1rem;
 	}
 
 	h4 {
@@ -2628,7 +2628,7 @@ input, select, textarea {
 	}
 
 		ul.actions li {
-			padding: 0 1rem 0 0;
+			padding: 0 1rem 0 1rem;
 			vertical-align: middle;
 		}
 
@@ -2848,7 +2848,7 @@ input, select, textarea {
 		display: inline-block;
 		height: 4rem;
 		position: relative;
-		width: 6rem;
+		/*width: 6rem;*/
 	}
 
 		a.arrow .label {
@@ -2861,10 +2861,11 @@ input, select, textarea {
 			background-repeat: no-repeat;
 			background-size: contain;
 			content: '';
-			display: inline-block;
+			display: flex;
 			height: 100%;
 			position: relative;
 			width: 3rem;
+			margin:auto;
 		}
 
 /* Gallery */
@@ -3439,7 +3440,7 @@ input, select, textarea {
 			}
 
 		#wrapper > section.intro > header > * {
-			width: 20rem;
+			/*width: 20rem;*/
 		}
 
 		#wrapper > section.intro > header:before {
