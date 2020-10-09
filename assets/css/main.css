@@ -3460,6 +3460,10 @@ input, select, textarea {
 			#wrapper > section.intro > header:before {
 				margin-left: 0;
 			}
+			
+			#wrapper > section.intro > .content {
+				height: auto;
+			}
 
 		}
 
@@ -3517,7 +3521,7 @@ input, select, textarea {
 					}
 
 				#wrapper > section.intro > header > * {
-					width: 21rem;
+					width: 25rem;
 				}
 
 				#wrapper > section.intro > header:before {
