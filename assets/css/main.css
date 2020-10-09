@@ -176,7 +176,7 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.25s ease-in-out;
 		transition: border-bottom-color 0.25s ease-in-out;
 		text-decoration: none;
-		color: #9900cc;
+		color: #600080;
 		border-bottom: dotted 1px;
 	}
 
@@ -2358,7 +2358,7 @@ input, select, textarea {
 	.image {
 		border: 0;
 		display: inline-block;
-		position: relative;
+		position: absolute;
 	}
 
 		.image img {
@@ -2371,7 +2371,7 @@ input, select, textarea {
 			-ms-object-fit: cover;
 			object-fit: cover;
 			display: block;
-			position: absolute;
+			/**position: absolute;**/
 			top: 0;
 			left: 0;
 			width: 100%;
@@ -2516,7 +2516,7 @@ input, select, textarea {
 		.image.fill {
 			height: 100%;
 			left: 0;
-			/*position: absolute;*/
+			position: relative;
 			top: 0;
 			width: 100%;
 		}
@@ -2524,10 +2524,11 @@ input, select, textarea {
 			.image.fill img {
 				height: 100%;
 				left: 0;
-				position: absolute;
+				/**position: absolute;**/
 				top: 0;
 				width: 100%;
 			}
+
 
 /* List */
 
@@ -3742,6 +3743,10 @@ input, select, textarea {
 				#wrapper > section > footer {
 					padding: 0 2rem 3rem 2rem;
 				}
+				
+				#wrapper > section.intro > .content {
+					height:auto;
+				}
 
 				#wrapper > section.intro > header {
 					padding: 5.5rem 2rem 2.5rem 2rem;
@@ -3837,7 +3842,13 @@ input, select, textarea {
 			body.is-preload #wrapper > section.intro > .content {
 				transform: translateY(-1rem);
 			}
-
+		
+		@media screen and (min-width: 1280px) {
+			#wrapper > section.intro {
+				height: 1500px;
+			}
+		}
+		
 		@media screen and (max-width: 1280px) {
 
 			#wrapper > section.intro > header > * {
@@ -3920,7 +3931,7 @@ ul.news{
 	 
 	/* Handle */
 	::-webkit-scrollbar-thumb {
-	  background: #9900cc; 
+	  background: #600080; 
 	}
 
 	/* Handle on hover */
@@ -3935,7 +3946,7 @@ ul.news{
 	.cv {
 		text-decoration: none;
 		position: relative;
-		color: #9900cc;
+		color: #600080;
 	}
 
 		.cv:before {
