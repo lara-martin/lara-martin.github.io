@@ -2349,7 +2349,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-size: 2rem;
+			font-size: 2em;
 			font-family: 'Font Awesome 5 Brands';
 		}
 
