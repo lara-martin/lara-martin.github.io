@@ -191,6 +191,7 @@ input, select, textarea {
 		font:inherit;
 		text-transform: inherit;
 		letter-spacing: inherit;
+		display: contents;
 	}
 
 		a:hover,
@@ -2962,16 +2963,17 @@ input, select, textarea {
 		padding-left:10px;
 	}
 
-		.gallery button {
+		.gallery button, .gallery a {
 			/*border-bottom: 0;*/
 			/*display: block;*/
 			/*margin: 1.25rem 0 0 1.25rem;*/
 			outline: 0;
 			position: relative;
 			/*width: calc(50% - 1.25rem);*/
+			text-align: left;
 		}
 
-			.gallery button img {
+			.gallery button img, .gallery a img{
 				display: block;
 				height: 25vw;
 				min-height: 18rem;
@@ -2980,15 +2982,15 @@ input, select, textarea {
 				width: 100%;
 			}
 
-			.gallery button.landscape {
+			.gallery button.landscape, .gallery a.landscape {
 				width: 100%;
 			}
 
-				.gallery button.landscape img {
+				.gallery button.landscape img, .gallery a.landscape img {
 					height: 30vw;
 				}
 
-			.gallery button.portrait img {
+			.gallery button.portrait img, .gallery a.portrait img {
 				height: 30vw;
 			}
 
@@ -3470,9 +3472,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 1152px) {
 
-			#wrapper > section.intro > header > * {
+			/*#wrapper > section.intro > header > * {
 				width: 100%;
-			}
+			}*/
 
 			#wrapper > section.intro > header:before {
 				margin-left: 0;
@@ -3537,9 +3539,9 @@ input, select, textarea {
 						width: 30rem;
 					}
 
-				#wrapper > section.intro > header > * {
+				/*#wrapper > section.intro > header > * {
 					width: 25rem;
-				}
+				}*/
 
 				#wrapper > section.intro > header:before {
 					margin-left: calc(50vw - 8rem);
@@ -3549,9 +3551,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) and (max-width: 1152px) {
 
-			#wrapper > section.intro > header > * {
+			/*#wrapper > section.intro > header > * {
 				width: 100%;
-			}
+			}*/
 
 			#wrapper > section.intro > header:before {
 				margin-left: 0;
@@ -3685,7 +3687,8 @@ input, select, textarea {
 							#wrapper > section.intro > header > * {
 								margin-left: 0;
 								margin-right: 0;
-								width: 100%;
+								/*width: 100%;*/
+								text-align: left;
 							}
 
 							#wrapper > section.intro > header > ul.actions {
