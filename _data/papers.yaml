@@ -1,0 +1,122 @@
+#-
+#  year: 
+#  title: 
+#  authors:
+#  venue:
+#  pdf:
+#  official_pdf:
+#  arxiv:
+#  slides:
+#  poster:
+#  code:
+#  data:
+
+-
+  year: 2021
+  title: Neurosymbolic Automated Story Generation
+  authors: LJ Martin
+  venue: Thesis, Georgia Institute of Technology
+  official_pdf: https://smartech.gatech.edu/handle/1853/64643
+  
+-
+  year: 2020
+  title: Story Realization&colon; Expanding Plot Events into Sentences
+  authors: P Ammanabrolu, E Tien, W Cheung, Z Luo, W Ma, LJ Martin, MO Riedl
+  venue: The Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI-20), New York, NY
+  official_pdf: https://ojs.aaai.org//index.php/AAAI/article/view/6232
+  arxiv: https://arxiv.org/abs/1909.03480
+  slides: https://drive.google.com/file/d/1E2rt6NqwzU3rVM1lKXgz-1CsuJQ5JMnO/view
+  poster: poster/Ammanabrolu-AAAI2020_poster.pdf
+  code: https://github.com/rajammanabrolu/StoryRealization
+  data: https://huggingface.co/datasets/lara-martin/Scifi_TV_Shows											
+
+-
+  year: 2019
+  title: Controllable Neural Story Plot Generation via Reinforcement Learning
+  authors: P Tambwekar, M Dhuliawala, LJ Martin, A Mehta, B Harrison, MO Riedl
+  venue: Twenty-Eighth International Joint Conference on Artificial Intelligence (IJCAI-19), Macao, China
+  official_pdf: https://www.ijcai.org/proceedings/2019/829
+  arxiv: https://arxiv.org/abs/1809.10736
+  slides: slides/Tambwekar-Dhuliawala_IJCAI_2019-slides.pdf
+  poster: poster/Tambwekar-Dhuliawala_IJCAI_2019-poster.pdf
+
+-
+  year: 2019
+  title: Guided Neural Language Generation for Automated Storytelling
+  authors: P Ammanabrolu, E Tien, W Cheung, Z Luo, W Ma, LJ Martin, MO Riedl
+  venue: The Second Workshop of Storytelling (StoryNLP) at ACL 2019, Florence, Italy
+  official_pdf: 'https://aclanthology.org/W19-3405/'
+  slides: 'https://drive.google.com/file/d/1qQgS2j4jhvCs5mnqfAnyY94ZRxrBm6or/view'										
+-
+  year: 2018
+  title: Dungeons and DQNs&colon; Toward Reinforcement Learning Agents that Play Tabletop Roleplaying Games
+  authors: LJ Martin, S Sood, MO Riedl
+  venue: AAAI Workshop on Intelligent Narrative Technologies (INT), Edmonton, AB, Canada
+  pdf: pub/Martin-Dungeons-n-DQNs.pdf
+  slides: slides/Martin-INT18-DungeonsnDQNs-slides.pdf										
+-
+  year: 2018
+  title: Event Representations for Automated Story Generation with Deep Neural Nets
+  authors: LJ Martin, P Ammanabrolu, X Wang, W Hancock, S Singh, B Harrison, MO Riedl
+  venue: Thirty-Second AAAI Conference on Artificial Intelligence (AAAI-18), New Orleans, LA
+  official_pdf: 'https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17046/'
+  arxiv: 'https://arxiv.org/abs/1706.01331'
+  poster: poster/Martin-aaai18-poster.pdf
+  code: 'https://github.com/lara-martin/ASTER'
+  data: 'https://www.dropbox.com/s/i5dsk92735jpunf/EventRepresentationDataRelease.zip?dl=0'
+-
+  year: 2017
+  title: Improvisational Storytelling Agents
+  authors: LJ Martin, P Ammanabrolu, X Wang, S Singh, B Harrison, M Dhuliawala, P Tambwekar, A Mehta, R Arora, N Dass, C Purdy, MO Riedl
+  venue: NeurIPS 2017 Workshop on Machine Learning for Creativity and Design, Long Beach, CA
+  official_pdf: 'https://nips2017creativity.github.io/doc/Improvisational_Agents.pdf'
+  poster: poster/NeurIPS17-ImprovStorytellingPoster.pdf		
+-
+  year: 2017
+  title: Event Representations for Automated Story Generation with Deep Neural Nets
+  authors: LJ Martin, P Ammanabrolu, W Hancock, S Singh, B Harrison, MO Riedl
+  venue: KDD 2017 Workshop on Machine Learning for Creativity, Halifax, NS, Canada
+  arxiv: 'https://arxiv.org/abs/1706.01331v2'
+  slides: slides/KDD2017_slides.pdf
+-
+  year: 2016
+  title: Improvisational Computational Storytelling in Open Worlds
+  authors: LJ Martin, B Harrison, MO Riedl
+  venue: Ninth International Conference on Interactive Digital Storytelling (ICIDS 2016) / INT 9, Los Angeles, CA
+  pdf: pub/Martin_ICIDS2016.pdf
+-
+  year: 2015
+  title: Utterance Classification in Speech-to-Speech Translation for Zero-Resource Languages in the Hospital Administration Domain
+  authors: LJ Martin, A Wilkinson, SS Miryala, V Robison, AW Black
+  venue: 2015 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU 2015), Scottsdale, AZ
+  pdf: pub/ASRU2015_MartinEtAl.pdf
+-
+  year: 2014
+  title: A Methodology for Using Crowdsourced Data to Measure Uncertainty in Natural Speech
+  authors: LJ Martin, M Stone, F Metze, J Mostow
+  venue: 2014 IEEE Spoken Language Technology Workshop (SLT 2014), South Lake Tahoe, NV
+  pdf: pub/SLT14-Uncertainty.pdf	
+-
+  year: 2014
+  title: Identifying Student Leaders from MOOC Discussion Forums through Language Influence
+  authors: S Moon, S Potdar, and LJ Martin
+  venue: EMNLP 2014 Workshop on Analysis of Large Scale Social Interaction in MOOCs, Doha, Qatar
+  official_pdf: 'https://www.aclweb.org/anthology/W14-4103/'
+-
+  year: 2014
+  title: A multisensory non-invasive system for laughter analysis
+  authors: S Cosentino, S Burger, LJ Martin, F Metze, T Kishi, K Hashimoto, S Sessa, M Zecca, A Takanishi
+  venue: 36th Annual International IEEE EMBS Conference, Chicago, IL
+  pdf: pub/EMBC14-Laughter.pdf
+-
+  year: 2014
+  title: Applause&colon; A Learning Tool for Low-Resource Languages
+  authors: N Wolfe, VV Vemuri, LJ Martin, AW Black
+  venue: Designing Speech and Language Interactions Workshop (CHI 2014), Toronto, Canada
+  pdf: pub/CHI14-Applause.pdf
+-
+  year: 2014
+  title: Informedia@ TRECVID 2014 MED and MER
+  authors: S Yu, L Jiang, Z Mao, X Chang, X Du, C Gan, Z Lan, Z Xu, X Li, Y Cai, A Kumar, Y Miao, LJ Martin, N Wolfe, S Xu, H Li, M Lin, Z Ma, Y Yang, D Meng, S Shan, PD Sahin, S Burger, F Metze, R Singh, B Raj, T Mitamura, R Stern, A Hauptmann
+  venue: TrecVID 2014, University of Central Florida, Orlando, FL
+  pdf: pub/TrecVID14-Informedia.pdf
