@@ -120,19 +120,20 @@ layout: default
 							{% endcapture %}							
 							{% assign l = list | remove_first: "," | strip %}
 							
-							{% assign aut = paper.authors | split: "," %}
+							<!--{% assign aut = paper.authors | split: "," %}
 								{% capture author_list %}
 								{% for a in aut %}
 									{% assign y = a |strip %}
-									{% assign found = site.data.authors | find: "name", {{y}} %}
+									{% assign found = site.data.authors | find: "name", y %}
 									{% if found %}
 									, <button aria-label="{{found.name}}" onclick="window.open('{{found.link}}','_blank');">{{found.name}}</button>
 									{% else %}
 									, {{y}}
 									{% endif %}
 								{% endfor %}
-								{% endcapture %}
-							{{ author_list | remove_first: "," | strip | replace: "LJ Martin", "<strong>LJ Martin</strong>" }}. <em>{{paper.title}}</em>, {{paper.venue}}. ({{ l }})
+								{% endcapture %}-->
+							
+							{{ paper.authors | remove_first: "," | strip | replace: "LJ Martin", "<strong>LJ Martin</strong>" }}. <em>{{paper.title}}</em>, {{paper.venue}}. ({{ l }})
 						</li>					
 						{% endif %}
 					{% endfor %}
