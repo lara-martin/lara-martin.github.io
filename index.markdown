@@ -223,9 +223,7 @@ layout: default
 			<button aria-label="Festival" onclick="window.open('http://www.festvox.org/flite/','_blank');">Festival</button> (voice "<button aria-label="LJM voice in Festival (download)" onclick="window.open('http://www.festvox.org/flite/packed/flite-2.0/voices/cmu_us_ljm.flitevox','_blank');">US English Female LJM</button>")</li>
 			
 			<li>I presented at 
-			<button aria-label="SIGBOVIK 2015" onclick="window.open('http://sigbovik.org/2015/','_blank');">SIGBOVIK 2015</button> (a fake conference) on "
-			<button aria-label="Language Sequencing: Language as a Physical Entity slides" onclick="window.open('https://docs.google.com/presentation/d/1KRd6L_yGJgN6rNhW8EbOeNoDfRpnO4dMwptttT875jI/edit?usp=sharing','_blank');">Language Sequencing: Language as a Physical Entity</button>" with 
-			<button aria-label="Meghana Kshirsagar" onclick="window.open('https://www.cs.cmu.edu/~mkshirsa/','_blank');">Meghana Kshirsagar</button>.</li>
+			<button aria-label="SIGBOVIK 2015" onclick="window.open('http://sigbovik.org/2015/','_blank');">SIGBOVIK 2015</button> (a fake conference) on "<button aria-label="Language Sequencing: Language as a Physical Entity slides" onclick="window.open('https://docs.google.com/presentation/d/1KRd6L_yGJgN6rNhW8EbOeNoDfRpnO4dMwptttT875jI/edit?usp=sharing','_blank');">Language Sequencing: Language as a Physical Entity</button>" with <button aria-label="Meghana Kshirsagar" onclick="window.open('https://www.cs.cmu.edu/~mkshirsa/','_blank');">Meghana Kshirsagar</button>.</li>
 		</ul>
 	</div>
 </section>
