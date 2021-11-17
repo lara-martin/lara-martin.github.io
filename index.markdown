@@ -108,8 +108,7 @@ layout: default
 					<ul>
 					{% for paper in site.data.papers %}
 						{% if paper.year and paper.year == year %}
-						<li>
-						
+						<li>						
 							{% capture list %}
 							{% if paper.official_pdf %}, <button aria-label="{{ paper.title }} official publication" onclick="window.open('{{ paper.official_pdf }}','_blank');">official publication</button>{% endif %}
 							{% if paper.pdf %}, <button aria-label="{{ paper.title }} pdf" onclick="window.open('{{ paper.pdf }}','_blank');">pdf</button>{% endif %}
@@ -118,13 +117,14 @@ layout: default
 							{% if paper.poster %}, <button aria-label="{{ paper.title }} poster" onclick="window.open('{{ paper.poster }}','_blank');">poster</button>{% endif %}
 							{% if paper.code %}, <button aria-label="{{ paper.title }} code" onclick="window.open('{{ paper.code }}','_blank');">code</button>{% endif %}
 							{% if paper.data %}, <button aria-label="{{ paper.title }} data" onclick="window.open('{{ paper.data }}','_blank');">data</button>{% endif %}
-							{% endcapture %}
+							{% endcapture %}							
+							{% assign l = list | remove_first: "," | strip %}
 							
-							{% assign l = list | remove_first: "," |strip%}
-							{% assign aut = paper.authors | strip | split: "," %}
+							{% assign aut = paper.authors | split: "," %}
 								{% capture author_list %}
 								{% for a in aut %}
 									{% assign y = a |strip %}
+									{{y}}
 									{% assign found = site.data.authors | find: "name", y %}
 									{% if found %}
 									, <button aria-label="{{found.name}}" onclick="window.open('{{found.link}}','_blank');">{{found.name}}</button>
@@ -133,10 +133,8 @@ layout: default
 									{% endif %}
 								{% endfor %}
 								{% endcapture %}
-							{{ author_list | remove_first: "," |strip | replace: "LJ Martin", "<strong>LJ Martin</strong>" }}. <em>{{paper.title}}</em>, {{paper.venue}}. ({{ l }})
-
-						</li>
-												
+							{{ author_list | remove_first: "," | strip | replace: "LJ Martin", "<strong>LJ Martin</strong>" }}. <em>{{paper.title}}</em>, {{paper.venue}}. ({{ l }})
+						</li>					
 						{% endif %}
 					{% endfor %}
 					</ul>
