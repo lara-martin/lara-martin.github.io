@@ -121,8 +121,7 @@ layout: default
 							{% endcapture %}
 							
 							{% assign l = list | remove_first: "," |strip%}
-							{% assign aut = paper.authors | split: "," %}
-								{{aut}}
+							{% assign aut = paper.authors | strip | split: "," %}
 								{% capture author_list %}
 								{% for a in aut %}
 									{% assign y = a |strip %}
