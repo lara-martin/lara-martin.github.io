@@ -122,9 +122,9 @@ layout: default
 							
 							{% assign l = list | remove_first: "," |strip%}
 							{% assign aut = paper.authors | split: "," %}
+								{{aut}}
 								{% capture author_list %}
 								{% for a in aut %}
-								{{a}}
 									{% assign y = a |strip %}
 									{% assign found = site.data.authors | find: "name", y %}
 									{% if found %}
