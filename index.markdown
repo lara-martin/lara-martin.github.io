@@ -120,10 +120,7 @@ layout: default
 							{% endcapture %}							
 							{% assign l = list | remove_first: "," | strip %}
 							
-<<<<<<< HEAD
-							{% assign l = list | remove_first: "," |strip%}
-=======
->>>>>>> 71a237dd5ae5a97916ce597936059cb4d9122958
+
 							<!--{% assign aut = paper.authors | split: "," %}
 								{% capture author_list %}
 								{% for a in aut %}
