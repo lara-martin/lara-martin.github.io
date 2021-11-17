@@ -121,7 +121,7 @@ layout: default
 							{% endcapture %}
 							
 							{% assign l = list | remove_first: "," |strip%}
-							{% assign aut = paper.authors | split: "," %}
+							<!--{% assign aut = paper.authors | split: "," %}
 								{% capture author_list %}
 								{% for a in aut %}
 									{% assign y = a |strip %}
@@ -133,7 +133,9 @@ layout: default
 									{% endif %}
 								{% endfor %}
 								{% endcapture %}
-							{{ author_list | remove_first: "," |strip | replace: "LJ Martin", "<strong>LJ Martin</strong>" }}. <em>{{paper.title}}</em>, {{paper.venue}}. ({{ l }})
+							
+							{{ author_list | remove_first: "," | strip | replace: "LJ Martin", "<strong>LJ Martin</strong>" }}. <em>{{paper.title}}</em>, {{paper.venue}}. ({{ l }})-->
+							{{ paper.authors | replace: "LJ Martin", "<strong>LJ Martin</strong>" }}. <em>{{paper.title}}</em>, {{paper.venue}}. ({{ l }})
 
 						</li>
 												
