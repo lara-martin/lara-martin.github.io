@@ -124,8 +124,7 @@ layout: default
 								{% capture author_list %}
 								{% for a in aut %}
 									{% assign y = a |strip %}
-									{{y}}
-									{% assign found = site.data.authors | find: "name", y %}
+									{% assign found = site.data.authors | find: "name", {{y}} %}
 									{% if found %}
 									, <button aria-label="{{found.name}}" onclick="window.open('{{found.link}}','_blank');">{{found.name}}</button>
 									{% else %}
