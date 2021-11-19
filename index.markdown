@@ -203,7 +203,7 @@ layout: default
 			
 			<li>I am a downloadable voice in the speech synthesis tool 
 			<button aria-label="Festival" onclick="window.open('http://www.festvox.org/flite/','_blank');">Festival</button> (voice "
-			<button aria-label="LJM voice in Festival (download)" onclick="window.open('http://www.festvox.org/flite/packed/flite-2.0/voices/cmu_us_ljm.flitevox','_blank');">US English Female LJM</button>")</li>
+			<button aria-label="LJM voice in Festival (download)" onclick="window.open('http://www.festvox.org/flite/packed/flite-2.0/voices/cmu_us_ljm.flitevox','_blank');">US English Female LJM</button>").</li>
 			
 			<li>I presented at 
 			<button aria-label="SIGBOVIK 2015" onclick="window.open('http://sigbovik.org/2015/','_blank');">SIGBOVIK 2015</button> (a fake conference) on "
