@@ -10,6 +10,7 @@
 #  poster:
 #  code:
 #  data:
+#  bib:
 
 -
   year: 2021
@@ -17,7 +18,14 @@
   authors: LJ Martin
   venue: Thesis, Georgia Institute of Technology
   official_pdf: https://smartech.gatech.edu/handle/1853/64643
-  
+  bib: |+
+    @phdthesis{martin2021thesis,
+    title={{Neurosymbolic Automated Story Generation}},
+    school={Georgia Institute of Technology},
+    author={Martin, Lara J.},
+    year={2021},
+    url={https://smartech.gatech.edu/handle/1853/64643}
+    }
 -
   year: 2020
   title: Story Realization&colon; Expanding Plot Events into Sentences
@@ -29,7 +37,22 @@
   poster: poster/Ammanabrolu-AAAI2020_poster.pdf
   code: https://github.com/rajammanabrolu/StoryRealization
   data: https://huggingface.co/datasets/lara-martin/Scifi_TV_Shows											
-
+  bib: |+
+    @inproceedings{ammanabrolu2020story,
+    title={{Story Realization: Expanding Plot Events into Sentences}},
+    author={Ammanabrolu, Prithviraj and Tien, Ethan and Cheung, Wesley and Luo, Zhaochen and Ma, William and Martin, Lara J. and Riedl, Mark O.},
+    archivePrefix={arXiv},
+    eprint={1909.03480},
+    journal={{Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)}},
+    volume={34},
+    number={05},
+    year={2020},
+    pages={7375--7382},
+    month={4},
+    doi={10.1609/aaai.v34i05.6232},
+    url={https://ojs.aaai.org//index.php/AAAI/article/view/6232},
+    address={New York, NY}
+    }
 -
   year: 2019
   title: Controllable Neural Story Plot Generation via Reinforcement Learning
@@ -39,21 +62,54 @@
   arxiv: https://arxiv.org/abs/1809.10736
   slides: slides/Tambwekar-Dhuliawala_IJCAI_2019-slides.pdf
   poster: poster/Tambwekar-Dhuliawala_IJCAI_2019-poster.pdf
-
+  bib: |+
+    @inproceedings{tambwekar2019controllable,
+    title={{Controllable Neural Story Plot Generation via Reinforcement Learning}},
+    author={Tambwekar, Pradyumna and Dhuliawala, Murtaza and Martin, Lara J. and Mehta, Animesh and Harrison, Brent and Riedl, Mark O.},
+    archivePrefix={arXiv},
+    eprint={1809.10736},
+    journal={{Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence, (IJCAI-19)}},
+    year={2019},
+    pages={5982--5988},
+    month={7},
+    doi={10.24963/ijcai.2019/829},
+    url={https://www.ijcai.org/proceedings/2019/829},
+    address={Macao, China}
+    }
 -
   year: 2019
   title: Guided Neural Language Generation for Automated Storytelling
   authors: P Ammanabrolu, E Tien, W Cheung, Z Luo, W Ma, LJ Martin, MO Riedl
   venue: The Second Workshop of Storytelling (StoryNLP) at ACL 2019, Florence, Italy
   official_pdf: 'https://aclanthology.org/W19-3405/'
-  slides: 'https://drive.google.com/file/d/1qQgS2j4jhvCs5mnqfAnyY94ZRxrBm6or/view'										
+  slides: 'https://drive.google.com/file/d/1qQgS2j4jhvCs5mnqfAnyY94ZRxrBm6or/view'
+  bib: |+
+    @inproceedings{ammanabrolu2019guided,
+    title={{Guided Neural Language Generation for Automated Storytelling}},
+    author={Ammanabrolu, Prithviraj and Tien, Ethan and Cheung, Wesley and Luo, Zhaochen and Ma, William and Martin, Lara J. and Riedl, Mark O.},
+    journal={{Proceedings of the Second Workshop on Storytelling (StoryNLP) at ACL 2019}},
+    year={2019},
+    pages={46--55},
+    month={8},
+    doi={10.18653/v1/W19-3405},
+    url={https://aclanthology.org/W19-3405/},
+    address={Florence, Italy}
+    }									
 -
   year: 2018
   title: Dungeons and DQNs&colon; Toward Reinforcement Learning Agents that Play Tabletop Roleplaying Games
   authors: LJ Martin, S Sood, MO Riedl
-  venue: AAAI Workshop on Intelligent Narrative Technologies (INT), Edmonton, AB, Canada
+  venue: AAAI Workshop on Intelligent Narrative Technologies (INT), 
   pdf: pub/Martin-Dungeons-n-DQNs.pdf
-  slides: slides/Martin-INT18-DungeonsnDQNs-slides.pdf										
+  slides: slides/Martin-INT18-DungeonsnDQNs-slides.pdf
+  bib: |+
+    @inproceedings{martin2018dungeons,
+    title={{Dungeons and DQNs: Toward Reinforcement Learning Agents that Play Tabletop Roleplaying Games}},
+    author={Martin, Lara J. and Sood, Srijan and Riedl, Mark},
+    booktitle={Proceedings of the Joint AIIDE Workshop on Intelligent Narrative Technologies and Workshop on Intelligent Cinematography and Editing (INT-WICED)},
+    year={2018},
+    address={Edmonton, AB, Canada}
+    }										
 -
   year: 2018
   title: Event Representations for Automated Story Generation with Deep Neural Nets
@@ -64,13 +120,35 @@
   poster: poster/Martin-aaai18-poster.pdf
   code: 'https://github.com/lara-martin/ASTER'
   data: 'https://www.dropbox.com/s/i5dsk92735jpunf/EventRepresentationDataRelease.zip?dl=0'
+  bib: |+
+    @inproceedings{martin2018event,
+    title={{Event Representations for Automated Story Generation with Deep Neural Nets}},
+    author={Martin, Lara J. and Ammanabrolu, Prithviraj and Wang, Xinyu and Hancock, William and Singh, Shruti and Harrison, Brent and Riedl, Mark O.},
+    booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+    volume={32},
+    number={1},
+    month={4},
+    year={2018},
+    url={https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17046/},
+    address={New Orleans, LA}
+    }
 -
   year: 2017
   title: Improvisational Storytelling Agents
   authors: LJ Martin, P Ammanabrolu, X Wang, S Singh, B Harrison, M Dhuliawala, P Tambwekar, A Mehta, R Arora, N Dass, C Purdy, MO Riedl
   venue: NeurIPS 2017 Workshop on Machine Learning for Creativity and Design, Long Beach, CA
   official_pdf: 'https://nips2017creativity.github.io/doc/Improvisational_Agents.pdf'
-  poster: poster/NeurIPS17-ImprovStorytellingPoster.pdf		
+  poster: poster/NeurIPS17-ImprovStorytellingPoster.pdf
+  bib: |+
+    @inproceedings{martin2017improvisational,
+    title={{Improvisational Storytelling Agents}},
+    author={Martin, Lara J. and Ammanabrolu, Prithviraj and Wang, Xinyu and Singh, Shruti and Harrison, Brent and Dhuliawala, Murtaza and Tambwekar, Pradyumna and Mehta, Animesh and Arora, Richa and Dass, Nathan and Purdy, Chris and Riedl, Mark O.},
+    booktitle={Workshop on Machine Learning for Creativity and Design (NeurIPS 2017)},
+    pages={4},
+    year={2017},
+    url={https://nips2017creativity.github.io/doc/Improvisational_Agents.pdf},
+    address={Long Beach, CA}
+    }
 -
   year: 2017
   title: Event Representations for Automated Story Generation with Deep Neural Nets
@@ -78,45 +156,135 @@
   venue: KDD 2017 Workshop on Machine Learning for Creativity, Halifax, NS, Canada
   arxiv: 'https://arxiv.org/abs/1706.01331v2'
   slides: slides/KDD2017_slides.pdf
+  bib: Please cite the 2018 paper of the same name.
 -
   year: 2016
   title: Improvisational Computational Storytelling in Open Worlds
   authors: LJ Martin, B Harrison, MO Riedl
   venue: Ninth International Conference on Interactive Digital Storytelling (ICIDS 2016) / INT 9, Los Angeles, CA
   pdf: pub/Martin_ICIDS2016.pdf
+  bib: |+
+    @inproceedings{martin2016improvisational,
+    title={{Improvisational Computational Storytelling in Open Worlds}},
+    author={Martin, Lara J. and Harrison, Brent and Riedl, Mark O.},
+    booktitle={International Conference on Interactive Digital Storytelling (ICIDS)},
+    pages={73--84},
+    year={2016},
+    month={10},
+    organization={Springer},
+    url={https://link.springer.com/chapter/10.1007/978-3-319-48279-8_7},
+    address={Los Angeles, CA}
+    }
 -
   year: 2015
   title: Utterance Classification in Speech-to-Speech Translation for Zero-Resource Languages in the Hospital Administration Domain
   authors: LJ Martin, A Wilkinson, SS Miryala, V Robison, AW Black
   venue: 2015 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU 2015), Scottsdale, AZ
-  pdf: pub/ASRU2015_MartinEtAl.pdf
+  official_pdf: https://ieeexplore.ieee.org/document/7404809
+  bib: |+
+    @inproceedings{martin2015utterance,
+    title={{Utterance Classification in Speech-to-Speech Translation for Zero-Resource Languages in the Hospital Administration Domain}},
+    author={Martin, Lara J. and Wilkinson, Andrew and Miryala, Sai Sumanth and Robison, Vivian and Black, Alan W},
+    booktitle={2015 IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU)},
+    pages={303--309},
+    month={12},
+    year={2015},
+    organization={IEEE},
+    url={https://ieeexplore.ieee.org/document/7404809},
+    doi={10.1109/ASRU.2015.7404809},
+    address={Scottsdale, AZ}
+    }   
+-
+  year: 2015
+  title: CMU Informedia@ TRECVID 2015 MED
+  authors: S Yu, L Jiang, Z Xu, Z Lan, S Xu, X Chang, X Li, Z Mao, C Gan, Y Miao, X Du, Y Cai, LJ Martin, N Wolfe, A Kumar, H Li, M Lin, Z Ma, Y Yang, D Meng, S Shan, P Duygulu Sahin, S Burger, F Metze, R Singh, B Raj, T Mitamura, R Stern, A Hauptmann
+  venue: TrecVID 2015, NIST, Gaithersburg, MD
+  official_pdf: https://www-nlpir.nist.gov/projects/tvpubs/tv15.papers/cmu.pdf
+  bib: |+
+    @inproceedings{yu2015informedia,
+    title={{CMU Informedia@ TRECVID 2015 MED}},
+    author={Yu, Shoou-I and Jiang, Lu and Xu, Zhongwen and Lan, Zhenzhong and Xu, Shicheng and Chang, Xiaojun and Li, Xuanchong and Mao, Zexi and Gan, Chuang and Miao, Yajie and Du, Xingzhong and Cai, Yang and Martin, Lara and Wolfe, Nikolas and Kumar, Anurag and Li, Huan and Lin, Ming and Ma, Zhigang and Yang, Yi and Meng, Deyu and Shan, Shiguang and Duygulu Sahin, Pinar and Burger, Susanne and Metze, Florian and Singh, Rita and Raj, Bhiksha and Mitamura, Teruko and Stern, Richard and Hauptmann, Alexander},
+    booktitle={TREC Video Retrieval Evaluation 2015 (TRECVID 2015)},
+    year={2015},
+    address={Gaithersburg, MD},
+    url={https://www-nlpir.nist.gov/projects/tvpubs/tv15.papers/cmu.pdf}
+    }
 -
   year: 2014
   title: A Methodology for Using Crowdsourced Data to Measure Uncertainty in Natural Speech
   authors: LJ Martin, M Stone, F Metze, J Mostow
   venue: 2014 IEEE Spoken Language Technology Workshop (SLT 2014), South Lake Tahoe, NV
-  pdf: pub/SLT14-Uncertainty.pdf	
+  official_pdf: https://ieeexplore.ieee.org/document/7078556
+  bib: |+
+    @inproceedings{martin2014methodology,
+    title={{A Methodology for Using Crowdsourced Data to Measure Uncertainty in Natural Speech}},
+    author={Martin, Lara and Stone, Matthew and Metze, Florian and Mostow, Jack},
+    booktitle={2014 IEEE Spoken Language Technology Workshop (SLT)},
+    pages={95--99},
+    month={12},
+    year={2014},
+    organization={IEEE},
+    doi={10.1109/SLT.2014.7078556},
+    url={https://ieeexplore.ieee.org/document/7078556},
+    address={South Lake Tahoe, NV}
+    }
 -
   year: 2014
   title: Identifying Student Leaders from MOOC Discussion Forums through Language Influence
   authors: S Moon, S Potdar, and LJ Martin
   venue: EMNLP 2014 Workshop on Analysis of Large Scale Social Interaction in MOOCs, Doha, Qatar
   official_pdf: 'https://www.aclweb.org/anthology/W14-4103/'
+  bib: |+
+    @inproceedings{moon2014identifying,
+    title={{Identifying Student Leaders from MOOC Discussion Forums through Language Influence}},
+    author={Moon, Seungwhan and Potdar, Saloni and Martin, Lara},
+    booktitle={Proceedings of the EMNLP 2014 Workshop on Analysis of Large Scale Social Interaction in MOOCs},
+    pages={15--20},
+    year={2014},
+    url={https://www.aclweb.org/anthology/W14-4103/},
+    address={Doha, Qatar}
+    }
 -
   year: 2014
-  title: A multisensory non-invasive system for laughter analysis
+  title: A Multisensory Non-Invasive System for Laughter Analysis
   authors: S Cosentino, S Burger, LJ Martin, F Metze, T Kishi, K Hashimoto, S Sessa, M Zecca, A Takanishi
   venue: 36th Annual International IEEE EMBS Conference, Chicago, IL
   pdf: pub/EMBC14-Laughter.pdf
+  bib: |+
+    @article{cosentino2014multisensory,
+    title={{A Multisensory Non-Invasive System for Laughter Analysis}},
+    author={Cosentino, Sarah and Burger, Susanne and Martin, Lara and Metze, Florian and Kishi, Tatsuhiro and Hashimoto, Kenji and Sessa, Salvatore and Zecca, Massimiliano and Takanishi, Atsuo},
+    year={2014},
+    booktitle={36th Annual International IEEE EMBS Conference},
+    address={Chicago, IL}
+    }
 -
   year: 2014
   title: Applause&colon; A Learning Tool for Low-Resource Languages
   authors: N Wolfe, VV Vemuri, LJ Martin, AW Black
   venue: Designing Speech and Language Interactions Workshop (CHI 2014), Toronto, Canada
   pdf: pub/CHI14-Applause.pdf
+  bib: |+
+    @article{wolfeapplause,
+    title={{Applause: A Learning Tool for Low-Resource Languages}},
+    author={Wolfe, Nikolas and Vemuri, Vinay Vyas and Martin, Lara J. and Metze, Florian and Black, Alan W},
+    booktitle={Designing Speech and Language Interactions Workshop (CHI 2014)},
+    address={Toronto, Canada},
+    year={2014}
+    }
 -
   year: 2014
   title: Informedia@ TRECVID 2014 MED and MER
-  authors: S Yu, L Jiang, Z Mao, X Chang, X Du, C Gan, Z Lan, Z Xu, X Li, Y Cai, A Kumar, Y Miao, LJ Martin, N Wolfe, S Xu, H Li, M Lin, Z Ma, Y Yang, D Meng, S Shan, PD Sahin, S Burger, F Metze, R Singh, B Raj, T Mitamura, R Stern, A Hauptmann
+  authors: S Yu, L Jiang, Z Mao, X Chang, X Du, C Gan, Z Lan, Z Xu, X Li, Y Cai, A Kumar, Y Miao, LJ Martin, N Wolfe, S Xu, H Li, M Lin, Z Ma, Y Yang, D Meng, S Shan, P Duygulu Sahin, S Burger, F Metze, R Singh, B Raj, T Mitamura, R Stern, A Hauptmann
   venue: TrecVID 2014, University of Central Florida, Orlando, FL
-  pdf: pub/TrecVID14-Informedia.pdf
+  official_pdf: https://www-nlpir.nist.gov/projects/tvpubs/tv14.papers/cmu.pdf
+  bib: |+
+    @inproceedings{yu2014informedia,
+    title={{Informedia@ TRECVID 2014 MED and MER}},
+    author={Yu, Shoou-I and Jiang, Lu and Mao, Zexi and Chang, Xiaojun and Du, Xingzhong and Gan, Chuang and Lan, Zhenzhong and Xu, Zhongwen and Li, Xuanchong and Cai, Yang and Kumar, Anurag and Miao, Yajie and Martin, Lara and Wolfe, Nikolas and Xu, Shicheng and Li, Huan and Lin, Ming and Ma, Zhigang and Yang, Yi and Meng, Deyu and Shan, Shiguang and Duygulu Sahin, Pinar and Burger, Susanne and Metze, Florian and Singh, Rita and Raj, Bhiksha and Mitamura, Teruko and Stern, Richard and Hauptmann, Alexander},
+    booktitle={NIST TRECVID Video Retrieval Evaluation Workshop},
+    volume={24},
+    year={2014},
+    address={Orlando, FL},
+    url={https://www-nlpir.nist.gov/projects/tvpubs/tv14.papers/cmu.pdf}
+    }

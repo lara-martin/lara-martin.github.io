@@ -17,3 +17,6 @@ github_username: lara-martin
 theme: minima
 plugins:
 - jekyll-feed
+- jekyll-scholar
+markdown: kramdown
+highlighter: rouge

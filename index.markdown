@@ -19,7 +19,7 @@ layout: default
 		<br>My pronouns are <button aria-label="Why list the pronoun 'she'?" onclick="window.open('http://mypronouns.org/she','_blank');">she</button>/<button aria-label="Why list the pronoun 'they'?" 
 		onclick="window.open('http://mypronouns.org/they','_blank');">they</button>.
 		<p />
-		<h3><button aria-label="Lara&#39;s CV" onclick="window.open('CV/LaraMartinCV.pdf','_blank');" class="fa fa-2x fa-address-card cv"><font style="font-family:Helvetica;">CV</font><span class="label">CV</span></button> (updated 8/12/21)</h3>
+		<h3><button aria-label="Lara&#39;s CV" onclick="window.open('LaraMartinCV.pdf','_blank');" class="fa fa-2x fa-address-card cv"><font style="font-family:Helvetica;">CV</font><span class="label">CV</span></button> (updated 8/12/21)</h3>
 		
 	</header>
 	
@@ -106,39 +106,21 @@ layout: default
 				</header>
 				<div class="content">
 					<ul>
+
 					{% for paper in site.data.papers %}
 						{% if paper.year and paper.year == year %}
-						<li>						
+						<li>
+						
 							{% capture list %}
-							{% if paper.official_pdf %}, <button aria-label="{{ paper.title }} official publication" onclick="window.open('{{ paper.official_pdf }}','_blank');">official publication</button>{% endif %}
-							{% if paper.pdf %}, <button aria-label="{{ paper.title }} pdf" onclick="window.open('{{ paper.pdf }}','_blank');">pdf</button>{% endif %}
-							{% if paper.arxiv %}, <button aria-label="{{ paper.title }} arXiv" onclick="window.open('{{ paper.arxiv }}','_blank');">arXiv</button>{% endif %}
-							{% if paper.slides %}, <button aria-label="{{ paper.title }} slides" onclick="window.open('{{ paper.slides }}','_blank');">slides</button>{% endif %}
-							{% if paper.poster %}, <button aria-label="{{ paper.title }} poster" onclick="window.open('{{ paper.poster }}','_blank');">poster</button>{% endif %}
-							{% if paper.code %}, <button aria-label="{{ paper.title }} code" onclick="window.open('{{ paper.code }}','_blank');">code</button>{% endif %}
-							{% if paper.data %}, <button aria-label="{{ paper.title }} data" onclick="window.open('{{ paper.data }}','_blank');">data</button>{% endif %}
-							{% endcapture %}							
-							{% assign l = list | remove_first: "," | strip %}
+							{% if paper.official_pdf %}, <button aria-label="{{ paper.title }} official publication" onclick="window.open('{{ paper.official_pdf }}','_blank');">official publication</button>{% endif %}{% if paper.pdf %}, <button aria-label="{{ paper.title }} pdf" onclick="window.open('{{ paper.pdf }}','_blank');">pdf</button>{% endif %}{% if paper.arxiv %}, <button aria-label="{{ paper.title }} arXiv" onclick="window.open('{{ paper.arxiv }}','_blank');">arXiv</button>{% endif %}{% if paper.slides %}, <button aria-label="{{ paper.title }} slides" onclick="window.open('{{ paper.slides }}','_blank');">slides</button>{% endif %}{% if paper.poster %}, <button aria-label="{{ paper.title }} poster" onclick="window.open('{{ paper.poster }}','_blank');">poster</button>{% endif %}{% if paper.code %}, <button aria-label="{{ paper.title }} code" onclick="window.open('{{ paper.code }}','_blank');">code</button>{% endif %}{% if paper.data %}, <button aria-label="{{ paper.title }} data" onclick="window.open('{{ paper.data }}','_blank');">data</button>{% endif %}
+							{% endcapture %}
 							
-
-							<!--{% assign aut = paper.authors | split: "," %}
-								{% capture author_list %}
-								{% for a in aut %}
-									{% assign y = a |strip %}
-									{% assign found = site.data.authors | find: "name", y %}
-									{% if found %}
-									, <button aria-label="{{found.name}}" onclick="window.open('{{found.link}}','_blank');">{{found.name}}</button>
-									{% else %}
-									, {{y}}
-									{% endif %}
-								{% endfor %}
-								{% endcapture %}
-							
-							{{ author_list | remove_first: "," | strip | replace: "LJ Martin", "<strong>LJ Martin</strong>" }}. <em>{{paper.title}}</em>, {{paper.venue}}. ({{ l }})-->
-							{{ paper.authors | replace: "LJ Martin", "<strong>LJ Martin</strong>" }}. <em>{{paper.title}}</em>, {{paper.venue}}. ({{ l }})
-
-						</li>
-
+							{% assign l = list | remove_first: "," |strip%}
+							<!--{% assign aut = paper.authors | split: "," %}{% capture author_list %}{% for a in aut %}{% assign y = a |strip %}{% assign found = site.data.authors | find: "name", y %}{% if found %}, <button aria-label="{{found.name}}" onclick="window.open('{{found.link}}','_blank');">{{found.name}}</button>{% else %}, {{y}}{% endif %}{% endfor %}{% endcapture %}-->
+							<!--{{ author_list | remove_first: "," |strip | replace: "LJ Martin", "<strong>LJ Martin</strong>" }}. <em>{{paper.title}}</em>, {{paper.venue}}. ({{ l }}, <button type="button" class="collapsible" aria-label="{{ paper.title }} BibTex">bibTex</button>)-->
+							{{ paper.authors | strip | replace: "LJ Martin", "<strong>LJ Martin</strong>" }}. <em>{{paper.title}}</em>, {{paper.venue}}. ({{ l }}, <button type="button" class="collapsible" aria-label="{{ paper.title }} BibTex">bibTex</button>)
+							<div class="highlight">{{ paper.bib }}</div>
+						</li>												
 						{% endif %}
 					{% endfor %}
 					</ul>
@@ -166,7 +148,7 @@ layout: default
 		</ul>
 		
 		<p>I am currently a <button aria-label="CI Fellows 2020 page" onclick="window.open('https://cifellows2020.org/','_blank');">CIFellow</button> at the University of Pennsylvania, working with <button aria-label="Chris Callison-Burch" onclick="window.open('https://www.cis.upenn.edu/~ccb/','_blank');">Dr. Chris Callison-Burch</button>.</p>
-		<p>I earned my PhD in <button aria-label="HCC Program at Georgia Tech" onclick="window.open('https://www.cc.gatech.edu/academics/degree-programs/phd/human-centered-computing','_blank');">Human-Centered Computing</button> in the <button aria-label="School of Interactive Computing at Georgia Tech" onclick="window.open('https://www.ic.gatech.edu/','_blank');">School of Interactive Computing</button> at the Georgia Institute of Technology. I worked with <button aria-label="Mark O. Riedl" onclick="window.open('http://eilab.gatech.edu/mark-riedl','_blank');">Dr. Mark Riedl</button> in the <button aria-label="EI Lab" onclick="window.open('http://eilab.gatech.edu/','_blank');">Entertainment Intelligence Lab</button>, doing automated story generation.</p>
+		<p>I earned my PhD in <button aria-label="HCC Program at Georgia Tech" onclick="window.open('https://www.cc.gatech.edu/degree-programs/phd-human-centered-computing','_blank');">Human-Centered Computing</button> in the <button aria-label="School of Interactive Computing at Georgia Tech" onclick="window.open('https://www.ic.gatech.edu/','_blank');">School of Interactive Computing</button> at the Georgia Institute of Technology. I worked with <button aria-label="Mark O. Riedl" onclick="window.open('http://eilab.gatech.edu/mark-riedl','_blank');">Dr. Mark Riedl</button> in the <button aria-label="EI Lab" onclick="window.open('http://eilab.gatech.edu/','_blank');">Entertainment Intelligence Lab</button>, doing automated story generation.</p>
 		<p>I have a <button aria-label="Tech to Teaching" onclick="window.open('https://www.ctl.gatech.edu/content/tech-teaching-0','_blank');">Tech to Teaching certificate</button> and have taught as instructor of record for an Intro to Cognitive Science class.</p>
 	    <p>I have a Masters in Language Technologies from <button aria-label="Language Technologies Institute" onclick="window.open('https://www.lti.cs.cmu.edu/','_blank');">LTI at Carnegie Mellon University</button> in their School of Computer Science. I received my BS in Computer Science and Linguistics from Rutgers University &mdash; New Brunswick.</p>
 
@@ -220,10 +202,13 @@ layout: default
 			<button aria-label="LOLspeak to English Bible MT project" onclick="window.open('./poster/MT-project.pdf','_blank');">LOLspeak to English</button>.</li>
 			
 			<li>I am a downloadable voice in the speech synthesis tool 
-			<button aria-label="Festival" onclick="window.open('http://www.festvox.org/flite/','_blank');">Festival</button> (voice "<button aria-label="LJM voice in Festival (download)" onclick="window.open('http://www.festvox.org/flite/packed/flite-2.0/voices/cmu_us_ljm.flitevox','_blank');">US English Female LJM</button>")</li>
+			<button aria-label="Festival" onclick="window.open('http://www.festvox.org/flite/','_blank');">Festival</button> (voice "
+			<button aria-label="LJM voice in Festival (download)" onclick="window.open('http://www.festvox.org/flite/packed/flite-2.0/voices/cmu_us_ljm.flitevox','_blank');">US English Female LJM</button>")</li>
 			
 			<li>I presented at 
-			<button aria-label="SIGBOVIK 2015" onclick="window.open('http://sigbovik.org/2015/','_blank');">SIGBOVIK 2015</button> (a fake conference) on "<button aria-label="Language Sequencing: Language as a Physical Entity slides" onclick="window.open('https://docs.google.com/presentation/d/1KRd6L_yGJgN6rNhW8EbOeNoDfRpnO4dMwptttT875jI/edit?usp=sharing','_blank');">Language Sequencing: Language as a Physical Entity</button>" with <button aria-label="Meghana Kshirsagar" onclick="window.open('https://www.cs.cmu.edu/~mkshirsa/','_blank');">Meghana Kshirsagar</button>.</li>
+			<button aria-label="SIGBOVIK 2015" onclick="window.open('http://sigbovik.org/2015/','_blank');">SIGBOVIK 2015</button> (a fake conference) on "
+			<button aria-label="Language Sequencing: Language as a Physical Entity slides" onclick="window.open('https://docs.google.com/presentation/d/1KRd6L_yGJgN6rNhW8EbOeNoDfRpnO4dMwptttT875jI/edit?usp=sharing','_blank');">Language Sequencing: Language as a Physical Entity</button>" with 
+			<button aria-label="Meghana Kshirsagar" onclick="window.open('https://www.cs.cmu.edu/~mkshirsa/','_blank');">Meghana Kshirsagar</button>.</li>
 		</ul>
 	</div>
 </section>

@@ -3602,6 +3602,7 @@ input, select, textarea {
 
 					#wrapper section > .content {
 						padding: 0;
+						padding-left: 1px;
 						width: 100%;
 						overflow-x: hidden;
 					}
@@ -4004,3 +4005,29 @@ div.gallery > h2 {
 	margin: 0!important;
 
 }
+
+.highlight {
+  background: #B9F7E4; /*rgb(230, 230, 230);*/
+  display: none;
+  overflow: scroll;
+  border: 1px #C1C1C1;
+  font-family: 'Courier New', monospace;
+  font-size: medium;
+  user-select: all;
+  white-space: pre;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.collapsible {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
