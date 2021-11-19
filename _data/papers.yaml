@@ -99,7 +99,7 @@
   year: 2018
   title: Dungeons and DQNs&colon; Toward Reinforcement Learning Agents that Play Tabletop Roleplaying Games
   authors: LJ Martin, S Sood, MO Riedl
-  venue: AAAI Workshop on Intelligent Narrative Technologies (INT), 
+  venue: AAAI Workshop on Intelligent Narrative Technologies (INT), Edmonton, AB, Canada
   pdf: pub/Martin-Dungeons-n-DQNs.pdf
   slides: slides/Martin-INT18-DungeonsnDQNs-slides.pdf
   bib: |+
