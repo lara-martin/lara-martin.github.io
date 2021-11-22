@@ -173,10 +173,6 @@ input, select, textarea {
 	}
 	text {
 		text-decoration: underline dotted 1px;
-		-moz-transition: border-bottom-color 0.25s ease-in-out;
-		-webkit-transition: border-bottom-color 0.25s ease-in-out;
-		-ms-transition: border-bottom-color 0.25s ease-in-out;
-		transition: border-bottom-color 0.25s ease-in-out;
 	}
 		text:hover {
 			text-decoration: none;
@@ -187,11 +183,6 @@ input, select, textarea {
 	a,
 	button,
 	.button{
-		/*
-		-moz-transition: border-bottom-color 0.25s ease-in-out;
-		-webkit-transition: border-bottom-color 0.25s ease-in-out;
-		-ms-transition: border-bottom-color 0.25s ease-in-out;
-		transition: border-bottom-color 0.25s ease-in-out;*/
 		/*text-decoration: underline dotted 1px;*/
 		/*border-bottom: dotted 1px;
 		border-top: 0;
