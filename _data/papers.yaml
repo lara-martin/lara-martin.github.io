@@ -163,6 +163,7 @@
   authors: LJ Martin, B Harrison, MO Riedl
   venue: Ninth International Conference on Interactive Digital Storytelling (ICIDS 2016) / INT 9, Los Angeles, CA
   pdf: pub/Martin_ICIDS2016.pdf
+  slides: slides/ICIDS2016_MartinHarrisonRiedl_slides.pdf
   bib: |+
     @inproceedings{martin2016improvisational,
     title={{Improvisational Computational Storytelling in Open Worlds}},
@@ -181,6 +182,7 @@
   authors: LJ Martin, A Wilkinson, SS Miryala, V Robison, AW Black
   venue: 2015 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU 2015), Scottsdale, AZ
   official_pdf: https://ieeexplore.ieee.org/document/7404809
+  poster: poster/MartinASRU2015Poster.pdf
   bib: |+
     @inproceedings{martin2015utterance,
     title={{Utterance Classification in Speech-to-Speech Translation for Zero-Resource Languages in the Hospital Administration Domain}},
@@ -215,6 +217,7 @@
   authors: LJ Martin, M Stone, F Metze, J Mostow
   venue: 2014 IEEE Spoken Language Technology Workshop (SLT 2014), South Lake Tahoe, NV
   official_pdf: https://ieeexplore.ieee.org/document/7078556
+  poster: poster/LaraMartinSLT2014Poster.pdf
   bib: |+
     @inproceedings{martin2014methodology,
     title={{A Methodology for Using Crowdsourced Data to Measure Uncertainty in Natural Speech}},
