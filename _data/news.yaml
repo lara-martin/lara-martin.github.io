@@ -1,10 +1,13 @@
 -
+  date: 2021-10-14
+  text: I arranged the Doctoral Consortium at <button aria-label="AIIDE 2021" onclick="window.open('https://sites.google.com/view/aiide2021/', '_blank');"><text>AIIDE 2021</text></button>.
+-
   date: 2021-03-15
-  text: The <button aria-label="Science Focus Podcast - Lara Martin on Teaching AI to Tell Stories" onclick="window.open('https://www.sciencefocus.com/future-technology/lara-martin-on-teaching-ai-to-tell-stories/','_blank');">corresponding podcast</button> to the Science Focus article is out!
+  text: The <button aria-label="Science Focus Podcast - Lara Martin on Teaching AI to Tell Stories" onclick="window.open('https://www.sciencefocus.com/future-technology/lara-martin-on-teaching-ai-to-tell-stories/','_blank');"><text>corresponding podcast</text></button> to the Science Focus article is out!
   
 -
   date: 2021-02-12
-  text: My <button aria-label="BBC Science Focus magazine issue 'Dark Stars'" onclick="window.open('https://www.sciencefocus.com/magazine/dark-stars/','_blank');">profile piece</button> with BBC Science Focus magazine is available for purchase!
+  text: My <button aria-label="BBC Science Focus magazine issue 'Dark Stars'" onclick="window.open('https://www.sciencefocus.com/magazine/dark-stars/','_blank');"><text>profile piece</text></button> with BBC Science Focus magazine is available for purchase!
 
 
 -
@@ -20,47 +23,47 @@
   text: I passed my defense!									
 -
   date: 2020-10-19
-  text: <button aria-label="AIIDE 2020" onclick="window.open('https://webdocs.cs.ualberta.ca/~santanad/aiide','_blank');">AIIDE 2020</button> starts! I'm the Publicity Co-Chair.
+  text: <button aria-label="AIIDE 2020" onclick="window.open('https://webdocs.cs.ualberta.ca/~santanad/aiide','_blank');"><text>AIIDE 2020</text></button> starts! I'm the Publicity Co-Chair.
 -
   date: 2020-09-11
-  text: I gave a <button aria-label="Scroll to NLP Seminar video" onclick="window.location.href='#nlp-seminar';">talk</button> at Georgia Tech's NLP Seminar Series.
+  text: I gave a <button aria-label="Scroll to NLP Seminar video" onclick="window.location.href='#nlp-seminar';"><text>talk</text></button> at Georgia Tech's NLP Seminar Series.
 
 -
   date: 2020-08-11
-  text: I was <button aria-label="CIFellows 2020 award announcement" onclick="window.open('https://cra.org/crn/2020/09/announcing-the-2020-computing-innovation-fellows/','_blank');">awarded</button> a <button aria-label="CIFellows 2020" onclick="window.open('https://cifellows2020.org/','_blank');">2020 Computing Innovation Fellowship</button>!
+  text: I was <button aria-label="CIFellows 2020 award announcement" onclick="window.open('https://cra.org/crn/2020/09/announcing-the-2020-computing-innovation-fellows/','_blank');"><text>awarded</text></button> a <button aria-label="CIFellows 2020" onclick="window.open('https://cifellows2020.org/','_blank');"><text>2020 Computing Innovation Fellowship</text></button>!
 
 -
   date: 2020-04-16
-  text: Article&colon; <em><button aria-label="Meet ML@GT&colon; Lara J. Martin Trains AI Agents to Become Storytellers" onclick="window.open('https://mlatgt.blog/2020/04/16/meet-mlgt-lara-j-martin-trains-ai-agents-to-become-storytellers/','_blank');">Meet ML@GT&colon; Lara J. Martin Trains AI Agents to Become Storytellers</button></em>
+  text: Article&colon; <em><button aria-label="Meet ML@GT&colon; Lara J. Martin Trains AI Agents to Become Storytellers" onclick="window.open('https://mlatgt.blog/2020/04/16/meet-mlgt-lara-j-martin-trains-ai-agents-to-become-storytellers/','_blank');"><text>Meet ML@GT&colon; Lara J. Martin Trains AI Agents to Become Storytellers</text></button></em>
 
 -
   date: 2020-02-28
-  text: Featured in an <button aria-label='Forget Chess—the Real Challenge Is Teaching AI to Play D&D' onclick="window.open('https://www.wired.com/story/forget-chess-real-challenge-teaching-ai-play-dandd/','_blank');">article</button> on <strong>Wired</strong>, where I talk about where the future of AI should be going.
+  text: Featured in an <button aria-label='Forget Chess—the Real Challenge Is Teaching AI to Play D&D' onclick="window.open('https://www.wired.com/story/forget-chess-real-challenge-teaching-ai-play-dandd/','_blank');"><text>article</text></button> on <strong>Wired</strong>, where I talk about where the future of AI should be going.
 -
   date: 2020-02-07
-  text: Presented at <button aria-label="AAAI 2020" onclick="window.open('https://aaai.org/Conferences/AAAI-20/','_blank');">AAAI</button> &ndash; <em>New York City, NY</em>	
+  text: Presented at <button aria-label="AAAI 2020" onclick="window.open('https://aaai.org/Conferences/AAAI-20/','_blank');"><text>AAAI</text></button> &ndash; <em>New York City, NY</em>	
 -
   date: 2020-02-04
-  text: Article&colon; <button aria-label="Changing the Conversation&colon; Georgia Tech Researchers Provide New Approach to Automated Story Generation" onclick="window.open('https://www.ic.gatech.edu/news/632082/changing-conversation-georgia-tech-researchers-provide-new-approach-automated-story','_blank');"><em>Changing the Conversation&colon; Georgia Tech Researchers Provide New Approach to Automated Story Generation</em></button>									
+  text: Article&colon; <button aria-label="Changing the Conversation&colon; Georgia Tech Researchers Provide New Approach to Automated Story Generation" onclick="window.open('https://www.ic.gatech.edu/news/632082/changing-conversation-georgia-tech-researchers-provide-new-approach-automated-story','_blank');"><text><em>Changing the Conversation&colon; Georgia Tech Researchers Provide New Approach to Automated Story Generation</em></text></button>									
 -
   date: 2019-11-10
-  text: Our paper on "<button aria-label="Story Realization&colon; Expanding Plot Events into Sentences (arXiv)" onclick="window.open('https://arxiv.org/abs/1909.03480','_blank');">Story Realization&colon; Expanding Plot Events into Sentences</button>" has been accepted at AAAI 2020!								
+  text: Our paper on "<button aria-label="Story Realization&colon; Expanding Plot Events into Sentences (arXiv)" onclick="window.open('https://arxiv.org/abs/1909.03480','_blank');"><text>Story Realization&colon; Expanding Plot Events into Sentences</text></button>" has been accepted at AAAI 2020!								
 -
   date: 2019-10-30
-  text: I <button data-fancybox="gallery" data-caption="Lara (second from left, front row) with the rest of the Foley Scholar Finalists at the awards ceremony." href="images/foley_award.jpg" aria-label="Picture of the Foley Scholar Finalists">won</button> the <button aria-label="Foley Scholar Award 2019" onclick="window.open('https://gvu.gatech.edu/gvu-graduate-student-awards-program-2019','_blank');">Foley Scholar Award</button>!
+  text: I <button data-fancybox="gallery" data-caption="Lara (second from left, front row) with the rest of the Foley Scholar Finalists at the awards ceremony." href="images/foley_award.jpg" aria-label="Picture of the Foley Scholar Finalists"><text>won</text></button> the <button aria-label="Foley Scholar Award 2019" onclick="window.open('https://gvu.gatech.edu/gvu-graduate-student-awards-program-2019','_blank');"><text>Foley Scholar Award</text></button>!
 -
   date: 2019-10-08
-  text: Local Arrangements Chair for <button aria-label="AIIDE 2019" onclick="window.open('https://web.cs.wpi.edu/~gmsmith/aiide2019/','_blank');">AIIDE 2019</button> &ndash; <em>Atlanta, GA</em>
+  text: Local Arrangements Chair for <button aria-label="AIIDE 2019" onclick="window.open('https://web.cs.wpi.edu/~gmsmith/aiide2019/','_blank');"><text>AIIDE 2019</text></button> &ndash; <em>Atlanta, GA</em>
 -
   date: 2019-09-18
-  text: Attended the <button aria-label="Tapia DC 2019" onclick="window.open('https://tapiadc.github.io/2019/','_blank');">Tapia Doctoral Consortium</button> &ndash; <em>San Diego, CA</em> (<button aria-label="Tapia DC 2019 slides" onclick="window.open('slides/Martin_Doctoral Consortium_Tapia.pdf','_blank');">Slides here.</button>) <br><button data-fancybox="gallery" aria-label="Picture of Lara winning her award for Best Doctora Consortium Presentation" data-caption="Lara (middle) at the 2019 ACM Richard Tapia Celebration of Diversity in Computing Conference, showing her award with Dr. Ayanna Howard, Chair of the School for Interactive Computing (left) and Dr. Charles Isbell, John P. Imlay, Jr. Dean of the College of Computing (right)." href="images/tapia_award.jpg">**Won Best Doctoral Consortium Presentation**</button>
+  text: Attended the <button aria-label="Tapia DC 2019" onclick="window.open('https://tapiadc.github.io/2019/','_blank');"><text>Tapia Doctoral Consortium</text></button> &ndash; <em>San Diego, CA</em> <br>(<button aria-label="Tapia DC 2019 slides" onclick="window.open('slides/Martin_Doctoral Consortium_Tapia.pdf','_blank');"><text>Slides here.</text></button>)  <button data-fancybox="gallery" aria-label="Picture of Lara winning her award for Best Doctora Consortium Presentation" data-caption="Lara (middle) at the 2019 ACM Richard Tapia Celebration of Diversity in Computing Conference, showing her award with Dr. Ayanna Howard, Chair of the School for Interactive Computing (left) and Dr. Charles Isbell, John P. Imlay, Jr. Dean of the College of Computing (right)." href="images/tapia_award.jpg"><text>**Won Best Doctoral Consortium Presentation**</text></button>
 
 -
   date: 2019-08-10
-  text: Presented at <button aria-label='IJCAI 2019' onclick='window.open("https://www.ijcai19.org/","_blank");'>IJCAI</button> &ndash; <em>Macau, China</em>
+  text: Presented at <button aria-label='IJCAI 2019' onclick='window.open("https://www.ijcai19.org/","_blank");'><text>IJCAI</text></button> &ndash; <em>Macau, China</em>
 -
   date: 2019-08-01
-  text: Attended the <button aria-label='2nd Storytelling Workshop at ACL 2019' onclick='window.open("http://www.visionandlanguage.net/workshop2019/","_blank");'>2nd Storytelling Workshop at ACL</button> &ndash; <em>Florence, Italy</em>
+  text: Attended the <button aria-label='2nd Storytelling Workshop at ACL 2019' onclick='window.open("http://www.visionandlanguage.net/workshop2019/","_blank");'><text>2nd Storytelling Workshop at ACL</text></button> &ndash; <em>Florence, Italy</em>
 -
   date: 2019-04-22
   text: Passed my proposal!								
