@@ -23,7 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	scrollbar-color: #600080 #e8fcf6; /*for firefox*/
+	}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2561,7 +2563,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 1rem 0;
+		margin: 0 0 1rem 1rem;
 		padding-left: 1rem;
 	}
 
@@ -3939,7 +3941,7 @@ ul.news{
 	scroll-behavior: smooth;
 	list-style:none;
 	border: 2px solid #43d9b8;
-    background: #B9F7E4;
+	background: #B9F7E4;
 }
 
 
@@ -3963,6 +3965,8 @@ ul.news{
 	::-webkit-scrollbar-thumb:hover {
 		background: #730099;
 	}
+	
+	
 
 
 
