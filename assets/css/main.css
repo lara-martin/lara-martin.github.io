@@ -2641,9 +2641,8 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding: 0;
-		width: 105%;
-		justify-content: space-between;
-		margin-left: -1em;
+		width: 100%;
+		justify-content: center;
 	}
 
 		ul.actions li {
