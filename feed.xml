@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-21T06:31:00+05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lara J. Martin</title><subtitle>Homepage to Dr. Lara J. Martin</subtitle><entry><title type="html">No, LaMDA Isn’t Sentient</title><link href="http://localhost:4000/2022/06/20/lamda-is-not-sentient.html" rel="alternate" type="text/html" title="No, LaMDA Isn’t Sentient" /><published>2022-06-20T00:00:00+05:00</published><updated>2022-06-20T00:00:00+05:00</updated><id>http://localhost:4000/2022/06/20/lamda-is-not-sentient</id><content type="html" xml:base="http://localhost:4000/2022/06/20/lamda-is-not-sentient.html">&lt;p&gt;[Expanded from a Facebook post of mine, originally posted June 14, 2022.]&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-21T20:52:10+05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lara J. Martin</title><subtitle>Homepage to Dr. Lara J. Martin</subtitle><entry><title type="html">No, LaMDA Isn’t Sentient</title><link href="http://localhost:4000/2022/06/21/lamda-is-not-sentient.html" rel="alternate" type="text/html" title="No, LaMDA Isn’t Sentient" /><published>2022-06-21T00:00:00+05:00</published><updated>2022-06-21T00:00:00+05:00</updated><id>http://localhost:4000/2022/06/21/lamda-is-not-sentient</id><content type="html" xml:base="http://localhost:4000/2022/06/21/lamda-is-not-sentient.html">&lt;p&gt;[Expanded from a Facebook post of mine, originally posted June 14, 2022.]&lt;/p&gt;
 
 &lt;p&gt;You might have come across &lt;a href=&quot;https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917&quot;&gt;an article&lt;/a&gt; being shared by some of your friends and family on Facebook recently.
 In it, the author claims to have an “interview” with an AI called LaMDA in which the AI “claims to be sentient.”
@@ -19,14 +19,25 @@ For context, I am researcher who works in artificial intelligence, natural langu
 &lt;p&gt;&lt;img src=&quot;/assets/img/nn.webp&quot; alt=&quot;Deep neural network diagram by IBM.&quot; /&gt;
 &lt;em&gt;Deep neural network diagram by IBM. Image from &lt;a href=&quot;https://www.ibm.com/cloud/learn/neural-networks&quot;&gt;What are Neural Networks?&lt;/a&gt;. The “deep” part refers to the hidden layers in the middle.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Then when you want to use it, you load up the trained language model into your computer’s memory and give it a prompt. The prompt might be a single word, or it can be a whole question like in the article’s interview. Based on this prompt/input, the LM will give you the most likely text to come next based on the text it trained on.&lt;/p&gt;
+&lt;p&gt;Then when you want to use it, you load up the trained language model into your computer’s memory and give it a prompt. The prompt might be a single word, or it can be a whole question like in the article’s interview. Based on this prompt/input, the LM will give you the most likely text to come next based on the text it trained on. This is generally called running or testing the model.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://openreview.net/pdf?id=rygGQyrFvH&quot;&gt;If you’re not careful&lt;/a&gt;, the language model might give you the most probable word or phrase each time, and you’ll end up getting some very boring text.
-But if you go too far the other way (the least probable next word or phrase), the language model spits out nonsense!&lt;/p&gt;
+&lt;center&gt;&amp;mdash;&lt;/center&gt;
 
-&lt;p&gt;Sometimes, with really big language models (like LaMDA), they even &lt;a href=&quot;https://arxiv.org/abs/2202.07646&quot;&gt;end up memorizing data&lt;/a&gt;. Memorized data can sound even more impressive sometimes because it’s basically copying what a human said verbatim.&lt;/p&gt;
+&lt;p&gt;Working with these models is a bit of an art.&lt;/p&gt;
 
-&lt;p&gt;All this is to say that, at best, neural networks are &lt;em&gt;very loosely inspired&lt;/em&gt; by the architecture of the brain.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://openreview.net/pdf?id=rygGQyrFvH&quot;&gt;If you’re not careful&lt;/a&gt; when you run the model, the language model might give you the most probable word or phrase each time, and you’ll end up getting some very boring text. (Lots of “I don’t know”s.)
+But if you go too far the other way—picking the least probable next word or phrase, the language model spits out nonsense!&lt;/p&gt;
+
+&lt;p&gt;Training can be tricky to get working right too. 
+If you don’t train the network long enough, it doesn’t pick up enough information about the data to really do anything with it. It might not even learn how to spell.&lt;/p&gt;
+
+&lt;p&gt;And if you train for too long, the model just memorizes all the data you give it, which might generate some impressive-sounding text because it’s basically copying what a human said verbatim. However, when you give it a prompt is has never seen before, it flounders and gives you gibberish.&lt;/p&gt;
+
+&lt;p&gt;With really big language models (like LaMDA), they can &lt;a href=&quot;https://arxiv.org/abs/2202.07646&quot;&gt;end up memorizing data&lt;/a&gt; even when they’re &lt;a href=&quot;https://arxiv.org/abs/2205.10770&quot;&gt;not trained for too long&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Even if a neural network ends up being really good at one task, it is incredibly difficult to train the network on a new task and &lt;a href=&quot;https://link.springer.com/chapter/10.1007/978-3-030-58598-3_28&quot;&gt;not&lt;/a&gt; &lt;a href=&quot;https://www.pnas.org/doi/10.1073/pnas.1611835114&quot;&gt;let&lt;/a&gt; &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S1364661317300736&quot;&gt;it&lt;/a&gt; &lt;a href=&quot;https://proceedings.neurips.cc/paper/2017/hash/f708f064faaf32a43e4d3c784e6af9ea-Abstract.html&quot;&gt;forget&lt;/a&gt; what it learned in the first task. This is called &lt;em&gt;catastrophic forgetting&lt;/em&gt;, which probably isn’t that important to know, but I wanted to share since it’s one of my favorite phrases in AI.&lt;/p&gt;
+
+&lt;p&gt;All this is to say that neural networks are (1) highly-engineered tools and (2) &lt;em&gt;very loosely inspired&lt;/em&gt; by the architecture of the brain, at best.&lt;/p&gt;
 
 &lt;h2 id=&quot;but-what-is-lamda-specifically&quot;&gt;But what is LaMDA, specifically?&lt;/h2&gt;
 
@@ -49,6 +60,6 @@ But if you go too far the other way (the least probable next word or phrase), th
     &lt;p&gt;&lt;strong&gt;Should we even be caring about whether or not AI is sentient?&lt;/strong&gt; I’d argue no. Just because something isn’t sentient doesn’t mean you shouldn’t care about it. I respect my Roomba’s existence as much as I respect my plants’ or my notebook’s existence. They are all important parts of my environment even if my plants require more care because they are alive.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Want to check out more interviews with large language models?&lt;/strong&gt; Janelle Shane interviews a squirrel, a vacuum, and other things via GPT-3: &lt;a href=&quot;https://www.aiweirdness.com/interview-with-a-squirrel/&quot;&gt;https://www.aiweirdness.com/interview-with-a-squirrel/&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Want to check out more fun interviews with large language models?&lt;/strong&gt; Janelle Shane interviews a squirrel, a vacuum, and other things via GPT-3: &lt;a href=&quot;https://www.aiweirdness.com/interview-with-a-squirrel/&quot;&gt;https://www.aiweirdness.com/interview-with-a-squirrel/&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="Language Models" /><category term="Neural Networks" /><summary type="html">[Expanded from a Facebook post of mine, originally posted June 14, 2022.]</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="Language Models" /><category term="Neural Networks" /><category term="Artificial General Intelligence" /><summary type="html">[Expanded from a Facebook post of mine, originally posted June 14, 2022.]</summary></entry></feed>

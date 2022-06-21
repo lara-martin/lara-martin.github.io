@@ -1485,3 +1485,11 @@ a.newer-posts:hover {
 .attribution {
   font-size: 10px;
 }
+
+.share-text {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  display:inline-block;
+}
