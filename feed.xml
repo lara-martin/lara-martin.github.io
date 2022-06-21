@@ -1,1 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-16T18:01:54+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lara J. Martin</title><subtitle>Homepage to Dr. Lara J. Martin</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-21T06:31:00+05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lara J. Martin</title><subtitle>Homepage to Dr. Lara J. Martin</subtitle><entry><title type="html">No, LaMDA Isn’t Sentient</title><link href="http://localhost:4000/2022/06/20/lamda-is-not-sentient.html" rel="alternate" type="text/html" title="No, LaMDA Isn’t Sentient" /><published>2022-06-20T00:00:00+05:00</published><updated>2022-06-20T00:00:00+05:00</updated><id>http://localhost:4000/2022/06/20/lamda-is-not-sentient</id><content type="html" xml:base="http://localhost:4000/2022/06/20/lamda-is-not-sentient.html">&lt;p&gt;[Expanded from a Facebook post of mine, originally posted June 14, 2022.]&lt;/p&gt;
+
+&lt;p&gt;You might have come across &lt;a href=&quot;https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917&quot;&gt;an article&lt;/a&gt; being shared by some of your friends and family on Facebook recently.
+In it, the author claims to have an “interview” with an AI called LaMDA in which the AI “claims to be sentient.”
+For context, I am researcher who works in artificial intelligence, natural language generation (NLG), and cognitive modeling who has directly worked with LaMDA (paper published soon), among other similar language models (LMs). And I can say with 100% certainty that LaMDA is not sentient.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Can it say things that make it seem like it has metacognition—the ability to think about thinking?&lt;/strong&gt; Sure.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Does it have metacognition?&lt;/strong&gt; No. There isn’t even a mechanism in place for it to reflect on its own behavior, let alone what it “thinks”.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Is this a super cool example of using LMs to generate text?&lt;/strong&gt; Absolutely. I always think it’s super cool to see what people do with these models.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Are we close to achieving &lt;a href=&quot;https://en.wikipedia.org/wiki/Artificial_general_intelligence&quot;&gt;AGI (artificial general intelligence)&lt;/a&gt;?&lt;/strong&gt; No. Even if it does happen, it probably won’t be in our lifetimes. We have not made the relevant advances to get there. We have a hard enough time getting AI to do &lt;em&gt;more than one task&lt;/em&gt; let alone be capable to do everything a dog, dolphin, or donkey can do.&lt;/p&gt;
+
+&lt;h2 id=&quot;language-models&quot;&gt;Language Models&lt;/h2&gt;
+
+&lt;p&gt;If you’re unfamiliar with how language models work, it’s a bit like this: You take a ridiculous amount of text (read: the internet) and you run it through a “neural network”. This network is literally just doing a bunch of multi-dimensional multiplications of numbers (called matrix multiplications). You run the data through multiple times, and it eventually abstracts away patterns in the data. This process is called training.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/nn.webp&quot; alt=&quot;Deep neural network diagram by IBM.&quot; /&gt;
+&lt;em&gt;Deep neural network diagram by IBM. Image from &lt;a href=&quot;https://www.ibm.com/cloud/learn/neural-networks&quot;&gt;What are Neural Networks?&lt;/a&gt;. The “deep” part refers to the hidden layers in the middle.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Then when you want to use it, you load up the trained language model into your computer’s memory and give it a prompt. The prompt might be a single word, or it can be a whole question like in the article’s interview. Based on this prompt/input, the LM will give you the most likely text to come next based on the text it trained on.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openreview.net/pdf?id=rygGQyrFvH&quot;&gt;If you’re not careful&lt;/a&gt;, the language model might give you the most probable word or phrase each time, and you’ll end up getting some very boring text.
+But if you go too far the other way (the least probable next word or phrase), the language model spits out nonsense!&lt;/p&gt;
+
+&lt;p&gt;Sometimes, with really big language models (like LaMDA), they even &lt;a href=&quot;https://arxiv.org/abs/2202.07646&quot;&gt;end up memorizing data&lt;/a&gt;. Memorized data can sound even more impressive sometimes because it’s basically copying what a human said verbatim.&lt;/p&gt;
+
+&lt;p&gt;All this is to say that, at best, neural networks are &lt;em&gt;very loosely inspired&lt;/em&gt; by the architecture of the brain.&lt;/p&gt;
+
+&lt;h2 id=&quot;but-what-is-lamda-specifically&quot;&gt;But what is LaMDA, specifically?&lt;/h2&gt;
+
+&lt;p&gt;The “really big language models” I’m talking about are called transformers. &lt;a href=&quot;https://towardsdatascience.com/transformer-neural-network-step-by-step-breakdown-of-the-beast-b3e096dc857f&quot;&gt;Transformer language models&lt;/a&gt; such as GPT and BERT (and their “relatives”) have pushed the state-of-the-art of natural language processing (and probably many other computing fields). These neural networks have a special component called &lt;a href=&quot;https://www.kaggle.com/code/residentmario/transformer-architecture-self-attention/notebook&quot;&gt;“attention”&lt;/a&gt;, which basically tells the LM “when you look at a word, pay attention to its context too”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/PLMfamily.jpg&quot; alt=&quot;Family of Pretrained Language Models as of a year ago by Xiaozhi Wang and Zhengyan Zhang.&quot; /&gt;
+&lt;em&gt;Family of Pretrained Language Models as of a year ago by Xiaozhi Wang and Zhengyan Zhang. A lot more have come out in the past year. Image from the &lt;a href=&quot;https://github.com/thunlp/PLMpapers&quot;&gt;PLM papers repo&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.google/technology/ai/lamda/&quot;&gt;LaMDA&lt;/a&gt; stands for “Language Models for Dialog Applications”. It is a transformer-based language model created by &lt;a href=&quot;https://arxiv.org/abs/2201.08239&quot;&gt;researchers at Google&lt;/a&gt;* that was specifically created for dialog (think chatbot).&lt;/p&gt;
+
+&lt;p&gt;*It might be worth noting that Blake Lemoine (the author of the original “interview” article) is not one of the listed authors.&lt;/p&gt;
+
+&lt;h2 id=&quot;parting-thoughts&quot;&gt;Parting Thoughts&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Will AI ever be sentient?&lt;/strong&gt; It’s not for me to say whether or not AI will ever be sentient, especially as we go deeper into &lt;a href=&quot;https://en.wikipedia.org/wiki/Biological_computing&quot;&gt;biological computing&lt;/a&gt;. I can’t predict the future, but like I said, even if AI were to ever be sentient some day, it will not be during our lifetimes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Should we even be caring about whether or not AI is sentient?&lt;/strong&gt; I’d argue no. Just because something isn’t sentient doesn’t mean you shouldn’t care about it. I respect my Roomba’s existence as much as I respect my plants’ or my notebook’s existence. They are all important parts of my environment even if my plants require more care because they are alive.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Want to check out more interviews with large language models?&lt;/strong&gt; Janelle Shane interviews a squirrel, a vacuum, and other things via GPT-3: &lt;a href=&quot;https://www.aiweirdness.com/interview-with-a-squirrel/&quot;&gt;https://www.aiweirdness.com/interview-with-a-squirrel/&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Language Models" /><category term="Neural Networks" /><summary type="html">[Expanded from a Facebook post of mine, originally posted June 14, 2022.]</summary></entry></feed>
