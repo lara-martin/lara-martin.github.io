@@ -6,6 +6,9 @@ function convertLinks() {
     if (parent.getAttribute("class") == "dropdown-content" || parent.getAttribute("id") == "stay"){
       continue;
     }
+    if (y[i].getAttribute("class") == "screen-reader-only") {
+    	continue;
+    }
     y[i].setAttribute("target", "_blank");
     y[i].setAttribute("rel", "noopener noreferrer");
   }

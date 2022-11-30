@@ -1,0 +1,30 @@
+background: #6AB4AE (green sheen)
+links: #600060 (midnight)
+link hover: #850085
+news background, paper button, vert lines & highlight border: #A1CECE
+arrow background & arXiv: #F7B2AD (melon) --> #FF9FB2 (mauvelous) --> #f2b6c2
+mark & bibtex: #c8f081 (yellow green crayola)
+slides, highlight, & news outline: #E0D8DE (gainsboro)
+poster:  #FFCAB1 (apricot)
+code: #f2f5a9
+data:  #C7F9CC (tea green)
+button hover: #ccc
+scrollbar:  #600060 #e8fcf6 --> C7F9CC
+
+730099 --> 850085
+
+
+
+Other potential colors:
+blue sapphire: #065A82
+
+
+https://colors.muz.li/palette/6AB4AE/4a7e7c/b46aa2/7e4a72/b4a56a
+
+
+7498B5
+B57F7D
+B59159
+62B57F
+
+

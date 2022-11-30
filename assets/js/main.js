@@ -1,216 +1,165 @@
-/*
-	Paradigm Shift by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+(function ($) {
+    "use strict";
 
-(function($) {
-
-	var	$window = $(window),
-		$body = $('body');
-
-	// Breakpoints.
-		breakpoints({
-			default:   ['1681px',   null       ],
-			xlarge:    ['1281px',   '1680px'   ],
-			large:     ['981px',    '1280px'   ],
-			medium:    ['737px',    '980px'    ],
-			small:     ['481px',    '736px'    ],
-			xsmall:    ['361px',    '480px'    ],
-			xxsmall:   [null,       '360px'    ]
-		});
-
-	// Play initial animations on page load.
-		$window.on('load', function() {
-			window.setTimeout(function() {
-				$body.removeClass('is-preload');
-			}, 100);
-		});
-
-	// Hack: Enable IE workarounds.
-		if (browser.name == 'ie')
-			$body.addClass('is-ie');
-
-	// Mobile?
-		if (browser.mobile)
-			$body.addClass('is-mobile');
-
-	// Scrolly.
-	/*	$('.scrolly')
-			.scrolly({
-				offset: 100
-			});*/
-
-	// Polyfill: Object fit.
-		if (!browser.canUse('object-fit')) {
-
-			$('.image[data-position]').each(function() {
-
-				var $this = $(this),
-					$img = $this.children('img');
-
-				// Apply img as background.
-					$this
-						.css('background-image', 'url("' + $img.attr('src') + '")')
-						.css('background-position', $this.data('position'))
-						.css('background-size', 'cover')
-						.css('background-repeat', 'no-repeat');
-
-				// Hide img.
-					$img
-						.css('opacity', '0');
-
-			});
-
-			$('.gallery > a').each(function() {
-
-				var $this = $(this),
-					$img = $this.children('img');
-
-				// Apply img as background.
-					$this
-						.css('background-image', 'url("' + $img.attr('src') + '")')
-						.css('background-position', 'center')
-						.css('background-size', 'cover')
-						.css('background-repeat', 'no-repeat');
-
-				// Hide img.
-					$img
-						.css('opacity', '0');
-
-			});
-
-		}
-		
-	// Gallery.
-		$('.gallery')
-			.on('click', 'a', function(event) {
-
-				var $a = $(this),
-					$gallery = $a.parents('.gallery'),
-					$modal = $gallery.children('.modal'),
-					$modalImg = $modal.find('img'),
-					href = $a.attr('href'),
-					alt = $a.attr('alt'),
-					$text = $modal.find('.text');
-					
-					$text.text(alt);
+    // Navbar on scrolling
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+            $('.navbar').fadeIn('slow').css('display', 'flex');
+        } else {
+            $('.navbar').fadeOut('slow').css('display', 'none');
+        }
+    });
 
 
-				// Not an image? Bail.
-					if (!href.match(/\.(jpg|gif|png|mp4)$/))
-						return;
+    // Smooth scrolling on the navbar links
+    $(".navbar-nav a").on('click', function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            
+            $('html, body').animate({
+                scrollTop: $(this.hash).offset().top - 45
+            }, 1500, 'easeInOutExpo');
+            
+            if ($(this).parents('.navbar-nav').length) {
+                $('.navbar-nav .active').removeClass('active');
+                $(this).closest('a').addClass('active');
+            }
+        }
+    });
 
-				// Prevent default.
-					event.preventDefault();
-					event.stopPropagation();
 
-				// Locked? Bail.
-					if ($modal[0]._locked)
-						return;
+    // Typed Initiate
+    if ($('.typed-text-output').length == 1) {
+        var typed_strings = $('.typed-text').text();
+        var typed = new Typed('.typed-text-output', {
+            strings: typed_strings.split(', '),
+            typeSpeed: 100,
+            backSpeed: 20,
+            smartBackspace: false,
+            loop: true
+        });
+    }
 
-				// Lock.
-					$modal[0]._locked = true;
 
-				// Set src.
-					$modalImg.attr('src', href);
-					$modalImg.attr('alt',alt);
+    // Modal Video
+    $(document).ready(function () {
+        var $videoSrc;
+        $('.btn-play').click(function () {
+            $videoSrc = $(this).data("src");
+        });
+        console.log($videoSrc);
 
-				// Set visible.
-					$modal.addClass('visible');
+        $('#videoModal').on('shown.bs.modal', function (e) {
+            $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        })
 
-				// Focus.
-					$modal.focus();
+        $('#videoModal').on('hide.bs.modal', function (e) {
+            $("#video").attr('src', $videoSrc);
+        })
+    });
 
-				// Delay.
-					setTimeout(function() {
 
-						// Unlock.
-							$modal[0]._locked = false;
+    // Scroll to Bottom
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scroll-to-bottom').fadeOut('slow');
+        } else {
+            $('.scroll-to-bottom').fadeIn('slow');
+        }
+    });
 
-					}, 600);
 
-			})
-			.on('click', '.modal', function(event) {
+    // Skills
+    $('.skill').waypoint(function () {
+        $('.progress .progress-bar').each(function () {
+            $(this).css("width", $(this).attr("aria-valuenow") + '%');
+        });
+    }, {offset: '80%'});
 
-				var $modal = $(this),
-					$modalImg = $modal.find('img');
 
-				// Locked? Bail.
-					if ($modal[0]._locked)
-						return;
 
-				// Already hidden? Bail.
-					if (!$modal.hasClass('visible'))
-						return;
 
-				// Stop propagation.
-					event.stopPropagation();
+    // Ex-Isotope stuff
+    /*
+    // Portfolio isotope and filter
+    var portfolioIsotope = $('.portfolio-container').isotope({
+        itemSelector: '.portfolio-item',
+        layoutMode: 'vertical'
+    });
+    $('#portfolio-flters li').on('click', function () {
+        $("#portfolio-flters li").removeClass('active');
+        $(this).addClass('active');
 
-				// Lock.
-					$modal[0]._locked = true;
+        portfolioIsotope.isotope({filter: $(this).data('filter')});
+    });*/
+    
+    $('#portfolio-flters li').on('click', function () {
+        $("#portfolio-flters li").removeClass('active');
+        $(this).addClass('active');
+        var filter = $(this).attr('data-filter')
+        
+        if (filter === "*") {
+        	var containers = document.getElementsByClassName("portfolio-container");
+	   	var i;
+	    	for (i = 0; i < containers.length; i++) {
+	    	   containers[i].style.display = "block";
+	    	   var items = containers[i].getElementsByClassName("portfolio-item");
+	    	   var j;
+	    	   for (j = 0; j < items.length; j++) {
+			items[j].style.display = "block";
+		   }
+		} 
+        }
+	else{
+        var containers = document.getElementsByClassName("portfolio-container");
+   	var i;
+    	for (i = 0; i < containers.length; i++) {
+    	   containers[i].style.display = "block";
+    	   var items = containers[i].getElementsByClassName("portfolio-item");
+    	   var j;
+    	   var hidden = 0;
+    	   for (j = 0; j < items.length; j++) {
+		    if (items[j].classList.contains(filter)) {
+		      items[j].style.display = "block";
+		    } else {
+		      items[j].style.display = "none";
+		      hidden++;
+		    }
+	   }
+	   if (hidden === j) {
+	   	containers[i].style.display = "none";
+	   }
+	}
+	}
+    });
+    
+    
+    
+    
+    
+    
+    // Back to top button
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+            $('.back-to-top').fadeIn('slow');
+        } else {
+            $('.back-to-top').fadeOut('slow');
+        }
+    });
+    $('.back-to-top').click(function () {
+        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        return false;
+    });
 
-				// Clear visible, loaded.
-					$modal
-						.removeClass('loaded')
 
-				// Delay.
-					setTimeout(function() {
-
-						$modal
-							.removeClass('visible')
-
-						setTimeout(function() {
-
-							// Clear src.
-								$modalImg.attr('src', '');
-
-							// Unlock.
-								$modal[0]._locked = false;
-
-							// Focus.
-								$body.focus();
-
-						}, 475);
-
-					}, 125);
-
-			})
-			.on('keypress', '.modal', function(event) {
-
-				var $modal = $(this);
-
-				// Escape? Hide modal.
-					if (event.keyCode == 27)
-						$modal.trigger('click');
-
-			})
-			.on('mouseup mousedown mousemove', '.modal', function(event) {
-
-				// Stop propagation.
-					event.stopPropagation();
-
-			})
-			.prepend('<div class="modal" tabIndex="-1"><div class="inner"><img src=""/><div class="text"></div></div></div>')
-				.find('img')
-					.on('load', function(event) {
-
-						var $modalImg = $(this),
-							$modal = $modalImg.parents('.modal');
-							
-
-						setTimeout(function() {
-
-							// No longer visible? Bail.
-								if (!$modal.hasClass('visible'))
-									return;
-
-							// Set loaded.
-								$modal.addClass('loaded');
-
-						}, 275);
-
-					});
-				
-
+    // Testimonials carousel
+    $(".testimonial-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 2000,
+        dots: true,
+        loop: true,
+        items: 1
+    });
+    
 })(jQuery);
+

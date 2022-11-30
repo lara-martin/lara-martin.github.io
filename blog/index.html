@@ -22,7 +22,7 @@
   
   
   
-    <meta content="https://laramartin.net/blog/assets/img/" property="og:image">
+    <meta content="https://laramartin.net/assets/img/" property="og:image">
   
   
   
@@ -57,9 +57,34 @@
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Lato:300,400,700&display=swap" rel="stylesheet">
 	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://laramartin.net/assets/fonts/font-awesome/css/font-awesome.min.css">
+	  <link href="/assets/fonts/font-awesome/css/fontawesome.css" rel="stylesheet">
+	  <link href="/assets/fonts/font-awesome/css/brands.css" rel="stylesheet">
+	  <link href="/assets/fonts/font-awesome/css/solid.css" rel="stylesheet">
 	<!-- Styles -->
-	<link rel="stylesheet" href="https://laramartin.net/assets/css/blog.css">
+	<link rel="stylesheet" href="/assets/css/blog.css">
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/assets/js/jquery.min.js"></script>
+	<!-- Mastodon Share button code from https://github.com/Aly-ve/Mastodon-share-button -->
+	<script>
+	    const msbConfig = {
+	      openModal: function () {
+		$('#exampleModal').modal('show');
+	      },
+	      closeModal: function () {
+		$('#exampleModal').modal('hide');
+	      },
+	      addressFieldSelector: '#msb-address',
+	      buttonModalSelector: '#msb-share',
+	      memorizeFieldId: 'msb-memorize-instance',
+	      buttonIconHtml: '<i class="fa fa-mastodon" aria-hidden="true"></i>'
+	    };
+
+	    $('.modal').on('shown.bs.modal', function() {
+	      $('#msb-address').focus();
+	    });
+	  </script>
+	  <script src="/dist/mastodon.js"></script>
 </head>
 
 <body>
@@ -69,16 +94,14 @@
   <header>
     <div class="about">
       <div class="cover-author-image">
-        <a href="/blog" aria-label="Back to main blog page"><img src="/assets/img/lara2021-square.jpg" aria-label=Lara J. Martin, PhD"></a>
+        <a href="https://laramartin.net" aria-label="Back to main website"><img src="/assets/img/lara2021-square.jpg" aria-label=Lara J. Martin, PhD"></a>
       </div>
       <div class="author-name">Lara J. Martin, PhD</div>
       <p>CIFellow Postdoctoral Researcher at the University of Pennsylvania</p>
       <p>
       &mdash;
       <p>
-      [<a href="/blog" aria-label="Back to the main blog page">Blog Homepage</a>]
-      <br>
-      [<a href="https://laramartin.net" aria-label="Lara's homepage">Lara's Main Site</a>]
+      [<a href="https://laramartin.net" aria-label="Lara's homepage">Back to Lara's Main Site</a>]
       </p>
     </div>
   </header> <!-- End Header -->
@@ -87,17 +110,18 @@
       <h3 class="contact-title">Contact me</h3>
       <ul>
         
-          <li><a href="https://twitter.com/LangTechLara" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li class="github"><a href="https://sigmoid.social/@laramar" target="_blank"><i class="fa-brands fa-mastodon"></i></a></li>
         
         
-          <li class="github"><a href="http://github.com/lara-martin" target="_blank"><i class="fa fa-github"></i></a></li>
+          <li class="github"><a href="http://github.com/lara-martin" target="_blank"><i class="fa-brands fa-github"></i></a></li>
         
         
-          <li class="linkedin"><a href="https://in.linkedin.com/in/lara-j-martin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          <li class="linkedin"><a href="https://in.linkedin.com/in/lara-j-martin" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
         
         
-          <li class="email"><a href="mailto:laramar@seas.upenn.edu"><i class="fa fa-envelope-o"></i></a></li>
+          <li><a href="https://twitter.com/LangTechLara" target="_blank"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a></li>
         
+        <!--<li class="email"><a href="mailto:laramar@seas.upenn.edu"><i class="fa fa-envelope-o"></i></a></li>-->
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright">
@@ -107,18 +131,6 @@
 </aside> <!-- End Sidebar -->
 <div class="content-box clearfix">
   
-<article class="post">
-  
-    <a class="post-thumbnail" style="background-image: url(/assets/img/alina-grubnyak-ZiQkhI7417A-unsplash.jpg)" href="/2022/06/21/lamda-is-not-sentient.html"></a>
-  
-  <div class="post-content">
-    <h2 class="post-title"><a href="/2022/06/21/lamda-is-not-sentient.html">No, LaMDA Isn't Sentient</a></h2>
-    <p>[Expanded from a Facebook post of mine, originally posted June 14, 2022.] You might have...</p>
-    <span class="post-date">2022, Jun 21&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">5 minute read</span>
-  </div>
-</article>
-
 
 <div class="container">
   <nav class="pagination" role="pagination">
