@@ -93,6 +93,10 @@
 <lastmod>2021-02-26T12:15:45-05:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/pub/CSRR22-CIS2.pdf</loc>
+<lastmod>2023-01-19T15:56:12-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/pub/EMBC14-Laughter.pdf</loc>
 <lastmod>2021-02-26T12:15:45-05:00</lastmod>
 </url>
@@ -113,7 +117,7 @@
 <lastmod>2021-02-26T12:15:45-05:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/pub/NIPS-Creativity-17-improvisational-storytelling-agents.pdf</loc>
+<loc>http://localhost:4000/pub/NeurIPS-Creativity-17-improvisational-storytelling-agents.pdf</loc>
 <lastmod>2021-02-26T12:15:45-05:00</lastmod>
 </url>
 <url>
@@ -123,6 +127,10 @@
 <url>
 <loc>http://localhost:4000/pub/TrecVID14-Informedia.pdf</loc>
 <lastmod>2021-02-26T12:15:45-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/pub/Wordplay22-Using-LMs.pdf</loc>
+<lastmod>2023-01-19T15:55:16-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/slides/ICIDS2016_MartinHarrisonRiedl_slides.pdf</loc>

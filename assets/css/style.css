@@ -7800,7 +7800,7 @@ button.bg-dark:focus {
 
 .pt-2,
 .py-2 {
-  padding-top: 0.5rem !important;
+  padding-top: 1rem !important; /*was 0.5*/
 }
 
 .pr-2,
@@ -7810,7 +7810,7 @@ button.bg-dark:focus {
 
 .pb-2,
 .py-2 {
-  padding-bottom: 0.5rem !important;
+  padding-bottom: 1rem !important; /*was 0.5*/
 }
 
 .pl-2,
@@ -10087,13 +10087,13 @@ ul.news li{
 
 }
 .bib{
-  background-color: #c8f081;
+  background-color: #C2F2B6;
 }
 .arxiv{
-  background-color: #f2b6c2;
+  background-color: #B6E0F2;
 }
 .slides{
-  background-color: #E0D8DE;
+  background-color: #f2b6c2;
 }
 .poster{
   background-color: #FFCAB1;
@@ -10102,7 +10102,10 @@ ul.news li{
   background-color: #f2f5a9;
 }
 .data{
-  background-color: #C7F9CC;
+  background-color: #E6B6F2;
+}
+.pdf{
+  background-color: #B6C2F2;
 }
 
 .paperlink:hover {
@@ -10154,7 +10157,7 @@ ul.news li{
 
 mark {
   font-weight: bold;
-  background-color: #c8f081;
+  background-color: #C2F2B6; /*#c8f081;*/
   border-radius: 3px;
   padding-left: 10px;
   padding-right: 10px;
@@ -10175,25 +10178,34 @@ mark {
 
 /* from https://www.w3schools.com/css/css_tooltip.asp */
 
-/*
+
 
 .icon .tooltiptext {
 	visibility: hidden;
+	position: absolute;
 	background-color: #f2b6c2;
 	color: #600060;
 	text-align: center;
-	padding: 5px 1px;
+	padding: 1px 5px;
 	border-radius: 6px;
 	font-size: 1rem;
 	display: table;
+	top: 20px;
+  	left: 50%;
+  	font-style: normal;
+  	font-family: "Roboto", sans-serif;
 }
 
+.icon .research{
+	top: 33px!important;
+	padding: 5px 5px!important;
+}
 
 .icon:hover .tooltiptext {
 	visibility: visible;
 }
 
-*/
+
 
 
 
