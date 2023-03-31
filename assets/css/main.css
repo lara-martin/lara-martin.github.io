@@ -4117,6 +4117,7 @@ div.gallery > h2 {
 
 
 
+/***********************/
 
 @media screen and (min-width: 1152px) {
 	.ed {
@@ -4126,6 +4127,8 @@ div.gallery > h2 {
 	  padding-top: 1.5rem;
 	}
 }
+
+
 
 /* Taken from https://coolestguidesontheplanet.com/videodrome/youtube/ */
 .video-container {
