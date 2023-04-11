@@ -34,7 +34,7 @@
         var typed = new Typed('.typed-text-output', {
             strings: typed_strings.split(', '),
             typeSpeed: 100,
-            backSpeed: 20,
+            backSpeed: 30,
             smartBackspace: false,
             loop: true
         });
