@@ -10277,7 +10277,10 @@ mark {
 }
 
 
-
+.acl {
+	padding-bottom: 10px;
+	width: 2em;
+}
  
  
  
