@@ -10110,6 +10110,9 @@ ul.news li{
 .pdf{
   background-color: #B6C2F2;
 }
+.talk{
+  background-color: #e1d0f5;
+}
 
 .paperlink:hover {
   background-color: #ccc;

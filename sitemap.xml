@@ -33,6 +33,10 @@
 <lastmod>2022-10-14T20:01:36-04:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/poster/EMNLP2022-DnD.pdf</loc>
+<lastmod>2023-06-14T10:48:48-04:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/poster/LaraMartinSLT2014Poster.pdf</loc>
 <lastmod>2021-11-22T11:59:55-05:00</lastmod>
 </url>
@@ -127,6 +131,10 @@
 <url>
 <loc>http://localhost:4000/pub/Wordplay22-Using-LMs.pdf</loc>
 <lastmod>2023-01-19T15:55:16-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/slides/Giorgi-et-al_AITA.pdf</loc>
+<lastmod>2023-06-14T10:46:31-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/slides/ICIDS2016_MartinHarrisonRiedl_slides.pdf</loc>
