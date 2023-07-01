@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-14T13:23:04-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lara J. Martin</title><subtitle>Homepage to Dr. Lara J. Martin</subtitle><entry><title type="html">No, LaMDA Isn’t Sentient</title><link href="http://localhost:4000/2022/06/21/lamda-is-not-sentient.html" rel="alternate" type="text/html" title="No, LaMDA Isn’t Sentient" /><published>2022-06-21T01:00:00-04:00</published><updated>2022-06-21T01:00:00-04:00</updated><id>http://localhost:4000/2022/06/21/lamda-is-not-sentient</id><content type="html" xml:base="http://localhost:4000/2022/06/21/lamda-is-not-sentient.html">&lt;p&gt;[Expanded from a Facebook post of mine, originally posted June 14, 2022.]&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-01T16:39:53-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lara J. Martin</title><subtitle>Homepage to Dr. Lara J. Martin</subtitle><entry><title type="html">ChatGPT will not replace writers…unless we let it</title><link href="http://localhost:4000/2023/07/01/writers-strike.html" rel="alternate" type="text/html" title="ChatGPT will not replace writers…unless we let it" /><published>2023-07-01T01:00:00-04:00</published><updated>2023-07-01T01:00:00-04:00</updated><id>http://localhost:4000/2023/07/01/writers-strike</id><content type="html" xml:base="http://localhost:4000/2023/07/01/writers-strike.html">&lt;p&gt;It looks like the Writers Guild (the union for people who write movies and TV shows) is striking again, this time &lt;a href=&quot;https://www.nytimes.com/2023/05/10/arts/television/writers-strike-artificial-intelligence.html&quot;&gt;because&lt;/a&gt; &lt;a href=&quot;https://www.polygon.com/23742770/ai-writers-strike-chat-gpt-explained&quot;&gt;of&lt;/a&gt; &lt;a href=&quot;https://www.npr.org/2023/05/20/1177366800/striking-movie-and-tv-writers-worry-that-they-will-be-replaced-by-ai&quot;&gt;ChatGPT&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hi, I’m Lara. I wrote &lt;a href=&quot;https://repository.gatech.edu/handle/1853/64643&quot;&gt;my dissertation on using AI to automatically generate stories&lt;/a&gt;, so I have some opinions about using AI to write stories.
+I also spoke to my wife, &lt;a href=&quot;https://dekent.github.io/&quot;&gt;Cassie Kent&lt;/a&gt;—who does human-robot interaction—about this, and this blog post is an amalgamation of our thoughts.&lt;/p&gt;
+
+&lt;p&gt;So what do we think?
+Namely: stop replacing writers with AI.&lt;/p&gt;
+
+&lt;p&gt;I’m not surprised this is happening and I’m 100% on the writers’ side.
+But I wanted to make this blog post to hash out some of the nuances of using ChatGPT (or other large language models; I’ll use “ChatGPT” as a shorthand) for creative tasks such as writing. (If you’d like a quick primer into what ChatGPT or a large language model is, check out &lt;a href=&quot;https://laramartin.net/2022/06/21/lamda-is-not-sentient.html&quot;&gt;my blog post from last year&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;But I digress.&lt;/p&gt;
+
+&lt;p&gt;Beyond the issues of equal pay and ethical treatment of writers, movie studios are missing the big picture. Movie generation using &lt;em&gt;AI only&lt;/em&gt; to write stories is not going to hold up long term.
+ChatGPT cannot replace writers because they’re not going to be able to tell the types of stories that people want to hear.
+That is, &lt;strong&gt;people have stories to tell and AI lacks the lived experiences to tell those stories&lt;/strong&gt;. (If you come away with anything from reading this post, this is it.)&lt;/p&gt;
+
+&lt;h2 id=&quot;but-what-if-people-only-want-moviesart-for-entertainment-and-not-communication&quot;&gt;But what if people only want movies/art for entertainment and not communication?&lt;/h2&gt;
+&lt;p&gt;Even if you think of AI-created art as entertainment only and not telling some personal story, it might be able to crank out a few okay stories until people will begin to realize they’re getting the same story over and over again and things would get really boring.&lt;/p&gt;
+
+&lt;p&gt;You see, ChatGPT works off of likelihoods, and so it’s like it’s playing tug of war between being either coherent or unique. If we pick out really likely words, it’s going to want to spit out the most likely (i.e., boring) story possible. On the other hand, if you pick out really unlikely words, it’s going to be unique but unintelligible or at least forget what it’s talking about over time. So it’s less like “haha that was so interesting and clever” and more like “haha the AI really has no idea what it’s talking about”.&lt;/p&gt;
+
+&lt;p&gt;Now, even though Hollywood thinks we want the same movies over and over again, if we &lt;em&gt;actually&lt;/em&gt; got the same movies, people would stop paying for movies.
+They will start to tune things out or get bored.
+And over time, directors and actors will refuse to work with those scripts.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, culture changes over time and ChatGPT struggles with the intricacies of culture already. It would not be able to reflect the diverse experiences that we have as humans.
+Things that we thought 20/30 years ago are quickly becoming outdated (or honestly even 3 years ago - e.g., COVID).
+Humor is something that AI struggles with already and it changes very quickly and is extremely culture-specific.&lt;/p&gt;
+
+&lt;p&gt;Also, current entertainment already has a huge problem with representation. Older shows and movies have a much bigger problem. We can’t expect AI to fix this without human writers representing these perspectives and moving things forward.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-should-we-just-stop-using-chatgpt-for-writing-scripts&quot;&gt;So should we just stop using ChatGPT for writing scripts?&lt;/h2&gt;
+&lt;p&gt;No, I don’t think so, and I’m not just saying that because I’m working on these tools.&lt;/p&gt;
+
+&lt;p&gt;I believe that &lt;strong&gt;AI and people collaborating&lt;/strong&gt; is where we find our strengths. Computers are great at processing a large amount of data and humans are great at making connections between ideas. Also, what is AI if not to either 1) help people or 2) get a glimpse into understanding how cognition works? (“People” here can also be animals.)&lt;/p&gt;
+
+&lt;p&gt;Plus, having these tools available means that people with less writing experience could write a decent script or that experienced writers could write scripts in a shorter period of time.&lt;/p&gt;
+
+&lt;h2 id=&quot;some-upcoming-issues-with-using-ai-in-writing&quot;&gt;Some upcoming issues with using AI in writing&lt;/h2&gt;
+&lt;p&gt;That said, because these tools are proprietary, there is a big concern about access. Will only high-end studios have access to these tools that can help their writers? Will studios continue to be conservative with their money and figure: “I’m already paying a person to write, I don’t want to pay for ChatGPT too”?&lt;/p&gt;
+
+&lt;p&gt;I don’t know enough about the writing process but I can certainly see a future where AI will decrease the amount of writers for a particular movie or show—not eliminate them completely. 
+This presents risks to covering the diversity of peoples’ experiences that we should be aware of and try to mitigate.
+(However, with fewer people on one team you might be able to have more projects going on at the same time as long as other parts of the movie-making process also become cheaper.)&lt;/p&gt;
+
+&lt;p&gt;I don’t have the answers to these questions, and we don’t exactly know how things are going to turn out, but it’s good to be aware of what could happen so that we can be prepared.&lt;/p&gt;
+
+&lt;h2 id=&quot;parting-thoughts&quot;&gt;Parting Thoughts&lt;/h2&gt;
+&lt;p&gt;The people who make these technologies should take responsibility for the good and the bad that they put out into the world.&lt;/p&gt;
+
+&lt;p&gt;Even though the automated generation of stories might not be as good as human-written stories, capitalism might not recognize this (but it should because using only AI won’t be profitable long-term) and that’s why writers strikes are important so that we can keep pushing back.&lt;/p&gt;
+
+&lt;p&gt;If you’d like to hear more about AI’s involvement in art, check out &lt;a href=&quot;https://korymathewson.com/art/&quot;&gt;this blog post by my friend Kory Mathewson&lt;/a&gt; and &lt;a href=&quot;https://newart.press/p/art-has-always-been-artifical&quot;&gt;this article by Louis Anslow&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="Language Models" /><category term="Neural Networks" /><category term="ChatGPT" /><category term="AI and Society" /><summary type="html">It looks like the Writers Guild (the union for people who write movies and TV shows) is striking again, this time because of ChatGPT.</summary></entry><entry><title type="html">No, LaMDA Isn’t Sentient</title><link href="http://localhost:4000/2022/06/21/lamda-is-not-sentient.html" rel="alternate" type="text/html" title="No, LaMDA Isn’t Sentient" /><published>2022-06-21T01:00:00-04:00</published><updated>2022-06-21T01:00:00-04:00</updated><id>http://localhost:4000/2022/06/21/lamda-is-not-sentient</id><content type="html" xml:base="http://localhost:4000/2022/06/21/lamda-is-not-sentient.html">&lt;p&gt;[Expanded from a Facebook post of mine, originally posted June 14, 2022.]&lt;/p&gt;
 
 &lt;p&gt;You might have come across &lt;a href=&quot;https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917&quot;&gt;an article&lt;/a&gt; being shared by some of your friends and family on Facebook recently.
 In it, the author claims to have an “interview” with an AI called LaMDA in which the AI “claims to be sentient.”
