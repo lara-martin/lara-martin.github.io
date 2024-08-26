@@ -1,0 +1,17 @@
+-
+  id: gt-nlp-seminar
+  name: Dungeons and Discourse&colon; Using Computational Storytelling to Look at Natural Language Use
+  venue: Georgia Tech's NLP Seminar Series
+  link: "https://www.youtube.com/embed/9SnsgglNHYA?start=171"
+  date: 2020-09-11
+-
+  id: usc-nl-seminar
+  name: Dungeons and Discourse&colon; Using Computational Storytelling to Look at Natural Language Use
+  link: https://www.youtube.com/embed/hldKVQj863o
+  venue: USC's Natural Language Seminar
+  date: 2022-05-05
+-
+  id: jhu
+  venue: Johns Hopkins University's Center for Language & Speech Processng (CLSP)
+  link: https://www.youtube.com/embed/Kyopo5y91Bk
+  date: 2024-02-16

@@ -1,0 +1,18 @@
+title: Lara J. Martin's Blog
+description: > # this means to ignore newlines until "baseurl:"
+ This is a blog where I talk about my random musings on recent tech advances.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://laramartin.net" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author Settings
+author: Lara J. Martin, PhD # add your name
+author-img: lara2021-square.jpg # add your photo
+about-author: Assistant Professor at the University of Maryland, Baltimore County
+social-twitter: LangTechLara # add your Twitter handle
+social-github: lara-martin # add your Github handle
+social-linkedin: lara-j-martin # add your Linkedin handle
+social-email: laramar@umbc.edu # add your Email address
+social-mastodon: https://sigmoid.social/@laramar
+
+

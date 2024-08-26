@@ -1,0 +1,56 @@
+data:
+  -
+    text: Story Datasets
+    link: "#data"
+  -
+    text: "Mixed Visual & Textual Datasets"
+    link: "#visual"
+  -
+    link: "#tests"
+    text: "Story Evaluation, Understanding, & Cloze Tests" 
+  -
+    link: "#scrapers"
+    text: "Data Scrapers & Processors"  
+    
+env:
+  -
+    link: "#if"
+    text: Interactive Fiction Environments
+  -
+    link: "#agents"
+    text: Interactive Fiction Agents
+  -
+    link: "#planning"
+    text: Story Planning Systems
+
+
+code:
+  -
+    link: "#code"
+    text: Story Generation Code
+  -
+    link: "#libraries"
+    text: "Libraries & Toolkits"
+    
+extra:
+  -
+    link: "#langs"
+    text: "Programming Languages & Authoring Tools for Writing Interactive Fiction"
+  -
+    link: "#notable"
+    text: Notable IF Games
+  -
+    link: "#tutorials"
+    text: Tutorials    
+  -
+    link: "#inspo"
+    text: RPG/IF Inspiration
+  -
+    link: "#courses"
+    text: Related Courses
+  -
+    link: "#gen"
+    text: Generators for TRPGs and IF
+  -
+    link: "#tools"
+    text: Various Tools    

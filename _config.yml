@@ -1,0 +1,22 @@
+---
+title: Lara J. Martin
+timezone: America/New_York
+email: laramar@umbc.edu
+description: Homepage to Dr. Lara J. Martin
+url: https://laramartin.net
+twitter_username: LangTechLara
+github_username: lara-martin
+theme: minima
+plugins:
+- jekyll-feed
+- jekyll-scholar
+- jekyll-sitemap
+- jekyll-paginate
+- jemoji
+markdown: kramdown
+highlighter: rouge
+
+paginate: 6
+paginate_path: "/page:num/"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

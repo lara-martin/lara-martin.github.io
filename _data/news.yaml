@@ -1,0 +1,152 @@
+-
+  date: 2024-04-18
+  text: Gave a talk at the <a href="https://hltcoe.jhu.edu/" aria-label="HLTCOE website">Human Language Technology Center of Excellence</a>
+  location: Baltimore, MD
+-
+  date: 2024-02-16
+  text: Gave a talk at Johns Hopkins University
+  location: Baltimore, MD
+-
+  date: 2023-10-08
+  text: <a href="https://arxiv.org/abs/2308.07540" aria-label="arxiv link to CALYPSO paper">CALYPSO&colon; LLMs as Dungeon Master's Assistants</a> was presented at <a href="https://sites.google.com/view/aiide-2023/home" aria-label="AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE) website">AIIDE 2023</a>
+  location: Salt Lake City, UT
+-
+  date: 2023-10-04
+  text: Gave a talk at the University of Maryland, College Park's Computational Linguistics and Information Processing (CLIP) Colloquium
+  location: College Park, MD
+-
+  date: 2023-10-08
+  text: <a href="https://arxiv.org/abs/2308.07540" aria-label="arxiv link to CALYPSO paper">CALYPSO&colon; LLMs as Dungeon Master's Assistants</a> was presented at <a href="https://sites.google.com/view/aiide-2023/home" aria-label="AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE) website">AIIDE 2023</a>
+  location: Salt Lake City, UT
+-
+  date: 2023-08-19
+  text: <a href="https://zhu.codes/" aria-label="Andrew Zhu's homepage">Andrew Zhu</a>'s work on <a href="https://arxiv.org/abs/2308.07540" aria-label="arxiv link to CALYPSO paper">CALYPSO</a> was featured in <a href="https://www.theregister.com/2023/08/19/chatgpt_dnd_dm/" aria-label="The Register Article&colon; Hallucinating ChatGPT finds a role playing Dungeons & Dragons">The Register</a>.
+-
+  date: 2023-07-09
+  text: A demo paper on "<a href="https://aclanthology.org/2023.acl-demo.1/" aria-label="paper for Human-in-the-Loop Schema Induction">Human-in-the-Loop Schema Induction</a>" was also published at <a href="https://2023.aclweb.org/" aria-label="The 61st Annual Meeting of the Association for Computational Linguistics ">ACL 2023</a>!
+  location: Toronto, Canada
+-
+  date: 2023-07-09
+  text: Two papers were published at <a href="https://2023.aclweb.org/" aria-label="The 61st Annual Meeting of the Association for Computational Linguistics ">ACL 2023</a>! One in the main conference (<a href="https://aclanthology.org/2023.acl-long.229/" aria-label="link to FIREBALL paper">FIREBALL</a>) and one in Findings of ACL (<a href="https://aclanthology.org/2023.findings-acl.832/" aria-label="link to CoRRPUS paper">CoRRPUS</a>)
+  location: Toronto, Canada
+-
+  date: 2023-06-05
+  text: Presented the paper "<a href="https://ojs.aaai.org/index.php/ICWSM/article/view/22141" aria-label="link to r/AmITheAsshole paper">Author as Character and Narrator&colon; Deconstructing Personal Narratives from the r/AmITheAsshole Reddit Community</a>" at <a href="https://www.icwsm.org/2023/index.html/" aria-label="ICWSM 2023 website">ICWSM 2023</a>, which came out of a class project from my Spring 2022 class on Interactive Fiction and Text Generation
+  location: Limassol, Cyprus
+-
+  date: 2023-04-21
+  text: Gave the keynote talk at Northeastern University's <a href="https://calendar.northeastern.edu/event/nulab-conference-2023" aria-label="NU Lab Spring conference 2023">NULab Spring Conference</a> on "Digital Bards&colon; How <em>Dungeons & Dragons</em> will Make for Better AI"
+  location: Boston, MA
+-
+  date: 2023-02-27
+  text: Gave a guest talk for UMBC's Computer Science and Electrical Engineering department
+  location: Baltimore, MD
+-
+  date: 2023-02-15
+  text: Gave a guest talk for Drexel's Information Science department
+  location: Philadelphia, PA
+-
+  date: 2022-12-14
+  text: Featured in a Penn Engineering Magazine article about  <a href="https://magazine.seas.upenn.edu/fall-2022/next-gen-innovators/" aria-label="Penn Engineering Magazine article on Next-Gen Innovators">Next-Gen Innovators</a>.
+
+-
+  date: 2022-05-05
+  text: Gave a <a href="#usc-nl-seminar" aria-label="scroll to USC NL seminar video">guest talk</a> for USC ISI's <a aria-label="NL seminar schedule" href="https://nlg.isi.edu/nl-seminar/">NL (Natural Language) Seminar</a>
+  location: Los Angeles, CA
+-
+  date: 2022-01-13
+  end: 2022-05-10
+  text: Co-taught a graduate course on <a aria-label="Interactive Fiction Course at UPenn" href="https://interactive-fiction-class.org">Interactive Fiction and Text Generation</a> with Chris Callison-Burch at UPenn.
+  
+-
+  date: 2021-11-29
+  text: Gave a guest talk for UCSC's CM (Computational Media) Seminar
+  location: Santa Cruz, CA (Virtual)
+-
+  date: 2021-11-30
+  text: Gave a guest lecture for UPenn's NLP class.
+-
+  date: 2021-10-14
+  text: Arranged the Doctoral Consortium at <a aria-label="AIIDE 2021" href="https://sites.google.com/view/aiide2021/">AIIDE 2021</a>
+  location: Virtual
+-
+  date: 2021-06-11
+  text: Co-organized the <a href="https://aclanthology.org/volumes/2021.nuse-1/" aria-label="Narrative Understanding workshop proceedings">Third Workshop on Narrative Understanding</a>
+  location: Virtual
+-
+  date: 2021-04-30
+  text: Gave a <a href="https://www.youtube.com/watch?v=JoULi06ykI8" aria-label="UK Interactive Narrative lecture video">guest lecture</a> for the University of Kentucky's Interactive Narrative (Topics in AI) class
+  location: Lexington, KY (Virtual)
+-
+  date: 2021-03-15
+  text: The <a aria-label="Science Focus Podcast - Lara Martin on Teaching AI to Tell Stories" href="https://www.sciencefocus.com/future-technology/lara-martin-on-teaching-ai-to-tell-stories/">corresponding podcast</a> to the Science Focus article is out!
+-
+  date: 2021-02-12
+  text: My <a aria-label="BBC Science Focus magazine issue 'Dark Stars'" href="https://www.sciencefocus.com/magazine/dark-stars/">profile piece</a> with BBC Science Focus magazine is available for purchase!
+-
+  date: 2021-01-25
+  text: Gave a talk for UPenn's CLUNCH (Computational Linguistics Lunch) group
+-
+  date: 2021-01-11
+  text: Started working at UPenn
+  location: Philadelphia, PA
+-
+  date: 2020-12-07
+  text: Passed my defense!								
+-
+  date: 2020-10-19
+  end: 2020-10-23
+  text: Publicity Co-Chair for <a aria-label="AIIDE 2020" href="https://webdocs.cs.ualberta.ca/~santanad/aiide">AIIDE 2020</a>!
+  location: Virtual
+-
+  date: 2020-09-11
+  text: Gave a <a aria-label="Scroll to NLP Seminar video" href="#gt-nlp-seminar">talk</a> for Georgia Tech's NLP Seminar Series
+  location: Atlanta, GA
+
+-
+  date: 2020-08-11
+  text: <a aria-label="CIFellows 2020 award announcement" href="https://cra.org/crn/2020/09/announcing-the-2020-computing-innovation-fellows/">Awarded</a> a <a aria-label="CIFellows 2020" href="https://cifellows2020.org/">2020 Computing Innovation Fellowship</a>!
+-
+  date: 2020-07-09
+  text: Co-organized the <a href="https://aclanthology.org/2020.nuse-1.0/" aria-label="NUSE workshop proceedings">First Joint Workshop on Narrative Understanding, Storylines, and Events (NUSE)</a>
+
+-
+  date: 2020-04-16
+  text: Article&colon; <em><a aria-label="Meet ML@GT&colon; Lara J. Martin Trains AI Agents to Become Storytellers" href="https://mlatgt.blog/2020/04/16/meet-mlgt-lara-j-martin-trains-ai-agents-to-become-storytellers/">Meet ML@GT&colon; Lara J. Martin Trains AI Agents to Become Storytellers</a></em>
+
+-
+  date: 2020-02-28
+  text: Featured in an <a aria-label='Forget Chess—the Real Challenge Is Teaching AI to Play D&D' href="https://www.wired.com/story/forget-chess-real-challenge-teaching-ai-play-dandd/">article</a> on <strong>Wired</strong>, where I talk about where the future of AI should be going.
+-
+  date: 2020-02-07
+  text: Presented at <a aria-label="AAAI 2020" href="https://aaai.org/Conferences/AAAI-20/">AAAI</a>
+  location: New York City, NY
+-
+  date: 2020-02-04
+  text: Article&colon; <a aria-label="Changing the Conversation&colon; Georgia Tech Researchers Provide New Approach to Automated Story Generation" href="https://www.ic.gatech.edu/news/632082/changing-conversation-georgia-tech-researchers-provide-new-approach-automated-story"><em>Changing the Conversation&colon; Georgia Tech Researchers Provide New Approach to Automated Story Generation</em></a>									
+-
+  date: 2019-11-10
+  text: Paper on "<a aria-label="Story Realization&colon; Expanding Plot Events into Sentences (arXiv)" href="https://arxiv.org/abs/1909.03480">Story Realization&colon; Expanding Plot Events into Sentences</a>" has been accepted at AAAI 2020!		
+-
+  date: 2019-10-30
+  text: <a data-fancybox="gallery" data-caption="Lara (second from left, front row) with the rest of the Foley Scholar Finalists at the awards ceremony." href="assets/img/foley_award.jpg" aria-label="Picture of the Foley Scholar Finalists">Won</a> the <a aria-label="Foley Scholar Award 2019" href="https://gvu.gatech.edu/gvu-graduate-student-awards-program-2019">Foley Scholar Award</a>!
+-
+  date: 2019-10-08
+  text: Local Arrangements Chair for <a aria-label="AIIDE 2019" href="https://web.cs.wpi.edu/~gmsmith/aiide2019/">AIIDE 2019</a>
+  location: Atlanta, GA
+-
+  date: 2019-09-18
+  text: Attended the <a aria-label="Tapia DC 2019" href="https://tapiadc.github.io/2019/">Tapia Doctoral Consortium</a> and <a data-fancybox="gallery" aria-label="Picture of Lara winning her award for Best Doctora Consortium Presentation" data-caption="Lara (middle) at the 2019 ACM Richard Tapia Celebration of Diversity in Computing Conference, showing her award with Dr. Ayanna Howard, Chair of the School for Interactive Computing (left) and Dr. Charles Isbell, John P. Imlay, Jr. Dean of the College of Computing (right)." href="assets/img/tapia_award.jpg">won Best Doctoral Consortium Presentation</a> (<a aria-label="Tapia DC 2019 slides" href="slides/Martin_Doctoral Consortium_Tapia.pdf">Slides here.</a>)
+  location: San Diego, CA
+
+-
+  date: 2019-08-10
+  text: Presented at <a aria-label='IJCAI 2019' onclick='window.open("https://www.ijcai19.org/","_blank");'>IJCAI</a>
+  location: Macau, China
+-
+  date: 2019-08-01
+  text: Attended the <a aria-label='2nd Storytelling Workshop at ACL 2019' onclick='window.open("http://www.visionandlanguage.net/workshop2019/","_blank");'>2nd Storytelling Workshop at ACL</a>
+  location: Florence, Italy
+-
+  date: 2019-04-22
+  text: Passed my proposal!								
