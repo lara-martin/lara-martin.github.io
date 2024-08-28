@@ -240,23 +240,6 @@ layout: default
 
 
 
-<!-- Pubs Start -->
-<div class="container-fluid py-5" id="publications">
-<div class="container">
-    <div class="position-relative d-flex align-items-center justify-content-center">
-        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Publications</h1>
-        <h1 class="position-absolute text-uppercase text-primary">Select Publications</h1>
-    </div>
-    <center>Publications have moved to <a href="/lab/publications" aria-label="LARA Lab publications">my lab page</a>.
-    </center>
-
-
-</div>
-</div>
-<!-- Pubs End -->
-
-
-
 <!-- Teaching Start -->
 <div class="container-fluid pt-5" id="teaching">
 <div class="container">
