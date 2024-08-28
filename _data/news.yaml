@@ -1,4 +1,14 @@
 -
+  date: 2024-08-16
+  text: Hosted the <a href="https://wordplay-workshop.github.io/" aria-label="Wordplay workshop">Wordplay Workshop</a> at ACL with my co-organizers.
+  location: Bangkok, Thailand
+-
+  date: 2024-08-16
+  text: Our <a href="https://wordplay-workshop.github.io/pdfs/21.pdf" aria-label="BERALL paper">paper on BERALL</a>, the system that uses RAG to generate interactive fiction games, was accepted to the Wordplay Workshop at ACL 2024!
+-
+  date: 2024-06-24
+  text: <a href="http://www.foadhamidi.info/" aria-label="Foad's website">Foad Hamidi</a> and I have won a <a href="https://coeit.umbc.edu/cip-awards/" aria-label="CIP award list">COEIT Interdisciplinary Proposal</a> award and will be working on "Investigating the Social and Affective Aspects of Large-Language Model-based Augmentative and Alternative Communication Systems" together.
+-
   date: 2024-04-18
   text: Gave a talk at the <a href="https://hltcoe.jhu.edu/" aria-label="HLTCOE website">Human Language Technology Center of Excellence</a>
   location: Baltimore, MD
