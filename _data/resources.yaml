@@ -113,9 +113,10 @@ datasets:
     name: FIREBALL
     info: Avrae Discord bot commands + natural language
     url: https://github.com/zhudotexe/FIREBALL
-    paper_url1: https://arxiv.org/abs/2305.01528
+    paper_url1: https://aclanthology.org/2023.acl-long.229/
     paper1: "FIREBALL: A Dataset of Dungeons and Dragons Actual-Play with Structured Game State Information"
     year: 2023
+    hugging_face: https://huggingface.co/datasets/lara-martin/FIREBALL
   -
     name: Dungeons and Dragons as a Dialog Challenge for Artificial Intelligence
     info: dndbeyond.com
