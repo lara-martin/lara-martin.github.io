@@ -26,9 +26,9 @@ layout: default
         <a href="#news" class="nav-item nav-link">News</a>
         <a href="#contact" class="nav-item nav-link">Contact</a>
         <a href="#research" class="nav-item nav-link">Research Accounts</a>
-        <a href="#join" class="nav-item nav-link">Joining the LARA Lab</a>
+        <a href="/lab" class="nav-item nav-link">LARA Lab</a>
         <a href="#bio" class="nav-item nav-link">Bio</a>
-        <a href="#publications" class="nav-item nav-link">Publications</a>
+        <a href="/lab/publications" class="nav-item nav-link">Publications</a>
         <a href="#teaching" class="nav-item nav-link">Teaching</a>
         <a href="#media" class="nav-item nav-link">Media</a>
         <a href="#talks" class="nav-item nav-link">Talks</a>
@@ -162,54 +162,7 @@ layout: default
 	</div>
 	</div>
 	
-        <div class="col-lg-8">
-        <h3 class="mb-4" id="join">Joining the <a href="./lab" aria-label="LARA Lab website">Language, Aid, and Representation AI Lab</a></h3>
-        <SMALL>(updated 4/18/2024)</small><br>
-
-        <h5>What NOT to do:</h5>
-        <ul>
-        <li> Please do not call me Mam/Ma'am. It does not match my gender identity and makes me very uncomfortable. Stick to Doctor/Dr. Martin, Professor/Prof. Martin, or even just Lara.</li>
-        <li> I'm not interested in your TOEFL/GRE scores or your past grades. They don't tell me much about how you will do with research. If you do want to tell me about your education, let me know if you've taken any classes that might be relevant to the research I do (e.g., an AI or NLP course).</li>
-        </ul>
         
-        <h5>What to do:</h5>
-
-        <h6>For current UMBC Masters/Undergrads:</h6>
-        I am currently not accepting new students.
-        <!--
-        I've been getting a lot more interest than I can support. I'd like to get to know students before working with them. To give everyone an equal chance, I will get to know students through the classes that I teach. If you'd like to work with me, please enroll in whatever class I'm teaching. If you can't get into the class, I will be holding open office hours (see the Contact section above) or you can request to join my weekly lab meeting, which is currently basically a reading group.--> <br><br>
-	
-        
-        <h6>For prospective PhD students:</h6>
-        The application deadline for the 2024-2025 school year has passed.
-	
-	<br><br>
-	<h5> Funding </h5>
-Your time and skills are valuable; you should never work for free. There are, however, some options for times when I don't have adequate funding for you.
-	 <ul>
-
-	 
-	 <li><a href="https://ur.umbc.edu/prestigious-scholarships/goldwater-scholars/">Goldwater Scholars </a> (undergrad only)</li>
-	 <li><a href="https://ur.umbc.edu/urcad/">Undergraduate Research and Creative Achievement Day (URCAD) </a> (undergrad only)</li>
-	 <li><a href="https://ur.umbc.edu/ura/">Undergraduate Research Awards (URA)</a> (undergrad only)</li>
-	 <li><a href="https://ur.umbc.edu/summer-research/">Summer Research Scholarships</a> (undergrad only)</li>
-	 <li><a href="https://umbc.edu/admissions/graduate/funding">Graduate Fellowships</a></li>
-	 <li><a href="https://www.nsf.gov/cise/CSGrad4US/">NSF's CSGrad4US Fellowship</a> (graduate only; must be US citizen/resident)</li>
-	 <li><a href="https://www.nsfgrfp.org/">NSF's Graduate Research Fellowship Program (GRFP)</a> (graduate only; must be US citizen/resident)</li>
-	 <li> Research for course credit
-	 	<ul>
-	 	<li> <a href="https://www.csee.umbc.edu/independent-study/"> CMSC 499/699: Independent Study</a></li>
-	 	<li> CMSC 698: Project in Computer Science</li>
-	 	<li> CMSC 799: Masters Thesis</li>
-	 	</ul>
-	 
-	 </li>
-	 <li> Working in collaboration with another faculty member. If you'd like to work with me and there is another faculty member that has funding available, I'd be happy to talk about collaboration.
-	 </li>
-	 </ul>
-	 <small>List based off of <a href="https://www.tejasgokhale.com/faq.html">Dr. Tejas Gokhale's</a>.</small>
-
-        </div>       
         
     </div>
 </div>
