@@ -68,7 +68,7 @@ UMBC's Language Technology Seminar Series (LaTeSS &ndash; pronounced lattice) sh
 		</div>
 		<div class="col-md-7 mb-3">
 			<br/>
-			<big><b> <a href="{{talk.url}}" aria-label="{{talk.name}}'s website">{{talk.name}}</a> <br/> {{talk.position}}</b></big>
+			<big><b> <a href="{{talk.url}}" aria-label="{{talk.name}}'s website">{{talk.name}}</a> <br/> {{talk.position}} at {{talk.institute}}</b></big>
 			<br/><br/>
 			<p> <b>{{talk.talk_title}}</b><br/>
 				{{talk.abstract}}
