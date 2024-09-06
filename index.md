@@ -27,6 +27,7 @@ layout: default
         <a href="#contact" class="nav-item nav-link">Contact</a>
         <a href="#research" class="nav-item nav-link">Research Accounts</a>
         <a href="/lab" class="nav-item nav-link">LARA Lab</a>
+	<a href="/LaTeSS" class="nav-item nav-link">LaTeSS (Seminar)</a>
         <a href="#bio" class="nav-item nav-link">Bio</a>
         <a href="/lab/publications" class="nav-item nav-link">Publications</a>
         <a href="#teaching" class="nav-item nav-link">Teaching</a>
