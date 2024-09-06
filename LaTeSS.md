@@ -36,12 +36,11 @@ layout: seminar
 
 
 <div class="main">
-<div class="intro">
+<div class="intro" style="font-family: Lato, Helvetica, arial, sans-serif;">
 <p>
 UMBC's Language Technology Seminar Series (LaTeSS -- pronounced lattice) showcases talks from experts researching various language technologies, including but not limited to natural language processing, computational linguistics, speech processing, and digital humanities.
 </p>
 
-</p>
 </div>
 
 <div class="wrapper">
@@ -64,7 +63,7 @@ UMBC's Language Technology Seminar Series (LaTeSS -- pronounced lattice) showcas
 			<br><br><a href="{{talk.web}}" class="badge badge-web badge-sm text-decoration-none mb-1">Webex Link</a>
 		</div>
 		<div class="col-md-2-person mb-3">
-			<img class="person-img" src="{{talk.img}}"></a>
+			<img class="person-img" src="{{talk.img}}">
 		</div>
 		<div class="col-md-7 mb-3">
 			<br/>
@@ -72,12 +71,12 @@ UMBC's Language Technology Seminar Series (LaTeSS -- pronounced lattice) showcas
 			<br/><br/>
 			<p> <b>{{talk.talk_title}}</b><br/>
 				{{talk.abstract}}
-				</p>
-				<details><summary><b>Bio</b></summary>
-					<small>
-						{{talk.bio}}
-					</small>
-				</details>
+			</p>
+			<details><summary><b>Bio</b></summary>
+				<small>
+					{{talk.bio}}
+				</small>
+			</details>
 			</div>
 		</div>
 
