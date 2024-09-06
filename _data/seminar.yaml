@@ -8,7 +8,7 @@
   abstract: "AI is being integrated into virtually every computer system we use, but often in ways that mean we cannot see the decisions AI makes for us. If we don't see a decision, we cannot notice whether we agree with it, and what we don't notice, we cannot change. For example, using an AI summarization system means trusting that it has captured all the aspects of a document that are relevant to you. If the task is high stakes then the only way to check is to read the original document, but that significantly decreases the value of the summary. In this talk, I will present the concept of AI resilient interfaces: systems that use AI while giving users the information they need to notice and change its decisions. I will walk through two examples of novel systems that are more AI resilient than the typical solution to the problem, for (1) SQL generation, and (2) faster reading. I will conclude with thoughts on the potential and pitfalls of designing with AI resilience in mind."
   host: Lara J. Martin
   host_url: https://laramartin.net
-  date: 09-10-2024
+  date: 10-09-2024
   time: 3pm-4pm ET
   location: ITE 325B
   web: https://umbc.webex.com/meet/laramar
