@@ -4310,9 +4310,12 @@ mark {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: rgb(100, 100, 100);
+  background-color: #6A70B4;
   font-size: 0;
   z-index: 999;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-weight: bold;
+  outline: white solid;
 }
 
 #navbar li {
