@@ -6,7 +6,7 @@ layout: seminar
 <div class="topbar">
 <div class="head">
 <h1>UMBC Language Technology Seminar Series (LaTeSS)</h1>
-<h3>Hosted by <a href="https://laramartin.net" aria-label="Lara's website">Lara J. Martin</a> at <a href="https://www.csee.umbc.edu/" aria-label="UMBC's computer science and electrical engineering department">UMBC</a>.</h3>
+<h5 style="text-transform:none;">Hosted by <a href="https://laramartin.net" aria-label="Lara's website">Lara J. Martin</a> at <a href="https://www.csee.umbc.edu/" aria-label="UMBC's computer science and electrical engineering department">UMBC</a></h5>
 </div>
 </div>
 
@@ -39,7 +39,7 @@ layout: seminar
 <div class="main">
 <div class="intro" style="font-family: Lato, Helvetica, arial, sans-serif;">
 <p>
-UMBC's Language Technology Seminar Series (LaTeSS -- pronounced lattice) showcases talks from experts researching various language technologies, including but not limited to natural language processing, computational linguistics, speech processing, and digital humanities.
+UMBC's Language Technology Seminar Series (LaTeSS &ndash; pronounced lattice) showcases talks from experts researching various language technologies, including but not limited to natural language processing, computational linguistics, speech processing, and digital humanities.
 </p>
 
 </div>
