@@ -39,7 +39,7 @@ layout: seminar
 <div class="main">
 <div class="intro" style="font-family: Lato, Helvetica, arial, sans-serif;">
 <p>
-UMBC's Language Technology Seminar Series (LaTeSS &ndash; pronounced lattice) showcases talks from experts researching various language technologies, including but not limited to natural language processing, computational linguistics, speech processing, and digital humanities.
+UMBC's Language Technology Seminar Series (LaTeSS &ndash; pronounced lattice) showcases talks from experts researching various language technologies, including but not limited to natural language processing, computational linguistics, speech processing, and digital humanities. Join the group on myUMBC here: <a href="https://my3.my.umbc.edu/groups/langtech">https://my3.my.umbc.edu/groups/langtech</a>
 </p>
 
 </div>
