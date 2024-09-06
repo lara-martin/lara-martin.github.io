@@ -6,7 +6,7 @@ layout: seminar
 <div class="topbar">
 <div class="head">
 <h1>UMBC Language Technology Seminar Series (LaTeSS)</h1>
-<h2>Hosted by <a href="https://laramartin.net" aria-label="Lara's website">Lara J. Martin</a> at <a href="https://www.csee.umbc.edu/" aria-label="UMBC's computer science and electrical engineering department">UMBC</a>.
+<h2>Hosted by <a href="https://laramartin.net" aria-label="Lara's website">Lara J. Martin</a> at <a href="https://www.csee.umbc.edu/" aria-label="UMBC's computer science and electrical engineering department">UMBC</a>.</h2>
 </div>
 </div>
 
