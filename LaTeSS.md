@@ -55,7 +55,7 @@ UMBC's Language Technology Seminar Series (LaTeSS &ndash; pronounced lattice) sh
 <div class="col-md-12 mb-3" style="font-size:16px;font-family: Lato, Helvetica, arial, sans-serif;">
 {% for talk in site.data.seminar %}
 {% capture talk_date %}{{talk.date | date: '%s'}}{% endcapture %}
-{% if talk_date <= now %}
+{% if talk_date >= now %}
   <hr/>
 	<div class="row paper-block rounded justify-content-center">
 		<div class="col-md-2 date-center" >
@@ -99,7 +99,7 @@ UMBC's Language Technology Seminar Series (LaTeSS &ndash; pronounced lattice) sh
 <div class="col-md-12 mb-3" style="font-size:16px;font-family: Lato, Helvetica, arial, sans-serif;">
 {% for talk in site.data.seminar %}
 {% capture talk_date %}{{talk.date | date: '%s'}}{% endcapture %}
-{% if talk_date > now %}
+{% if talk_date < now %}
   <hr/>
 	<div class="row paper-block rounded justify-content-center">
 		<div class="col-md-2 date-center" >
