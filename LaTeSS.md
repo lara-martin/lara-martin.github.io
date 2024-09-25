@@ -63,6 +63,7 @@ UMBC's Language Technology Seminar Series (LaTeSS &ndash; pronounced lattice) sh
 			<br>{{talk.time}}
 			<br>{{talk.location}}
 			<br><br><a href="{{talk.web}}" class="badge badge-web badge-sm text-decoration-none mb-1">Webex Link</a>
+			<br><br><a href="{{talk.rsvp}}" class="badge badge-web badge-sm text-decoration-none mb-1">RSVP</a>
 		</div>
 		<div class="col-md-2-person mb-3">
 			<img class="person-img" src="{{talk.img}}">
