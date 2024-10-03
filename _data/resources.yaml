@@ -190,11 +190,10 @@ datasets:
   -
     name: ESTER
     info: tagged events from news articles from the TempEval3(TE3) workshop
-    url: https://vnpeng.net/bibliography/han2021ester/
+    url: https://eventqa.github.io/
     paper1: "ESTER: A Machine Reading Comprehension Dataset for Event Semantic Relation Reasoning"
     paper_url1: https://aclanthology.org/2021.emnlp-main.597/
     code: https://github.com/PlusLabNLP/ESTER
-    leaderboard: https://eventqa.github.io/
     year: 2021    
   -
     name: TellMeWhy
@@ -310,7 +309,7 @@ datasets:
     url: https://github.com/deepmind/narrativeqa
     paper1: The NarrativeQA Reading Comprehension Challenge
     paper_url1: https://aclanthology.org/Q18-1023/
-    code: https://github.com/deepmind/narrativeqa
+    code: https://github.com/google-deepmind/narrativeqa
     hugging_face: https://huggingface.co/datasets/narrativeqa
     leaderboard: https://paperswithcode.com/sota/question-answering-on-narrativeqa
     year: 2018

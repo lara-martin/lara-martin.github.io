@@ -91,7 +91,7 @@ If you're looking for paper lists, you might be interested in <a href="https://a
       <th onclick="sortTable(2,'data')" aria-label="sort by paper">Papers<div class="fa fa-fw fa-sort"/></th>
       <th onclick="sortTable(3,'data')" aria-label="sort by paper code">Paper Code (Baselines)<div class="fa fa-fw fa-sort"/></th>
       <th onclick="sortTable(4,'data')" aria-label="sort by hugging face link">Hugging Face Link<div class="fa fa-fw fa-sort"/></th>
-      <th onclick="sortTable(5,'data')" aria-label="sort by leaderboard">Leaderboard<div class="fa fa-fw fa-sort"/></th>
+      <!--<th onclick="sortTable(5,'data')" aria-label="sort by leaderboard">Leaderboard<div class="fa fa-fw fa-sort"/></th>-->
     </tr>
   </thead>
   <tbody>
@@ -135,11 +135,11 @@ If you're looking for paper lists, you might be interested in <a href="https://a
 	 {% endif %}
 	</td>
 	
-	<td>
+	<!--<td>
 	 {% if dataset.leaderboard %}
 	 <a href="{{dataset.leaderboard}}" aria-label="{{dataset.name}} leaderboard">{{dataset.leaderboard}}</a>
 	 {% endif %}
-	</td>
+	</td>-->
 	
 	</tr>
 {% endfor %}
