@@ -563,7 +563,7 @@ eval:
     year: 2023
   -
     name: StoryER
-    info: breaking story evaluation into 3 steps: ranking, rating, reasoning
+    info: "breaking story evaluation into 3 steps: ranking, rating, reasoning"
     url: https://github.com/sairin1202/StoryER
     paper1: "StoryER: Automatic Story Evaluation via Ranking, Rating and Reasoning"
     paper_url1: https://aclanthology.org/2022.emnlp-main.114/
