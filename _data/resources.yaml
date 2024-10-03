@@ -29,7 +29,7 @@ datasets:
     paper_url1: https://aclanthology.org/2024.lrec-main.285/
     year: 2024
   -
-    name: HEART-felt Narratives
+    name: HEART-felt Narratives (Human Empathy and Narrative Taxonomy)
     info: narrative styles that lead to empathy
     url: https://github.com/mitmedialab/heartfelt-narratives-emnlp
     paper1: "HEART-felt Narratives: Tracing Empathy and Narrative Style in Personal Stories with LLMs"
@@ -44,14 +44,14 @@ datasets:
     paper_url1: https://aclanthology.org/2024.games-1.7/
     year: 2024
   -
-    name: SAGA
+    name: SAGA (Story Alternatives and Goal Applicability)
     info: annotated goals in stories from the perspective of the participant
     url: https://github.com/saiumbc/SAGA
     paper1: "SAGA: A Participant-specific Examination of Story Alternatives and Goal Applicability for a Deeper Understanding of Complex Events"
     paper_url1: https://aclanthology.org/2024.findings-acl.910/
     year: 2024
   -
-    name: CONCOCT
+    name: CONCOCT (CONCrete Outline ConTrol)
     url: https://github.com/YichenZW/Pacing
     info: long-form story generation
     hugging_face: https://huggingface.co/datasets/ZachW/GPT-BookSum
@@ -91,14 +91,14 @@ datasets:
     hugging_face: https://huggingface.co/datasets/lara-martin/FIREBALL       
 
   -
-    name: NEAT
+    name: NEAT (Narrative Elements AnnoTation)
     info: text annotated with narrative elements
     url: https://github.com/efle/NEAT
     paper1: "Detecting Narrative Elements in Informational Text"
     paper_url1: https://aclanthology.org/2022.findings-naacl.133/
     year: 2022
   -
-    name: POQue
+    name: POQue (Participant Outcome Questions)
     info: participant outcomes from events in stories
     url: https://github.com/saiumbc/POQue
     paper1: "POQue: Asking Participant-specific Outcome Questions for a Deeper Understanding of Complex Events"
@@ -120,7 +120,7 @@ datasets:
     hugging_face: https://huggingface.co/datasets/WorkInTheDark/FairytaleQA
     
   -
-    name: SYMON
+    name: SYMON (SYnopses of MOvie Narratives)
     info: movie synopses from video summaries
     url: https://github.com/insundaycathy/SYMON
     paper1: "Synopses of Movie Narratives: a Video-Language Dataset for Story Understanding"
@@ -172,7 +172,7 @@ datasets:
     url: https://github.com/mingdachen/SummScreen
     year: 2022 
   -
-    name: LiSCU
+    name: LiSCU (Literature Summary and Character Understanding)
     info: character descriptions, summaries, and names
     url: https://github.com/fabrahman/char-centric-story
     code: https://github.com/fabrahman/char-centric-story
@@ -188,7 +188,7 @@ datasets:
     code: https://github.com/roemmele/InSentive
     year: 2021
   -
-    name: ESTER
+    name: ESTER (Event Semantic Relation Reasoning)
     info: tagged events from news articles from the TempEval3(TE3) workshop
     url: https://eventqa.github.io/
     paper1: "ESTER: A Machine Reading Comprehension Dataset for Event Semantic Relation Reasoning"
@@ -222,7 +222,7 @@ datasets:
   -
     name: STORIUM
     info: storium.com (gamified storytelling)
-    url: https://storium.cs.umass.edu/
+    url: https://storium.com/
     paper1: "STORIUM: A Dataset and Evaluation Platform for Machine-in-the-Loop Story Generation"
     paper_url1: https://aclanthology.org/2020.emnlp-main.525/
     code: https://github.com/dojoteef/storium-gpt2
@@ -270,7 +270,7 @@ datasets:
     code: https://github.com/qkaren/Counterfactual-StoryRW
     year: 2019
   -
-    name: HPAC
+    name: HPAC (Harry Potter's Action prediction Corpus)
     url: https://github.com/aghie/hpac
     paper1: Harry Potter and the Action Prediction Challenge from Natural Language
     paper_url1: https://aclanthology.org/N19-1218/
@@ -335,7 +335,7 @@ datasets:
     paper_url1: https://www.aclweb.org/anthology/D16-1218/
     year: 2016     
   -
-    name: ROCStories
+    name: ROCStories (ROChester stories)
     info: 5-sentence crowdsourced stories for Story Cloze Test
     url: https://cs.rochester.edu/nlp/rocstories/
     paper1: "A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories"
@@ -345,7 +345,7 @@ datasets:
     leaderboard: https://competitions.codalab.org/competitions/15333
     year: 2016  
   -
-    name: CaTeRS
+    name: CaTeRS (Causal and Temporal Relation Scheme)
     info: Causal and temporal relations using ROC Stories
     url: https://cs.rochester.edu/nlp/rocstories/CaTeRS/
     paper1: "CaTeRS: Causal and Temporal Relation Scheme for Semantic Annotation of Event Structures"
@@ -407,19 +407,19 @@ datasets:
 #################
 vision:
   -
-    name: VP-CSV
+    name: VP-CSV (Visual Planning-based Character-centric Story Visualization)
     year: 2022
     paper1: "Character-centric Story Visualization via Visual Planning and Token Alignment"
     paper_url1: https://aclanthology.org/2022.emnlp-main.565/
-    url: https://github.com/PlusLabNLP/VP-CSV
+    url: 
     code: https://github.com/PlusLabNLP/VP-CSV
     info: 
   -
-    name: VLCStoryGan
+    name: VLC Story Gan
     year: 2021
     paper1: "Integrating Visuospatial, Linguistic, and Commonsense Structure into Story Visualization"
     paper_url1: https://aclanthology.org/2021.emnlp-main.543/
-    url: https://github.com/adymaharana/VLCStoryGan
+    url: 
     code: https://github.com/adymaharana/VLCStoryGan
     info:     
   -
@@ -437,7 +437,7 @@ vision:
     paper1: Knowledge-Enriched Visual Storytelling
     year: 2020
   -
-    name: Character-Preserving Coherent Story Visualization (CP-CSV)
+    name: CP-CSV (Character-Preserving Coherent Story Visualization)
     info: character-based story visualization
     url: https://github.com/basiclab/CPCStoryVisualization-Pytorch
     paper1: Character-Preserving Coherent Story Visualization
@@ -451,7 +451,7 @@ vision:
     paper1: "StoryGAN: A Sequential Conditional GAN for Story Visualization"
     year: 2019
   -
-    name: COIN
+    name: COIN (Omprehensive INstructional video analysis)
     url: https://coin-dataset.github.io
     info:
     paper1: "COIN: A Large-scale Dataset for Comprehensive Instructional Video Analysis"
@@ -554,11 +554,11 @@ eval:
     paper_url1: https://aclanthology.org/2023.findings-emnlp.353/
     year: 2023
   -
-    name: CoRRPUS
+    name: CoRRPUS (Code Representations to Reason & Prompt over for Understanding in Stories)
     info: story understanding with code-based prompting
     url: https://github.com/dong-river/CoRRPUS
     paper1: "CoRRPUS: Code-based Structured Prompting for Neurosymbolic Story Understanding"
-    paper_url1: https://arxiv.org/abs/2212.10754
+    paper_url1: https://aclanthology.org/2023.findings-acl.832/
     year: 2023
   -
     name: StoryER
@@ -576,7 +576,7 @@ eval:
     leaderboard: https://leaderboard.allenai.org/figurine/submissions/public
     year: 2022 
   -
-    name: CIS^2
+    name: CIS^2 (Contextual Commonsense Inference In Sentence Selection)
     info: commonsense reasoning in stories as a classification task
     url: https://github.com/manestay/cis2
     paper1: "CIS^2: A Simplified Commonsense Inference Evaluation for Story Prose"
@@ -590,9 +590,8 @@ eval:
     paper_url1: https://aclanthology.org/2021.naacl-main.343/
     year: 2021
   -
-    name: CARP
+    name: CARP (Contrastive Authoring and Reviewing Pairing)
     year: 2021
-    info: Contrastive Authoring and Reviewing Pairing
     paper1: "Cut the CARP: Fishing for zero-shot story evaluation"
     paper_url1: https://arxiv.org/abs/2110.03111
   -
@@ -603,13 +602,13 @@ eval:
     paper_url1: https://aclanthology.org/2021.naacl-main.279/
     year: 2021
   -
-    name: SuQA
+    name: SuQA (SUmmarizer-augmented Question Answering)
     paper_url1: https://aclanthology.org/2021.emnlp-main.490/
     url: https://github.com/StonyBrookNLP/suqa
     paper1: "Summarize-then-Answer: Generating Concise Explanations for Multi-hop Reading Comprehension"
     year: 2021    
   -
-    name: RoFT
+    name: RoFT (Real or Fake Text)
     paper1: "RoFT: A Tool for Evaluating Human Detection of Machine-Generated Text"
     paper_url1: https://aclanthology.org/2020.emnlp-demos.25/
     url: https://github.com/kirubarajan/roft
@@ -725,7 +724,7 @@ if:
     paper_url1: https://proceedings.neurips.cc/paper/2020/hash/569ff987c643b4bedf504efda8f786c2-Abstract.html
     year: 2020
   -
-    name: LIGHT
+    name: LIGHT (Learning in Interactive Games with Humans and Text)
     paper1: "Learning to Speak and Act in a Fantasy Text Adventure Game"
     paper_url1: https://aclanthology.org/D19-1062/
     url:  https://parl.ai/projects/light/
@@ -758,13 +757,13 @@ agents:
     paper1: "Learning to Play Text-Based Adventure Games with Maximum Entropy Reinforcement Learning"
     year: 2023
   -
-    name: Asking for Knowledge (AFK)
+    name: AFK (Asking for Knowledge)
     url: https://ioujenliu.github.io/AFK/
     paper1_url: https://proceedings.mlr.press/v162/liu22t.html
     paper1: "Asking for Knowledge: Training RL Agents to Query External Knowledge Using Language"
     year: 2022
   -
-    name: RC-DQN
+    name: MPRC-DQN (Multi-Paragraph Reading Comprehension DQN)
     url: https://github.com/XiaoxiaoGuo/rcdqn
     paper1: "Interactive Fiction Game Playing as Multi-Paragraph Reading Comprehension with Reinforcement Learning"
     paper_url1: https://aclanthology.org/2020.emnlp-main.624/
@@ -875,6 +874,7 @@ knowledge:
     paper1: "CultureBank: An Online Community-Driven Knowledge Base Towards Culturally Aware Language Technologies"
     paper_url: http://arxiv.org/abs/2404.15238
     year: 2024
+    hugging_face: https://huggingface.co/datasets/SALT-NLP/CultureBank
   -
     name: (Comet-) ATOMIC 2020
     url: https://github.com/allenai/comet-atomic-2020
@@ -883,14 +883,14 @@ knowledge:
     paper_url1: https://arxiv.org/abs/2010.05953
     year: 2021 
   -
-    name: SCRUPLES
+    name: SCRUPLES (Subreddit Corpus Requiring Understanding Principles in Life-like Ethical Situations)
     url: https://github.com/allenai/scruples
     info: ethical judgements
     paper1: "SCRUPLES: A Corpus of Community Ethical Judgments on 32,000 Real-life Anecdotes"
     paper_url1: https://ojs.aaai.org/index.php/AAAI/article/view/17589
     year: 2021    
   -
-    name: COLLIE-V
+    name: COLLIE-V (Comprehensive OntoLogy and Lexicon In English - Verb)
     info:
     url:
     paper1: A Broad-Coverage Deep Semantic Lexicon for Verbs
@@ -902,7 +902,7 @@ knowledge:
     info: Movie Rationales
     paper1: "ERASER: A Benchmark to Evaluate Rationalized NLP Models"
     paper_url1: https://aclanthology.org/2020.acl-main.408/
-    hugging_face: https://huggingface.co/datasets/movie_rationales
+    hugging_face: https://huggingface.co/datasets/eraser-benchmark/movie_rationales
     year: 2020    
   -
     name: GLUCOSE (GeneraLized and COntextualized Story Explanations)
@@ -920,7 +920,7 @@ knowledge:
     paper_url1: https://www.ijcai.org/proceedings/2020/0502.pdf
     year: 2020  
   -
-    name: PeKo
+    name: PeKo (Precondition Knowledge)
     url: https://github.com/StonyBrookNLP/PeKo
     info: event preconditions
     paper1: "Modeling Preconditions in Text with a Crowd-sourced Dataset"
@@ -983,9 +983,9 @@ knowledge:
     hugging_face: 
     year: 2005, 2018
   -
-    name: ECIpedia
+    name: ECIpedia (Elementary Composable Ideas -pedia)
     url: https://github.com/jgordon/ecipedia-usc
-    info: Elementary Composable Ideas from DARPA's Communicating with Computers program
+    info: ECIs from DARPA's Communicating with Computers program
     paper1: "Assembling the ECIpedia: Refining concepts in contex"
     paper_url1: http://www.cogsys.org/posters/2018/poster-2018-13.pdf
     year: 2018    
@@ -1005,7 +1005,7 @@ knowledge:
     hugging_face: https://huggingface.co/datasets/conceptnet5
     year: 2017    
   -
-    name: Open-SESAME
+    name: Open-SESAME (open-source SEmi-markov Softmax-margin ArguMEnt parser)
     url: https://github.com/swabhs/open-sesame
     info: FrameNet frame extraction with RNNs
     paper1: "Frame-Semantic Parsing with Softmax-Margin Segmental RNNs and a Syntactic Scaffold"
@@ -1036,7 +1036,7 @@ knowledge:
     paper_url1: https://ojs.aaai.org/index.php/ICWSM/article/view/14550
     year: 2014     
   -
-    name: NULEX
+    name: NU-LEX
     url: https://www.qrg.northwestern.edu/Resources/nulex.html
     info: combines WordNet, VerbNet, and Wiktionary
     paper1: "NULEX: An Open-License Broad Coverage Lexicon"
@@ -1083,14 +1083,14 @@ code:
     paper_url1: https://dl.acm.org/doi/10.1145/3544548.3581441
     url: https://github.com/DRAGNLabs/DRAGN-Town-Quests
   -
-    name: DOC
+    name: DOC (Detailed Outline Control)
     info: generate stories from outlines with OPT
     url: https://github.com/yangkevin2/doc-story-generation
     paper1: "DOC: Improving Long Story Coherence With Detailed Outline Control"
     paper_url1: https://arxiv.org/abs/2212.10077
     year: 2022
   -
-    name: Re^3
+    name: Re^3 (Recursive Reprompting and Revision)
     info: code to generate stories from premises with GPT-3
     url: https://github.com/yangkevin2/emnlp22-re3-story-generation
     paper1: "Re3: Generating Longer Stories With Recursive Reprompting and Revision"
@@ -1103,7 +1103,7 @@ code:
     paper_url1: https://aclanthology.org/2021.acl-long.395/
     year: 2021
   -
-    name: C2PO
+    name: C2PO (Causal, Commonsense Plot Ordering)
     url: https://github.com/rajammanabrolu/C2PO
     paper1: Automated Storytelling via Causal, Commonsense Plot Ordering
     paper_url1: https://ojs.aaai.org/index.php/AAAI/article/view/16733/

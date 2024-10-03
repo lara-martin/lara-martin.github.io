@@ -148,7 +148,7 @@ If you're looking for paper lists, you might be interested in <a href="https://a
 </div>
 </div>
 
-<h2> Mixed Visual & Textual Datasets </h2>
+<h2> Mixed Visual & Textual Datasets and Methods </h2>
 
 <div id="table-wrapper">
 <div id="table-scroll">
@@ -160,7 +160,7 @@ If you're looking for paper lists, you might be interested in <a href="https://a
       <th onclick="sortTable(2,'visual')" aria-label="sort by paper">Papers<div class="fa fa-fw fa-sort"/></th>
       <th onclick="sortTable(3,'visual')" aria-label="sort by paper code">Paper Code<div class="fa fa-fw fa-sort"/></th>
       <th onclick="sortTable(4,'visual')" aria-label="sort by hugging face link">Hugging Face Link<div class="fa fa-fw fa-sort"/></th>
-      <th onclick="sortTable(5,'visual')" aria-label="sort by leaderboard link">Leaderboard<div class="fa fa-fw fa-sort"/></th>
+      <!--<th onclick="sortTable(5,'visual')" aria-label="sort by leaderboard link">Leaderboard<div class="fa fa-fw fa-sort"/></th>-->
     </tr>
   </thead>
   <tbody>
@@ -202,11 +202,11 @@ If you're looking for paper lists, you might be interested in <a href="https://a
 	 <a href="{{dataset.hugging_face}}" aria-label="{{dataset.name}} Hugging Face repository">{{dataset.hugging_face}}</a>
 	 {% endif %}
 	</td>
-	<td>
+	<!--<td>
 	 {% if dataset.leaderboard %}
 	 <a href="{{dataset.leaderboard}}" aria-label="{{dataset.name}} leaderboard">{{dataset.leaderboard}}</a>
 	 {% endif %}
-	</td>
+	</td>-->
 	
 	
 	</tr>
@@ -226,7 +226,7 @@ If you're looking for paper lists, you might be interested in <a href="https://a
       <th onclick="sortTable(0,'tests')" aria-label="sort by name">Test<div class="fa fa-fw fa-sort"/></th>
       <th onclick="sortTable(1,'tests')" aria-label="sort by year">Year<div class="fa fa-fw fa-sort"/></th>
       <th onclick="sortTable(2,'tests')" aria-label="sort by paper">Papers<div class="fa fa-fw fa-sort"/></th>
-      <th onclick="sortTable(3,'tests')" aria-label="sort by leaderboard">Leaderboard<div class="fa fa-fw fa-sort"/></th>
+      <!--<th onclick="sortTable(3,'tests')" aria-label="sort by leaderboard">Leaderboard<div class="fa fa-fw fa-sort"/></th>-->
     </tr>
   </thead>
   <tbody>
@@ -258,11 +258,11 @@ If you're looking for paper lists, you might be interested in <a href="https://a
 	</td>
 	
 	
-	<td>
+	<!--<td>
 	 {% if dataset.leaderboard %}
 	 <a href="{{dataset.leaderboard}}" aria-label="{{dataset.name}} leaderboard">{{dataset.leaderboard}}</a>
 	 {% endif %}
-	</td>
+	</td>-->
 
 	
 	</tr>
