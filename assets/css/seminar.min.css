@@ -1234,7 +1234,7 @@ pre code {
 	}
 	.col-md-2-person {
 		flex: 0 0 16.66667%;
-		max-width: 16.66667%;
+		/*max-width: 16.66667%;*/
 		margin-top: 8px;
 		margin-left: 8px;
 /*		display: flex;

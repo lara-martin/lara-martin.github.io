@@ -13,12 +13,46 @@
 
 datasets:
   -
+    name: Anthology [To be released]
+    url: https://github.com/CannyLab/anthology
+    paper1: "Virtual Personas for Language Models via an Anthology of Backstories"
+    paper_url1: https://arxiv.org/abs/2407.06576
+    year: 2024
+  -
+    name: Quest-GPT-2
+    info: quests and descriptions from 6 RPGs
+    url: https://github.com/svartinen/gpt2-quest-descriptions
+    paper1: "Generating Role-Playing Game Quests With GPT Language Models"
+    paper_url1: https://ieeexplore.ieee.org/document/9980408
+    year: 2024
+  -
+    name: StorySeeker
+    info: finding stories in online communities
+    url: https://github.com/maria-antoniak/storyseeker
+    paper1: "Where Do People Tell Stories Online? Story Detection Across Online Communities"
+    paper_url1: https://arxiv.org/abs/2311.09675
+    year: 2024
+  -
+    name: MirrorStories
+    url: https://www.mirrorstories.me/
+    paper_url1: https://arxiv.org/abs/2409.13935
+    year: 2024
+    paper1: "MirrorStories: Reflecting Diversity through Personalized Narrative Generation with Large Language Models"
+  -
     name: EmoBench
     info: English and Chinese stories and LLM's judgments of emotional intelligence
     url: https://github.com/Sahandfer/EmoBench
     code: https://github.com/Sahandfer/EmoBench
     paper1: "EmoBench: Evaluating the Emotional Intelligence of Large Language Models"
     paper_url1: https://aclanthology.org/2024.acl-long.326/
+    year: 2024
+  -
+    name: STORYSUMM
+    info: faithful abstractive summarization of stories
+    url: https://github.com/melaniesubbiah/storysumm
+    code: https://github.com/melaniesubbiah/storysumm
+    paper1: "STORYSUMM: Evaluating Faithfulness in Story Summarization"
+    paper_url1: https://arxiv.org/abs/2407.06501
     year: 2024
   -
     name: Choice-75
@@ -44,12 +78,31 @@ datasets:
     paper_url1: https://aclanthology.org/2024.games-1.7/
     year: 2024
   -
+    name: STORiCo TTS
+    paper1: "STORiCo: Storytelling TTS for Hindi with Character Voice Modulation"
+    paper_url1: https://aclanthology.org/2024.eacl-short.37
+    hugging_face: https://huggingface.co/datasets/Pavankalyan/Hindi_story_telling
+    year: 2024
+    url: https://is2023.notion.site/STORICO-TTS-1c2b07c68d4b4062a72ee01633eecb48?pvs=4 
+    info: story TTS in Hindi
+    
+  -
     name: SAGA (Story Alternatives and Goal Applicability)
     info: annotated goals in stories from the perspective of the participant
     url: https://github.com/saiumbc/SAGA
     paper1: "SAGA: A Participant-specific Examination of Story Alternatives and Goal Applicability for a Deeper Understanding of Complex Events"
     paper_url1: https://aclanthology.org/2024.findings-acl.910/
     year: 2024
+  -
+    name: StoryNory TTS
+    hugging_face: https://huggingface.co/datasets/Pavankalyan/StoryNoryTTS
+    paper_url1: https://www.isca-archive.org/interspeech_2023/pavankalyan23_interspeech.html
+    paper1: "Narrator or Character: Voice Modulation in an Expressive Multi-speaker TTS"
+    year: 2023
+    url: https://github.com/tpavankalyan/Storynory
+    code: https://github.com/tpavankalyan/Storynory
+    info: expressive text-to-speech for storytelling
+    
   -
     name: CONCOCT (CONCrete Outline ConTrol)
     url: https://github.com/YichenZW/Pacing
@@ -328,6 +381,12 @@ datasets:
     info: "dialog from the Friends TV show & EmotionPush private chat logs"
     year: 2018
   -
+    name: "CNN/Daily Mail"
+    paper1: "Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond"
+    paper_url1: https://aclanthology.org/K16-1028/
+    url: https://github.com/abisee/cnn-dailymail
+    year: 2016
+  -
     name: FanFiction Archive
     info: fanfiction.net
     url: https://archive.org/details/fanfictiondotnet_repack
@@ -469,6 +528,7 @@ vision:
     paper_url1: https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_StoryGAN_A_Sequential_Conditional_GAN_for_Story_Visualization_CVPR_2019_paper.pdf
     paper1: "StoryGAN: A Sequential Conditional GAN for Story Visualization"
     leaderboard: https://paperswithcode.com/sota/story-visualization-on-pororo
+    hugging_face: https://huggingface.co/datasets/dhruvrnaik/pororo_storyviz
     year: 2019
   -
     name: WikiHow Summarization
@@ -529,6 +589,13 @@ vision:
         
 ####################
 eval:
+  -
+    name: HelloBench
+    info: long text generation benchmark
+    paper_url1: https://arxiv.org/abs/2409.16191
+    paper1: "HelloBench: Evaluating Long Text Generation Capabilities of Large Language Models"
+    year: 2024
+    url: https://github.com/Quehry/HelloBench
   -
     name: "Reflections & Resonance"
     info: multiple agents for automatic story annotation
@@ -697,6 +764,12 @@ scrapers:
 
 ###################
 if:
+  -
+    name: Word2World
+    paper1: "Word2World: Generating Stories and Worlds through Large Language Models"
+    paper_url1: https://arxiv.org/abs/2405.06686
+    year: 2024
+    url: https://github.com/umair-nasir14/Word2World
   -
     name: JerichoWorld
     info: Text-to-KG dataset
@@ -1069,6 +1142,20 @@ knowledge:
 
 ##################
 code:
+  -
+    name: IBSEN
+    info: director-actor agent collaboration
+    url: https://github.com/OpenDFM/ibsen
+    paper1: "IBSEN: Director-Actor Agent Collaboration for Controllable and Interactive Drama Script Generation"
+    paper_url1: https://aclanthology.org/2024.acl-long.88/
+    year: 2024
+    
+  -
+    name: Collaborative Comic Generation
+    url: https://github.com/RimiChen/Collaborative_Comic_Generation
+    paper1: "Collaborative Comic Generation: Integrating Visual Narrative Theories with AI Models for Enhanced Creativity"
+    paper_url1: https://arxiv.org/abs/2409.17263
+    year: 2024
   -
     name: LegalStories
     info: generating stories and questions about legal concepts
