@@ -36,11 +36,11 @@
 
 -
   name: Maxwell Hope
-  position: 
-  institute: U.S. Census Bureau
-  url: 
+  position: Data Scientist
+  institute: the U.S. Census Bureau
+  url: https://maxwell-hope.com/
   bio: "Maxwell Hope (he/they) recently earned a PhD from the University of Delaware, where his dissertation explored the creation, perception, and use of gender expansive synthetic voices. By day, they work at the U.S. Census Bureau, focusing on usability testing and data science; by night, they continue to conduct speech science research, deeply rooted in community-driven principles. They have three cats: Hoagie, Helena and Hensley."
-  img: 
+  img: assets/img/maxwell-hope.png
   talk_title: "Expanding Voices: Nonbinary Representation in Speech-Generating Devices"
   abstract: "Synthetic voices used by Speech-Generating Device (SGD) users are predominantly shaped by binary gender norms, limiting the representation of nonbinary individuals. This talk begins by exploring the current landscape of gender in synthetic voices and nonbinary vocal characteristics, revealing how existing models, trained on cisgender male and female speech, fail to authentically represent nonbinary identities. I will then present a case study of a nonbinary SGD user who used three synthetic voices constructed from gender expansive speakers over the course of a week, documenting their experiences in daily journal entries. Finally, I’ll examine the impact of inclusive voice design and community-informed research on identity affirmation and communication efficacy, drawing from the case study’s findings. These insights underscore the critical need for gender expansive synthetic voices that prioritize both gender affirmation and expressiveness, with far-reaching implications for voice technology and user engagement."
   host: Lara J. Martin
