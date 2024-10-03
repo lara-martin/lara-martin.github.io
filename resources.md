@@ -711,36 +711,6 @@ If you're looking for paper lists, you might be interested in <a href="https://a
 
 
 
-<h3>Tutorials </h3>
-<div id="table-wrapper">
-<div id="table-scroll">
-<table id="tutorials">
-  <thead>
-    <tr>
-      <th onclick="sortTable(0,'tutorials')">Tutorial<div class="fa fa-fw fa-sort"/></th> 
-    </tr>
-  </thead>
-  <tbody>
-
-
-{% for dataset in site.data.resources.tutorials %}
-	<tr>
-	<td>
-	 {% if dataset.url %}
-	 <a href="{{dataset.url}}" aria-label="{{dataset.name}} website">{{dataset.name}}</a> {% if dataset.info %} - {{dataset.info}} {% endif %}
-	 {% else %}
-	 {{dataset.name}} {% if dataset.info %} - {{dataset.info}} {% endif %}
-	 {% endif %}
-	 {% if dataset.year %}({{dataset.year}}){% endif %}
-	</td>
-	
-	</tr>
-{% endfor %}
-</tbody>
-</table>
-</div>
-</div>
-
 
 <h3>RPG/IF Inspiration</h3>
 <div id="table-wrapper">

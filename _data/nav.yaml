@@ -38,10 +38,7 @@ extra:
     text: "Programming Languages & Authoring Tools for Writing Interactive Fiction"
   -
     link: "#notable"
-    text: Notable IF Games
-  -
-    link: "#tutorials"
-    text: Tutorials    
+    text: Notable IF Games  
   -
     link: "#inspo"
     text: RPG/IF Inspiration
