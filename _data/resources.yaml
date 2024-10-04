@@ -438,7 +438,7 @@ datasets:
     paper2: "Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks"
     paper_url2: https://arxiv.org/abs/1502.05698
     code: https://github.com/facebookarchive/bAbI-tasks
-    hugging_face:https://huggingface.co/datasets/facebook/babi_qa
+    hugging_face: https://huggingface.co/datasets/facebook/babi_qa
     year: 2015       
   -
     name: MCTest
@@ -994,7 +994,7 @@ knowledge:
     paper1: Connotation Frames of Power and Agency in Modern Films
     paper_url1: https://aclanthology.org/D17-1247/
     paper2: "Riveter: Measuring Power and Social Dynamics Between Entities"
-    paper_url1: https://aclanthology.org/2023.acl-demo.36/
+    paper_url2: https://aclanthology.org/2023.acl-demo.36/
     year: 2023    
   -
     name: (Comet-) ATOMIC 2020
