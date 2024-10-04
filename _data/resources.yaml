@@ -1421,9 +1421,11 @@ notable:
    url: https://github.com/jd7h/nlg-games
  -
    name: Agence
-   url: https://www.agence.ai/
+   url: https://www.transforms.ai/agence
    author1: Transitional Forms
    author_url1: https://transforms.ai/
+   paper1: "Agence: a dynamic film exploring multi-agent systems and human agency"
+   paper_url1: https://www.deepmind.com/publications/agence-an-interactive-film-exploring-multi-agent-systems-and-human-agency
    year: 2020
  -
    name: Hammurabi
