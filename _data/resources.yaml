@@ -72,7 +72,7 @@ datasets:
   -
     name: DnD Spells
     info: structured information for Dungeons and Dragons spells
-    url: https://github.com/m-elio/spell_generation
+    url: https://www.kaggle.com/datasets/mrpantherson/dndspells
     code: https://github.com/m-elio/spell_generation
     paper1: "Leveraging Large Language Models for Spell-Generation in Dungeons & Dragons"
     paper_url1: https://aclanthology.org/2024.games-1.7/
@@ -181,8 +181,8 @@ datasets:
     year: 2022
   -
     name: TVShowGuess
-    url: https://github.com/mingdachen/SummScreen
-    code: https://github.com/mingdachen/SummScreen
+    url: https://github.com/YisiSang/TVSHOWGUESS/tree/main/dataset
+    code: https://github.com/YisiSang/TVSHOWGUESS
     paper1: "TVShowGuess: Character Comprehension in Stories as Speaker Guessing"
     paper_url1: https://aclanthology.org/2022.naacl-main.317/
     year: 2022 
@@ -223,6 +223,7 @@ datasets:
     paper1: "SummScreen: A Dataset for Abstractive Screenplay Summarization"
     paper_url1: https://aclanthology.org/2022.acl-long.589/
     url: https://github.com/mingdachen/SummScreen
+    code: https://github.com/mingdachen/SummScreen
     year: 2022 
   -
     name: LiSCU (Literature Summary and Character Understanding)
@@ -322,6 +323,7 @@ datasets:
     paper_url1: https://aclanthology.org/D19-1509/
     code: https://github.com/qkaren/Counterfactual-StoryRW
     year: 2019
+    hugging_face: https://huggingface.co/datasets/wza/TimeTravel
   -
     name: HPAC (Harry Potter's Action prediction Corpus)
     url: https://github.com/aghie/hpac
@@ -339,6 +341,7 @@ datasets:
     info: reading comprehension
     leaderboard: https://worksheets.codalab.org/worksheets/0x8212d84ca41c4150b555a075b19ccc05/
     year: 2018
+    hugging_face: https://huggingface.co/datasets/rajpurkar/squad_v2
   -
     name: WritingPrompts
     info: r/WritingPrompts
@@ -363,7 +366,7 @@ datasets:
     paper1: The NarrativeQA Reading Comprehension Challenge
     paper_url1: https://aclanthology.org/Q18-1023/
     code: https://github.com/google-deepmind/narrativeqa
-    hugging_face: https://huggingface.co/datasets/narrativeqa
+    hugging_face: https://huggingface.co/datasets/deepmind/narrativeqa
     leaderboard: https://paperswithcode.com/sota/question-answering-on-narrativeqa
     year: 2018
   -
@@ -381,11 +384,21 @@ datasets:
     info: "dialog from the Friends TV show & EmotionPush private chat logs"
     year: 2018
   -
+    name: RACE (ReAding Comprehension dataset from Examinations)
+    paper1: "RACE: Large-scale ReAding Comprehension Dataset From Examinations"
+    paper_url1: https://aclanthology.org/D17-1082/
+    year: 2017
+    url: http://www.cs.cmu.edu/~glai1/data/race/
+    code: https://github.com/qizhex/RACE_AR_baselines
+    hugging_face: https://huggingface.co/datasets/ehovy/race
+    
+  -
     name: "CNN/Daily Mail"
     paper1: "Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond"
     paper_url1: https://aclanthology.org/K16-1028/
     url: https://github.com/abisee/cnn-dailymail
     year: 2016
+    hugging_face: https://huggingface.co/datasets/abisee/cnn_dailymail
   -
     name: FanFiction Archive
     info: fanfiction.net
@@ -425,6 +438,7 @@ datasets:
     paper2: "Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks"
     paper_url2: https://arxiv.org/abs/1502.05698
     code: https://github.com/facebookarchive/bAbI-tasks
+    hugging_face:https://huggingface.co/datasets/facebook/babi_qa
     year: 2015       
   -
     name: MCTest
@@ -474,7 +488,7 @@ vision:
     code: https://github.com/PlusLabNLP/VP-CSV
     info: 
   -
-    name: VLC Story Gan
+    name: VLC Story GAN
     year: 2021
     paper1: "Integrating Visuospatial, Linguistic, and Commonsense Structure into Story Visualization"
     paper_url1: https://aclanthology.org/2021.emnlp-main.543/
@@ -510,13 +524,11 @@ vision:
     paper1: "StoryGAN: A Sequential Conditional GAN for Story Visualization"
     year: 2019
   -
-    name: COIN (Omprehensive INstructional video analysis)
+    name: COIN (COmprehensive INstructional video analysis)
     url: https://coin-dataset.github.io
     info:
     paper1: "COIN: A Large-scale Dataset for Comprehensive Instructional Video Analysis"
     paper_url1: https://openaccess.thecvf.com/content_CVPR_2019/papers/Tang_COIN_A_Large-Scale_Dataset_for_Comprehensive_Instructional_Video_Analysis_CVPR_2019_paper.pdf
-    paper2:
-    paper_url2:
     code: https://github.com/coin-dataset 
     hugging_face:
     leaderboard:
@@ -590,6 +602,19 @@ vision:
 ####################
 eval:
   -
+    name: MiniCheck
+    info: looks up facts across datasets
+    paper1: "MiniCheck: Efficient Fact-Checking of LLMs on Grounding Documents"
+    paper_url1: https://arxiv.org/abs/2404.10774
+    year: 2024
+    url: https://github.com/Liyan06/MiniCheck
+  -
+    name: FABLES (Faithfulness Annotations for Book-LEngth Summarization)
+    paper1: "FABLES: Evaluating faithfulness and content selection in book-length summarization"
+    paper_url1: https://arxiv.org/abs/2404.01261
+    year: 2024
+    url: https://github.com/mungg/FABLES
+  -
     name: HelloBench
     info: long text generation benchmark
     paper_url1: https://arxiv.org/abs/2409.16191
@@ -609,7 +634,15 @@ eval:
     paper1: "Do Language Models Enjoy Their Own Stories? Prompting Large Language Models for Automatic Story Evaluation"
     year: 2024
   -
+    name: AlignScore
+    info: factual consistency
+    paper1: "AlignScore: Evaluating Factual Consistency with A Unified Alignment Function"
+    paper_url1: https://aclanthology.org/2023.acl-long.634/
+    year: 2023
+    url: https://github.com/yuh-zha/AlignScore
+  -
     name: Authorial Leverage
+    info: (quality x variations x control) / authorial effort
     paper_url1: https://www.kmjn.org/publications/AuthorialLeverage_In2Writing23.pdf
     year: 2023
     paper1: "Towards an Authorial Leverage Evaluation Framework for Expressive Benefits of Deep Generative Models in Story Writing"
@@ -627,6 +660,12 @@ eval:
     paper1: "CoRRPUS: Code-based Structured Prompting for Neurosymbolic Story Understanding"
     paper_url1: https://aclanthology.org/2023.findings-acl.832/
     year: 2023
+  -
+    name: UniEval
+    paper1: Towards a Unified Multi-Dimensional Evaluator for Text Generation
+    paper_url1: https://aclanthology.org/2022.emnlp-main.131/
+    year: 2022
+    url: https://github.com/maszhongming/UniEval
   -
     name: StoryER
     info: "breaking story evaluation into 3 steps: ranking, rating, reasoning"
@@ -664,7 +703,7 @@ eval:
   -
     name: Choose Your Own Adventure Evaluation
     url: https://github.com/eaclark07/cyoa
-    info:
+    info: pairwise model human evaluation
     paper1: "Choose Your Own Adventure: Paired Suggestions in Collaborative Writing for Evaluating Story Generation Models"
     paper_url1: https://aclanthology.org/2021.naacl-main.279/
     year: 2021
@@ -947,7 +986,16 @@ knowledge:
     paper1: "CultureBank: An Online Community-Driven Knowledge Base Towards Culturally Aware Language Technologies"
     paper_url: http://arxiv.org/abs/2404.15238
     year: 2024
-    hugging_face: https://huggingface.co/datasets/SALT-NLP/CultureBank
+    hugging_face: https://huggingface.co/collections/SALT-NLP/culturebank-6626ee7dcd54f5fffb6769fe
+  -
+    name: Riveter 💪
+    url: https://github.com/maartensap/riveter-nlp
+    info: extract connotation frames
+    paper1: Connotation Frames of Power and Agency in Modern Films
+    paper_url1: https://aclanthology.org/D17-1247/
+    paper2: "Riveter: Measuring Power and Social Dynamics Between Entities"
+    paper_url1: https://aclanthology.org/2023.acl-demo.36/
+    year: 2023    
   -
     name: (Comet-) ATOMIC 2020
     url: https://github.com/allenai/comet-atomic-2020
@@ -965,7 +1013,7 @@ knowledge:
   -
     name: COLLIE-V (Comprehensive OntoLogy and Lexicon In English - Verb)
     info:
-    url:
+    url: https://tripslab.github.io
     paper1: A Broad-Coverage Deep Semantic Lexicon for Verbs
     paper_url1: https://aclanthology.org/2020.lrec-1.396/
     year: 2020
@@ -1004,11 +1052,12 @@ knowledge:
     url: https://maxwellforbes.com/social-chemistry/
     paper1: "Social Chemistry 101: Learning to Reason about Social and Moral Norms"
     paper_url1: https://aclanthology.org/2020.emnlp-main.48/
+    code: https://github.com/mbforbes/social-chemistry-101
     year: 2020       
   -
     name: ATOMIC (ATlas Of MachIne Commonsense)
     url: https://homes.cs.washington.edu/~msap/atomic/
-    info:
+    info: social commonsense reasoning
     paper1: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning"
     paper_url1: https://homes.cs.washington.edu/~msap/pdfs/sap2019atomic.pdf
     hugging_face: https://huggingface.co/datasets/atomic
@@ -1044,6 +1093,7 @@ knowledge:
     info: NLI from video captions
     code: https://github.com/rowanz/swagaf
     paper_url1: https://aclanthology.org/D18-1009/
+    hugging_face: https://huggingface.co/datasets/allenai/swag
     year: 2018           
   -
     name: VerbNet
@@ -1056,23 +1106,16 @@ knowledge:
     hugging_face: 
     year: 2005, 2018
   -
-    name: ECIpedia (Elementary Composable Ideas -pedia)
+    name: ECIpedia (Elementary Composable Ideas)
     url: https://github.com/jgordon/ecipedia-usc
     info: ECIs from DARPA's Communicating with Computers program
     paper1: "Assembling the ECIpedia: Refining concepts in contex"
     paper_url1: http://www.cogsys.org/posters/2018/poster-2018-13.pdf
     year: 2018    
   -
-    name: Power and Agency in modern films
-    url: https://homes.cs.washington.edu/~msap/movie-bias/
-    info:
-    paper1: Connotation Frames of Power and Agency in Modern Films
-    paper_url1: https://aclanthology.org/D17-1247/
-    year: 2017    
-  -
     name: ConceptNet 5
     url: https://conceptnet.io/
-    info:
+    info: 
     paper1: "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge"
     paper_url1: https://dl.acm.org/doi/10.5555/3298023.3298212
     hugging_face: https://huggingface.co/datasets/conceptnet5
@@ -1096,9 +1139,9 @@ knowledge:
     hugging_face: https://paperswithcode.com/dataset/framenet
     year: 1997, 2016
   -
-    name: The NOC List
+    name: The NOC (Non-Official Characterization) List
     url: https://github.com/prosecconetwork/The-NOC-List
-    info:
+    info: pop culture knowledge
     paper1: "Round Up The Usual Suspects: Knowledge-Based Metaphor Generation"
     paper_url1: https://aclanthology.org/W16-1105/
     year: 2016   
@@ -1118,7 +1161,7 @@ knowledge:
   -
     name: WordNet
     url: https://wordnet.princeton.edu/
-    info:
+    info: hierarchical dictionary
     paper1: "WordNet: An Electronic Lexical Database"
     paper_url1: https://mitpress.mit.edu/books/wordnet
     year: 1985, 1998, 2005
