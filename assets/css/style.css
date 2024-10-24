@@ -9869,6 +9869,7 @@ h6,
 	.position-absolute {
 	  text-align: center;
 	  font-size: 25px;
+	  width: 100%;
 	}
 	h3 {
 		font-size: calc(1rem + 0.6vw);
