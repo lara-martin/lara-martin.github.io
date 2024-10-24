@@ -9874,8 +9874,8 @@ h6,
 	h3 {
 		font-size: calc(1rem + 0.6vw);
 	}
-	.py-5 {
-		padding-bottom: 3rem !important;
+	.py-5, .pt-5{
+		padding-top: 0rem !important;
 	}
 }
 
