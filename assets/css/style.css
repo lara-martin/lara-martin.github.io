@@ -9857,6 +9857,7 @@ h6,
 -webkit-text-stroke: 2px #ffffff;
 }
 
+/** phone time **/
 @media (max-width: 500px) {
 	.typed-cursor {
 	  font-size: 20px;
@@ -9892,6 +9893,10 @@ h6,
 	}
 	.mb-4, .my-4 {
 		margin-bottom: 0rem !important;
+	}
+	.video-container iframe {
+		width: 250px;
+		height: 150px;
 	}
 }
 
@@ -10363,9 +10368,4 @@ mark {
 		background: #850085;
 	}
 	
-@media (max-width: 400px) {
-	.video-container iframe {
-		width: 250px;
-		height: 150px;
-	}
-}
+
