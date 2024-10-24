@@ -68,9 +68,6 @@ layout: default
 	I run the <a href="./lab/">LARA Lab</a> and am a member of the <a href="http://iral.cs.umbc.edu/">Interactive Robotics and Language Lab (IRAL)</a>. My pronouns are <a aria-label="How to use she/they pronouns" href="https://en.pronouns.page/she&they">she/they</a>.
 
 		
-            <div  class="pt-5">
-            <h5 style="text-transform:none; ">Quick Links</h5>
-            </div>
             <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
             <br>
                 <a aria-label="Lara&#39;s CV" href="https://github.com/lara-martin/CV/raw/main/LaraMartinCV.pdf" class="btn btn-outline-light mr-5"> CV</a>
@@ -270,7 +267,7 @@ layout: default
 <div class="container">
     <div class="position-relative d-flex align-items-center justify-content-center">
         <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Media</h1>
-        <h1 class="position-absolute text-uppercase text-primary">Select Media</h1>
+        <h1 class="position-absolute text-uppercase text-primary">Media</h1>
     </div>
     <div class="row pb-3">
 	{% for m in site.data.media %}
