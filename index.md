@@ -296,7 +296,7 @@ layout: default
 
 		<h3>{{talk.date | date: '%-m/%-d/%Y'}} - {{talk.venue}}</h3>
 		<div class="content video" id="{{ talk.id }}"><div class="video-container">
-			<iframe aria-label="{{talk.venue}}" width="560" height="315" src="{{talk.link}}" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+			<iframe aria-label="{{talk.venue}}" src="{{talk.link}}" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 			
 
 		</div></div>

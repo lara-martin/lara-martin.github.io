@@ -9895,9 +9895,14 @@ h6,
 		margin-bottom: 0rem !important;
 	}
 	.video-container iframe {
-		width: 250px;
-		height: 150px;
+		width: 250px !important;
+		height: 150px !important;
 	}
+}
+
+iframe {
+	width: 560px;
+	height: 315px;
 }
 
 .btn-play {
