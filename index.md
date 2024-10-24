@@ -49,7 +49,7 @@ layout: default
             <img class="img-fluid w-100 rounded-circle shadow-sm" src="assets/img/lara2022.jpg" alt="Picture of Lara with purple asymmetric hair, dangly earrings, and a blue/maroon striped dress">
         </div>
         <div class="col-lg-7 text-center text-lg-left">
-            <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Lara J. Martin, PhD</h1>
+            <h1 class="display-3 text-uppercase text-primary mb-2 name-header">Lara J. Martin, PhD</h1>
 
             
            
@@ -79,7 +79,6 @@ layout: default
                 <a aria-label="interactive fiction and story generation resource list" href="/resources.html" class="btn btn-outline-light mr-5"> Interactive Fiction and Story Generation Resources</a>               
             </div>
             <br>
-            <p>I put a lot of care into this website, so please let me know if something is inaccessible to you or broken in general.</p>
         </div>
         
     </div>
@@ -245,7 +244,7 @@ layout: default
         <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Teaching</h1>
         <h1 class="position-absolute text-uppercase text-primary">Teaching</h1>
     </div>
-    <center>I have a <a aria-label="Tech to Teaching" href="https://ctl.gatech.edu/content/tech-teaching-0">teaching certificate</a> from Georgia Tech, Summer 2018.</center>
+    <center>I have a <a aria-label="Tech to Teaching" href="https://ctl.gatech.edu/tech-teaching">teaching certificate</a> from Georgia Tech, Summer 2018.</center>
     <br>
     <div class="row pb-3">
 	{% for m in site.data.teaching %}
