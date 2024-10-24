@@ -58,7 +58,7 @@ layout: default
             <br>
             <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
             <div class="typed-text d-none">Human-Centered AI, Applied NLP, Neurosymbolic Methods, Automated Story Generation, AAC, Dungeons and Dragons AI</div>
-            <h1 class="d-inline font-weight-lighter text-white"> Researcher</h1>
+            <h1 class="d-inline font-weight-lighter text-white post-typed"> Researcher</h1>
             
         <h5 style="text-transform:none;"><a href="http://ipa-reader.xyz/?text=l%C9%91%C9%B9.%C9%99&voice=Joanna" aria-label="hear how Lara is said">How to say Lara <i class="fa-solid fa-volume-high"></i></a></h5>
         I make systems that improve how people talk <em>with</em> computers and to each other <em>through</em> computers.
@@ -177,7 +177,7 @@ layout: default
 <div class="container">
     <div class="position-relative d-flex align-items-center justify-content-center">
         <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Biography</h1>
-        <h1 class="position-absolute text-uppercase text-primary">Bio</h1>
+        <h1 class="position-absolute text-uppercase text-primary">Biography</h1>
     </div>
     
 	
@@ -292,7 +292,7 @@ layout: default
 <div class="container">
     <div class="position-relative d-flex align-items-center justify-content-center">
         <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Talks</h1>
-        <h1 class="position-absolute text-uppercase text-primary">Recorded Talks</h1>
+        <h1 class="position-absolute text-uppercase text-primary">Talks</h1>
     </div>
     <div class="row">
     {% for talk in site.data.talks %}
@@ -321,7 +321,7 @@ layout: default
 <div class="container">
     <div class="position-relative d-flex align-items-center justify-content-center">
         <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Blog</h1>
-        <h1 class="position-absolute text-uppercase text-primary">Latest Blog</h1>
+        <h1 class="position-absolute text-uppercase text-primary">Blog</h1>
     </div>
     <div class="row">
         
