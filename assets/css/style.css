@@ -6814,6 +6814,7 @@ button.bg-dark:focus {
   border: 0;
 }
 
+
 .embed-responsive-21by9::before {
   padding-top: 42.85714%;
 }
@@ -9852,6 +9853,15 @@ h6,
   color: #ffffff;
 }
 
+@media (max-width: 400px) {
+	.typed-cursor {
+	  font-size: 45px;
+	}
+	.typed-text-output {
+	  font-size: 15px;
+	}
+}
+
 .btn-play {
   position: relative;
   display: block;
@@ -10320,4 +10330,9 @@ mark {
 		background: #850085;
 	}
 	
-
+@media (max-width: 400px) {
+	.video-container iframe {
+		width: 250px;
+		height: 150px;
+	}
+}
