@@ -13,6 +13,13 @@
 
 datasets:
   -
+    name: StoryPerceptions
+    info: crowd annotations of narratives in social media posts
+    url: https://github.com/joel-mire/story-perceptions
+    paper1: "The Empirical Variability of Narrative Perceptions of Social Media Texts"
+    paper_url1: 
+    year: 2024
+  -
     name: Anthology [To be released]
     url: https://github.com/CannyLab/anthology
     paper1: "Virtual Personas for Language Models via an Anthology of Backstories"
