@@ -71,6 +71,8 @@ If you want me to add or update anything on any of these lists, please let me kn
 Note: This is not a list of papers in the field, but rather a list of corpora &amp; code and their corresponding papers if they have it.
 <br>
 If you're looking for paper lists, you might be interested in <a href="https://arnicas.github.io/text-gen-arxiv-papers/" aria-label="list of text generation papers from arXiv">@arnicas's list of text generation papers found on arXiv</a>, <a href="http://cs.uky.edu/~sgware/reading/" aria-label="NIL reading list"> Stephen Ware's Narrative Intelligence Lab reading list</a>, or <a href="https://github.com/THUNLP-MT/TG-Reading-List" aria-text="Tsinghua Natural Language Processing Group's text generation list">the Tsinghua Natural Language Processing Group's text generation list</a>.
+<br>
+You might also be interested in <a href="https://cognitiveai.org/" aria-label="Peter Jansen's homepage">Peter Jansen</a>, <a href="https://www.microsoft.com/en-us/research/people/macote/" aria-label="Marc-Alexandre Côté's page on Microsoft">Marc-Alexandre Côté</a>, and <a href="https://prithvirajva.com/" aria-label="Prithviraj Ammanabrolu's homepage">Prithviraj Ammanabrolu</a>'s <a href="https://www.textgames.org/" aria-label="Text Game Research List">Interactive Virtual Environments</a> list.
 </p>
 
 </p>
