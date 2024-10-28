@@ -19,12 +19,12 @@ datasets:
     paper1: "The Empirical Variability of Narrative Perceptions of Social Media Texts"
     paper_url1: 
     year: 2024
-  -
-    name: Anthology [To be released]
-    url: https://github.com/CannyLab/anthology
-    paper1: "Virtual Personas for Language Models via an Anthology of Backstories"
-    paper_url1: https://arxiv.org/abs/2407.06576
-    year: 2024
+#  -
+#    name: Anthology [To be released]
+#    url: https://github.com/CannyLab/anthology
+#    paper1: "Virtual Personas for Language Models via an Anthology of Backstories"
+#    paper_url1: https://arxiv.org/abs/2407.06576
+#    year: 2024
   -
     name: Quest-GPT-2
     info: quests and descriptions from 6 RPGs
@@ -843,6 +843,13 @@ if:
     paper_url1: https://proceedings.neurips.cc/paper/2020/hash/569ff987c643b4bedf504efda8f786c2-Abstract.html
     year: 2020
   -
+    name: Camelot
+    url: http://cs.uky.edu/~sgware/projects/camelot/
+    paper1: "Camelot: a modular customizable sandbox for visualizing interactive narratives"
+    paper_url1: https://ceur-ws.org/Vol-2862/paper23.pdf
+    info: visualizing IF with 3D models
+    year: 2020
+  -
     name: LIGHT (Learning in Interactive Games with Humans and Text)
     paper1: "Learning to Speak and Act in a Fantasy Text Adventure Game"
     paper_url1: https://aclanthology.org/D19-1062/
@@ -1219,6 +1226,13 @@ code:
     paper1: "Personalized Quest and Dialogue Generation in Role-Playing Games: A Knowledge Graph- and Language Model-based Approach"
     paper_url1: https://dl.acm.org/doi/10.1145/3544548.3581441
     url: https://github.com/DRAGNLabs/DRAGN-Town-Quests
+  -
+    name: ConPer
+    info: personality-focused characters in stories
+    url: https://github.com/thu-coai/conper
+    paper1: "Persona-Guided Planning for Controlling the Protagonist’s Persona in Story Generation"
+    paper_url1: https://aclanthology.org/2022.naacl-main.245/
+    year: 2022
   -
     name: DOC (Detailed Outline Control)
     info: generate stories from outlines with OPT
