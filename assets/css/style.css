@@ -446,6 +446,7 @@ h6, .h6 {
   font-size: 10rem;
   font-weight: 300;
   line-height: 1.2;
+  text-align: center;
 }
 
 @media (max-width: 1200px) {
@@ -10373,4 +10374,6 @@ mark {
 		background: #850085;
 	}
 	
-
+.outside-link {
+	background: #B6E0F2;
+}
