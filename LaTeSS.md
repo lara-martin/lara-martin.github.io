@@ -98,7 +98,8 @@ UMBC's Language Technology Seminar Series (LaTeSS &ndash; pronounced lattice) sh
 
 
 <div class="col-md-12 mb-3" style="font-size:16px;font-family: Lato, Helvetica, arial, sans-serif;">
-{% for talk in site.data.seminar %}
+{% assign reversed = site.data.seminar | reverse %}
+{% for talk in reversed %}
 {% capture talk_date %}{{talk.date | date: '%s'}}{% endcapture %}
 {% if talk_date < now %}
   <hr/>
