@@ -61,6 +61,7 @@ layout: default
             <h1 class="d-inline font-weight-lighter text-white post-typed"> Researcher</h1>
             
         <h5 style="text-transform:none;"><a href="http://ipa-reader.xyz/?text=l%C9%91%C9%B9.%C9%99&voice=Joanna" aria-label="hear how Lara is said">How to say Lara <i class="fa-solid fa-volume-high"></i></a></h5>
+        <a href="https://elections.maryland.gov/voting/index.html" aria-label="how to vote in Maryland"><img src="https://elections.maryland.gov/elections/2024/MD%20I%20Voted%20Sticker%203.png" width="20%"></a><br>
         I make systems that improve how people talk <em>with</em> computers and to each other <em>through</em> computers.
         Most of my career so far has been teaching computers how to tell stories (also known as automated story generation) and working my way towards an <a href="https://www.wired.com/story/forget-chess-real-challenge-teaching-ai-play-dandd/" aria-label="Wired article on Lara's work about teaching AI to play D\&D">AI Dungeon Master</a>.
         I am also currently working on <a href="https://arxiv.org/abs/2404.17730" aria-label="my AAC paper interviewing autistic adults">Augmentative and Alternative Communication (AAC)</a> and speech technologies.
