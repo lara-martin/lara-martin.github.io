@@ -57,10 +57,10 @@
   position: PhD Student
   institute: McGill University
   url: https://www.linkedin.com/in/peiqi-sui-4ba977282
-  bio: 
-  img: 
+  bio: "Patrick Sui is a second-year PhD student in English at McGill University, advised by Richard Jean So. He mainly works in digital humanities & cultural analytics, and spends most of his time thinking about how literary studies could uniquely contribute to AI research about language. His current research topics include benchmarks for close reading & interpretive reasoning, modeling close reading behaviors with information theory, knowledge-grounded style transfer for co-creative systems, AI literacy & writing pedagogy, and all kinds of computational literary theory."
+  img: Patrick_Sui.jpg
   talk_title: "Confabulation: What Could LLM Hallucinations Do For Storytelling?"
-  abstract: 
+  abstract: "Are hallucinations always bad? Most of NLP research presumes a normative stance that they are, but it overlooks the cognitive and communicative affordances of a type of particularly story-like hallucinations (which we'll call confabulations). Consider two general categories of LLM applications: using them as tools, or interacting with them as viable cultural agents. The two have very different training objectives in terms of the tradeoff between factuality and alignment with the human behavior of storytelling, and when it comes to ensuring the latter, LLMs that could effectively confabulate would be especially useful. For instance, confabulations could enable LLMs to perform speculative narration and address omissions in history resulting from social injustice, in the hope of enacting what literary theorist Saidiya Hartman calls "critical fabulation" at scale, and giving interactive storytelling a wider social impact."
   host: Lara J. Martin
   host_url: https://laramartin.net
   date: 14-11-2024
