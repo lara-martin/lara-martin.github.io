@@ -53,10 +53,10 @@
   recording: https://umbc.webex.com/umbc/ldr.php?RCID=cc1fedcac2f7c60a1bf6d1dd2fab79e2
   
 -
-  name: Peiqi "Patrick" Sui
+  name: Peiqi 'Patrick' Sui
   position: PhD Student
   institute: McGill University
-  url: https://www.linkedin.com/in/peiqi-sui-4ba977282
+  url: https://patrick-sui.github.io/
   bio: "Patrick Sui is a second-year PhD student in English at McGill University, advised by Richard Jean So. He mainly works in digital humanities & cultural analytics, and spends most of his time thinking about how literary studies could uniquely contribute to AI research about language. His current research topics include benchmarks for close reading & interpretive reasoning, modeling close reading behaviors with information theory, knowledge-grounded style transfer for co-creative systems, AI literacy & writing pedagogy, and all kinds of computational literary theory."
   img: Patrick_Sui.jpg
   talk_title: "Confabulation: What Could LLM Hallucinations Do For Storytelling?"
