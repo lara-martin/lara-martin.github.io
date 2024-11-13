@@ -69,3 +69,21 @@
   web: https://umbc.webex.com/meet/laramar
   rsvp: https://my3.my.umbc.edu/groups/langtech/events/136093
   recording: 
+  
+-
+  name: "Stephanie Valencia²"
+  position: Assistant Professor
+  institute: the University of Maryland, College Park
+  url: https://stephanie-valencia.com/
+  bio: "Dr. Valencia² is dedicated to promoting equitable access to assistive technologies (AT), advocating for open-source hardware, and championing the inclusion of underrepresented groups in technology design and development. Dr. Valencia²’s research endeavors are centered on elevating user agency, accessibility, and enjoyment. Employing participatory design methodologies, she has explored the integration of diverse design elements such as artificial intelligence and embodied expressive objects to empower augmentative and alternative communication users. Dr. Valencia² works on conceptualizing these innovations but also in building and deploying them to make a real-world impact. Rigorous empirical studies are an integral part of her work, ensuring that the efficacy and significance of design contributions are thoroughly assessed. She earned her Ph.D. at the Human-computer Interaction Institute at Carnegie Mellon University."
+  img: Stephanie-Valencia.jpg
+  talk_title: "Using Participatory Design and AI to Create Agency-increasing Augmentative and Alternative Communication Systems"
+  abstract: 
+  host: Foad Famidi
+  host_url: https://www.foadhamidi.info/
+  date: 18-11-2024
+  time: 3:00pm - 4:00pm ET
+  location: ITE 406
+  web: https://umbc.webex.com/meet/fhamidi
+  rsvp: https://my3.my.umbc.edu/groups/langtech/events/136186
+  recording:   
