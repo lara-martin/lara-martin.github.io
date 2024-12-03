@@ -61,7 +61,6 @@ layout: default
             <h1 class="d-inline font-weight-lighter text-white post-typed"> Researcher</h1>
             
         <h5 style="text-transform:none;"><a href="http://ipa-reader.xyz/?text=l%C9%91%C9%B9.%C9%99&voice=Joanna" aria-label="hear how Lara is said">How to say Lara <i class="fa-solid fa-volume-high"></i></a></h5>
-        <a href="https://elections.maryland.gov/voting/index.html" aria-label="how to vote in Maryland"><img src="assets/img/MD I Voted Sticker 3.png" width="20%"></a><br>
         I make systems that improve how people talk <em>with</em> computers and to each other <em>through</em> computers.
         Most of my career so far has been teaching computers how to tell stories (also known as automated story generation) and working my way towards an <a href="https://www.wired.com/story/forget-chess-real-challenge-teaching-ai-play-dandd/" aria-label="Wired article on Lara's work about teaching AI to play D\&D">AI Dungeon Master</a>.
         I am also currently working on <a href="https://arxiv.org/abs/2404.17730" aria-label="my AAC paper interviewing autistic adults">Augmentative and Alternative Communication (AAC)</a> and speech technologies.
@@ -116,9 +115,10 @@ layout: default
             <h3 class="mb-4">Contact</h3>
             <div class="row mb-3">
                     <div class="col-sm-6 py-2"><h6>Online <i class="fa-solid fa-globe" aria-label="globe icon"></i></h6>
-                    <a rel="me" href="https://sigmoid.social/@laramar" aria-label="Mastodon"><i class="icon brands fa-mastodon"><span class="tooltiptext">Mastodon</span></i></a>
-                    <span class="text-secondary"><a aria-label="LinkedIn page" href="https://www.linkedin.com/in/lara-j-martin"><i class="icon brands fa-linkedin"><span class="tooltiptext">LinkedIn</span></i></a></span>                   
-                    <span class="text-secondary"><a aria-label="Twitter account" href="https://twitter.com/LangTechLara"><i class="icon brands fa-square-x-twitter"><span class="tooltiptext">Twitter/X</span></i></a></span>
+                    <span class="text-secondary"><a aria-label="Bluesky account" href="https://bsky.app/profile/langtechlara.bsky.social"><i class="icon fa-brands fa-square-bluesky"><span class="tooltiptext">Bluesky</span></i></a></span>
+                    <span class="text-secondary"><a aria-label="LinkedIn page" href="https://www.linkedin.com/in/lara-j-martin"><i class="icon fa-brands fa-linkedin"><span class="tooltiptext">LinkedIn</span></i></a></span>  
+                    <!--<a rel="me" href="https://sigmoid.social/@laramar" aria-label="Mastodon"><i class="icon fa-brands fa-mastodon"><span class="tooltiptext">Mastodon</span></i></a>                        
+                    <span class="text-secondary"><a aria-label="X account" href="https://twitter.com/LangTechLara"><i class="icon fa-brands fa-square-x-twitter"><span class="tooltiptext">Twitter/X</span></i></a></span>-->
                     </div>
                 <div class="col-sm-6 py-2"><h6>Email <i class="fa fa-envelope" aria-label="email icon"></i> </h6><span class="text-secondary">
                 	<div id="email" style="display:inline;"> 

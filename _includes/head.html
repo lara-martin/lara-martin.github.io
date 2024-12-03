@@ -44,7 +44,6 @@
   {% endif %}
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@{{ site.data.blog.social-twitter }}">
   {% if page.title %}
     <meta name="twitter:title" content="{{ page.title }} - {{ site.data.blog.title }}">
   {% else %}
@@ -78,31 +77,13 @@
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Lato:300,400,700&display=swap" rel="stylesheet">
 	<!-- Font Awesome -->
-	  <link href="/assets/fonts/font-awesome/css/fontawesome.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/cb53008265.js" crossorigin="anonymous"></script>
+	<!-- <link href="/assets/fonts/font-awesome/css/fontawesome.css" rel="stylesheet">
 	  <link href="/assets/fonts/font-awesome/css/brands.css" rel="stylesheet">
-	  <link href="/assets/fonts/font-awesome/css/solid.css" rel="stylesheet">
+	  <link href="/assets/fonts/font-awesome/css/solid.css" rel="stylesheet">-->
 	<!-- Styles -->
 	<link rel="stylesheet" href="/assets/css/blog.css">
 	
 	<script language="JavaScript" type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<!-- Mastodon Share button code from https://github.com/Aly-ve/Mastodon-share-button -->
-	<script>
-	    const msbConfig = {
-	      openModal: function () {
-		$('#exampleModal').modal('show');
-	      },
-	      closeModal: function () {
-		$('#exampleModal').modal('hide');
-	      },
-	      addressFieldSelector: '#msb-address',
-	      buttonModalSelector: '#msb-share',
-	      memorizeFieldId: 'msb-memorize-instance',
-	      buttonIconHtml: '<i class="fa fa-mastodon" aria-hidden="true"></i>'
-	    };
 
-	    $('.modal').on('shown.bs.modal', function() {
-	      $('#msb-address').focus();
-	    });
-	  </script>
-	  <script src="/dist/mastodon.js"></script>
 </head>
