@@ -21,8 +21,8 @@ layout: blog-default
     <section class="contact">
       <h3 class="contact-title">Contact me</h3>
       <ul>
-        {% if site.data.blog.social-mastodon %}
-          <li class="github"><a href="{{site.data.blog.social-mastodon}}" target="_blank"><i class="fa-brands fa-mastodon"></i></a></li>
+        {% if site.data.blog.social-bluesky %}
+          <li class="github"><a href="{{site.data.blog.social-bluesky}}" target="_blank"><i class="fa-brands fa-bluesky"></i></a></li>
         {% endif %}
         {% if site.data.blog.social-github %}
           <li class="github"><a href="http://github.com/{{site.data.blog.social-github}}" target="_blank"><i class="fa-brands fa-github"></i></a></li>
@@ -33,7 +33,6 @@ layout: blog-default
         {% if site.data.blog.social-twitter %}
           <li><a href="https://twitter.com/{{ site.data.blog.social-twitter }}" target="_blank"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a></li>
         {% endif %}
-        <!--{% if site.data.blog.social-email %}<li class="email"><a href="mailto:{{site.data.blog.social-email}}"><i class="fa fa-envelope-o"></i></a></li>{% endif %}-->
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright">
