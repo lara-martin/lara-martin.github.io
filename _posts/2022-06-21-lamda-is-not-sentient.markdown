@@ -9,8 +9,6 @@ fig-caption: A photograph of a complex web of strings suspended in a room.
 tags: [Language Models, Neural Networks, Artificial General Intelligence]
 ---
 
-[Expanded from a Facebook post of mine, originally posted June 14, 2022.]
-
 You might have come across [an article](https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917) being shared by some of your friends and family on Facebook recently.
 In it, the author claims to have an "interview" with an AI called LaMDA in which the AI "claims to be sentient."
 For context, I am researcher who works in artificial intelligence, natural language generation (NLG), and cognitive modeling who has directly worked with LaMDA (paper published soon), among other similar language models (LMs). And I can say with 100% certainty that LaMDA is not sentient.

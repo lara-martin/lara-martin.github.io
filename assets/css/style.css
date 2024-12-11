@@ -10050,8 +10050,8 @@ iframe {
 
 .blog-date {
   position: absolute;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10060,6 +10060,14 @@ iframe {
   left: calc(50% - 30px);
   border-radius: 60px;
   background: var(--primary);
+}
+
+.grow { 
+  transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+  transform: scale(1.1); 
 }
 
 .contact-form .help-block ul {

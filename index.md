@@ -326,10 +326,11 @@ layout: default
         <div class="col-lg-4 mb-5">
             <div class="position-relative mb-4">
                 <img class="img-fluid rounded w-100" src="/assets/img/{{post.img}}" alt="">
-                <div class="blog-date">
+                <a href="{{post.url}}"><div class="blog-date grow">
                     <h4 class="font-weight-bold mb-n1">{{post.date | date: '%d'}}</h4>
-                    <small class="text-white text-uppercase">{{post.date | date: '%b'}}</small>
-                </div>
+                    <small class="text-white text-uppercase font-weight-bold">{{post.date | date: '%b'}}</small>
+                    <small class="text-white text-uppercase">{{post.date | date: '%Y'}}</small>
+                </div></a>
             </div>
             <h5 class="font-weight-medium mb-4">{{post.title}}</h5>
             
