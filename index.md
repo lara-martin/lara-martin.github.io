@@ -149,7 +149,7 @@ layout: default
 			<a aria-label="Academia.edu" href="https://umbc.academia.edu/LaraMartin"><i class="icon ai ai-academia-square ai-2x"><span class="tooltiptext research">Academia.edu</span></i></a>
 			<a aria-label="ORCID ID" href="https://orcid.org/0000-0002-0623-599X"><i class="icon ai ai-orcid-square ai-2x"><span class="tooltiptext research">ORCID</span></i></a>
 			<a aria-label="Web of Science" href="https://www.webofscience.com/wos/author/record/HII-3738-2022"><i class="icon ai ai-clarivate-square ai-2x"><span class="tooltiptext research">Web of Science</span></i></a>
-			<a aria-label="dblp" href="https://dblp.uni-trier.de/pid/175/8906.html?q=Lara%20J.%20Martin"><i class="icon ai ai-dblp-square ai-2x"><span class="tooltiptext research">dblp</span></i></a>
+			<a aria-label="dblp" href="https://dblp.org/pid/353/3712"><i class="icon ai ai-dblp-square ai-2x"><span class="tooltiptext research">dblp</span></i></a>
 			<a aria-label="arXiv" href="https://arxiv.org/a/martin_l_2.html"><i class="icon ai ai-arxiv-square ai-2x"><span class="tooltiptext research">arXiv</span></i></a>			
 			<a aria-label="Scopus" href="https://www.scopus.com/authid/detail.uri?authorId=57225818647"><i class="icon ai ai-scopus-square ai-2x"><span class="tooltiptext research">Scopus</span></i></a>
 			<!--<a aria-label="Papers with Code" href="https://paperswithcode.com/search?q=author%3ALara+J.+Martin"><i class="icon fa-solid fa-brackets-square"></i></a>-->
