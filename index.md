@@ -115,7 +115,7 @@ layout: default
             <h3 class="mb-4">Contact</h3>
             <div class="row mb-3">
                     <div class="col-sm-6 py-2"><h6>Online <i class="fa-solid fa-globe" aria-label="globe icon"></i></h6>
-                    <span class="text-secondary"><a aria-label="Bluesky account" href="https://bsky.app/profile/langtechlara.bsky.social"><i class="icon fa-brands fa-square-bluesky ai-2x"><span class="tooltiptext">Bluesky</span></i></a></span>
+                    <span class="text-secondary"><a aria-label="Bluesky account" href="https://bsky.app/profile/laramartin.net"><i class="icon fa-brands fa-square-bluesky ai-2x"><span class="tooltiptext">Bluesky</span></i></a></span>
                     <span class="text-secondary"><a aria-label="LinkedIn page" href="https://www.linkedin.com/in/lara-j-martin"><i class="icon fa-brands fa-linkedin ai-2x"><span class="tooltiptext">LinkedIn</span></i></a></span>  
                     <!--<a rel="me" href="https://sigmoid.social/@laramar" aria-label="Mastodon"><i class="icon fa-brands fa-mastodon"><span class="tooltiptext">Mastodon</span></i></a>                        
                     <span class="text-secondary"><a aria-label="X account" href="https://twitter.com/LangTechLara"><i class="icon fa-brands fa-square-x-twitter"><span class="tooltiptext">Twitter/X</span></i></a></span>-->
