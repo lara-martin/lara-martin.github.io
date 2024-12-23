@@ -245,14 +245,23 @@ layout: default
         <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Teaching</h1>
         <h1 class="position-absolute text-uppercase text-primary">Teaching</h1>
     </div>
-    <center>I have a <a aria-label="Tech to Teaching" href="https://ctl.gatech.edu/tech-teaching">teaching certificate</a> from Georgia Tech, Summer 2018.</center>
+    <center>I have a <a aria-label="Lara's teaching certificate" href="assets/img/teaching-certificate.pdf">teaching certificate</a> from <a aria-label="Tech to Teaching" href="https://ctl.gatech.edu/tech-teaching">Georgia Tech</a>, Spring 2019.</center>
     <br>
     <div class="row pb-3">
 	{% for m in site.data.teaching %}
 	
-	<div class="col-lg-4 col-md-6 text-center mb-5">
-	<!--<div style="object-fit:cover;"><img src="/assets/img/{{m.img}}" style="width:100%;" aria-label="{{m.img_ref}}"></div><br>-->
-	<h5 class="font-weight-bold mb-1">{% if m.link %}<a aria-label="{{ m.course }}" href="{{ m.link }}">{{ m.course }}</a>{% else %} {{m.course}} {% endif %}</h5> <em>{{m.semester}}</em><br>{{ m.school}}<br> <small>{{m.note}}</small></div>
+	<div class="col-lg-4 col-md-6 mb-5">
+	{%if m.when%}
+	<h5 class="font-weight-bold mb-1">{{m.course}}</h5>
+	<h6>{{m.school}}</h6>
+	{% for semester in m.when %}
+	<em><a href="{{semester.link}}" class="bigger-link">{{semester.semester}}</a></em><br>
+	{% endfor %}
+	<small>{{m.note}}</small>
+	{% else %}
+	<h5 class="font-weight-bold mb-1">{{ m.course }}</h5> <h6>{{ m.school}}</h6><em>{% if m.link %}<a aria-label="{{ m.course }}" href="{{ m.link }}" class="bigger-link">{{m.semester}}</a>{%else%}<div class="bigger-link">{{m.semester}}</div>{%endif%}</em><br> <small>{{m.note}}</small>
+	{% endif %}
+	</div>
 	{% endfor %}
 
     </div>

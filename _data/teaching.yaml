@@ -1,15 +1,22 @@
 -
+  course: CMSC 473/673 Natural Language Processing
+  school: University of Maryland, Baltimore County
+  when:
+  -
+    semester: Spring 2025
+    link: /NLP-class
+
+  -
+    semester: Spring 2024
+    link: /NLP-class/2024
+
+
+-
   course: CMSC 491/691 Interactive Fiction and Text Generation
   school: University of Maryland, Baltimore County
   semester: Fall 2024
   link: /interactive-fiction-class
--
-  course: CMSC 473/673 Natural Language Processing
-  school: University of Maryland, Baltimore County
-  semester: Spring 2024
-  link: /NLP-class/2024
-  img: 
-  img_ref: 
+
 -
   course: CMSC 671 Principles of Artificial Intelligence
   school: University of Maryland, Baltimore County

@@ -10373,3 +10373,7 @@ mark {
 .outside-link {
 	background: var(--light-blue);
 }
+
+.bigger-link {
+	font-size: 1.15rem;
+}

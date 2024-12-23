@@ -1,0 +1,240 @@
+I"BA<div class="topbar">
+<div class="head">
+<h1>UMBC Language Technology Seminar Series (LaTeSS)</h1>
+<h5 style="text-transform:none;">Hosted by <a href="https://laramartin.net" aria-label="Lara's website">Lara J. Martin</a> at <a href="https://www.csee.umbc.edu/" aria-label="UMBC's computer science and electrical engineering department">UMBC</a></h5>
+</div>
+</div>
+
+<!--TOC skip from https://www.aleksandrhovhannisyan.com/blog/jekyll-table-of-contents/-->
+<div style="position: relative;">
+    <a href="#toc-skipped" class="screen-reader-only" aria-label="skip table of contents">Skip table of contents</a>
+</div>
+
+<ul id="navbar">
+	<li><a href="#upcoming">Upcoming Talks</a></li>
+	<li><a href="#past">Past Talks</a></li>
+	<!--<li style="border-right: 1px #CCC solid;"><a href="https://laramartin.net" aria-label="link back to Lara's main site">Back to Home</a></li>
+	<li class="dropdown">
+		<a class="dropbtn" ><i class="fa fa-caret-down"></i> Datasets</a>
+		<div class="dropdown-content">
+			
+				<a href="#data" aria-label="jump to Story Datasets">Story Datasets</a>
+			
+				<a href="#visual" aria-label="jump to Mixed Visual & Textual Datasets">Mixed Visual & Textual Datasets</a>
+			
+				<a href="#tests" aria-label="jump to Story Evaluation, Understanding, & Cloze Tests">Story Evaluation, Understanding, & Cloze Tests</a>
+			
+				<a href="#scrapers" aria-label="jump to Data Scrapers & Processors">Data Scrapers & Processors</a>
+			
+		</div>
+	</li>-->
+
+</ul>
+
+<div id="toc-skipped"></div>
+
+<div class="main">
+<div class="intro" style="font-family: Lato, Helvetica, arial, sans-serif;">
+<p>
+UMBC's Language Technology Seminar Series (LaTeSS &ndash; pronounced lattice) showcases talks from experts researching various language technologies, including but not limited to natural language processing, computational linguistics, speech processing, and digital humanities. Join the group on myUMBC here: <a href="https://my3.my.umbc.edu/groups/langtech">https://my3.my.umbc.edu/groups/langtech</a>
+</p>
+
+</div>
+
+<div class="wrapper">
+
+
+<h2 id="upcoming"> Schedule</h2>
+<div id="table-wrapper">
+<div id="table-scroll">
+
+
+<div class="col-md-12 mb-3" style="font-size:16px;font-family: Lato, Helvetica, arial, sans-serif;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+</div>
+
+<h2 id="past"> Past Talks</h2>
+
+
+<div id="table-wrapper">
+<div id="table-scroll">
+
+
+<div class="col-md-12 mb-3" style="font-size:16px;font-family: Lato, Helvetica, arial, sans-serif;">
+
+
+
+
+  <hr />
+	<div class="row paper-block rounded justify-content-center">
+		<div class="col-md-2 date-center">
+			<big><b>Monday, November 18, 2024</b></big>
+			<br />3:00pm - 4:00pm ET
+			<br />ITE 406
+			<br /><br /><a href="" class="badge badge-web badge-sm text-decoration-none mb-1">Recording</a>
+		</div>
+		<div class="col-md-2-person mb-3">
+			<img class="person-img" src="assets/img/speakers/Stephanie-Valencia.jpg" />
+		</div>
+		<div class="col-md-7 mb-3">
+			<br />
+			<big><b> <a href="https://stephanie-valencia.com/" aria-label="Stephanie Valencia²'s website">Stephanie Valencia²</a> <br /> Assistant Professor at the University of Maryland, College Park</b></big>
+			<br /><br />
+			<p> <b>Using Participatory Design and AI to Create Agency-increasing Augmentative and Alternative Communication Systems</b><br />
+				Agency and communication are integral to personal development, enabling us to pursue and express our goals. However, agency in communication is not fixed–Many individuals who use speech-generating devices to communicate encounter social constraints and technical limitations that can restrict what they can say, how they can say it, and when they can contribute to a discussion. In this talk, I will delve into how an agency-centered design approach can foster more accessible communication experiences and help us uncover opportunities for design. Drawing from empirical research and collaborative co-design with people with disabilities, I will highlight how various technological tools—such as automated transcription, physical interaction artifacts, and AI-driven language generation—can impact conversational agency. Additionally, I will share practical design strategies and discuss existing challenges for co-designing communication technologies that enhance user agency and participation.
+			</p>
+			<details><summary><b>Bio</b></summary>
+				<small>
+					Dr. Valencia² is dedicated to promoting equitable access to assistive technologies (AT), advocating for open-source hardware, and championing the inclusion of underrepresented groups in technology design and development. Dr. Valencia²’s research endeavors are centered on elevating user agency, accessibility, and enjoyment. Employing participatory design methodologies, she has explored the integration of diverse design elements such as artificial intelligence and embodied expressive objects to empower augmentative and alternative communication users. Dr. Valencia² works on conceptualizing these innovations but also in building and deploying them to make a real-world impact. Rigorous empirical studies are an integral part of her work, ensuring that the efficacy and significance of design contributions are thoroughly assessed. She earned her Ph.D. at the Human-computer Interaction Institute at Carnegie Mellon University.
+				</small>
+			</details>
+			</div>
+		</div>
+
+
+
+
+  <hr />
+	<div class="row paper-block rounded justify-content-center">
+		<div class="col-md-2 date-center">
+			<big><b>Thursday, November 14, 2024</b></big>
+			<br />11:30am - 12:45pm ET
+			<br />Sondheim 110
+			<br /><br /><a href="https://umbc.webex.com/umbc/ldr.php?RCID=20880a76d13f0c95d301820f08c988f5" class="badge badge-web badge-sm text-decoration-none mb-1">Recording</a>
+		</div>
+		<div class="col-md-2-person mb-3">
+			<img class="person-img" src="assets/img/speakers/Patrick_Sui.jpg" />
+		</div>
+		<div class="col-md-7 mb-3">
+			<br />
+			<big><b> <a href="https://patrick-sui.github.io/" aria-label="Peiqi (Patrick) Sui's website">Peiqi (Patrick) Sui</a> <br /> PhD Student at McGill University</b></big>
+			<br /><br />
+			<p> <b>Confabulation: What Could LLM Hallucinations Do For Storytelling?</b><br />
+				Are hallucinations always bad? Most of NLP research presumes a normative stance that they are, but it overlooks the cognitive and communicative affordances of a type of particularly story-like hallucinations (which we'll call confabulations). Consider two general categories of LLM applications: using them as tools, or interacting with them as viable cultural agents. The two have very different training objectives in terms of the tradeoff between factuality and alignment with the human behavior of storytelling, and when it comes to ensuring the latter, LLMs that could effectively confabulate would be especially useful. For instance, confabulations could enable LLMs to perform speculative narration and address omissions in history resulting from social injustice, in the hope of enacting what literary theorist Saidiya Hartman calls 'critical fabulation' at scale, and giving interactive storytelling a wider social impact.
+			</p>
+			<details><summary><b>Bio</b></summary>
+				<small>
+					Patrick Sui is a second-year PhD student in English at McGill University, advised by Richard Jean So. He mainly works in digital humanities &amp; cultural analytics, and spends most of his time thinking about how literary studies could uniquely contribute to AI research about language. His current research topics include benchmarks for close reading &amp; interpretive reasoning, modeling close reading behaviors with information theory, knowledge-grounded style transfer for co-creative systems, AI literacy &amp; writing pedagogy, and all kinds of computational literary theory.
+				</small>
+			</details>
+			</div>
+		</div>
+
+
+
+
+  <hr />
+	<div class="row paper-block rounded justify-content-center">
+		<div class="col-md-2 date-center">
+			<big><b>Friday, October 18, 2024</b></big>
+			<br />2:00pm - 3:00pm ET
+			<br />ITE 325B
+			<br /><br /><a href="https://umbc.webex.com/umbc/ldr.php?RCID=cc1fedcac2f7c60a1bf6d1dd2fab79e2" class="badge badge-web badge-sm text-decoration-none mb-1">Recording</a>
+		</div>
+		<div class="col-md-2-person mb-3">
+			<img class="person-img" src="assets/img/speakers/maxwell-hope.png" />
+		</div>
+		<div class="col-md-7 mb-3">
+			<br />
+			<big><b> <a href="https://maxwell-hope.com/" aria-label="Maxwell Hope's website">Maxwell Hope</a> <br /> Data Scientist at the U.S. Census Bureau</b></big>
+			<br /><br />
+			<p> <b>Expanding Voices: Nonbinary Representation in Speech-Generating Devices</b><br />
+				Synthetic voices used by Speech-Generating Device (SGD) users are predominantly shaped by binary gender norms, limiting the representation of nonbinary individuals. This talk begins by exploring the current landscape of gender in synthetic voices and nonbinary vocal characteristics, revealing how existing models, trained on cisgender male and female speech, fail to authentically represent nonbinary identities. I will then present a case study of a nonbinary SGD user who used three synthetic voices constructed from gender expansive speakers over the course of a week, documenting their experiences in daily journal entries. Finally, I’ll examine the impact of inclusive voice design and community-informed research on identity affirmation and communication efficacy, drawing from the case study’s findings. These insights underscore the critical need for gender expansive synthetic voices that prioritize both gender affirmation and expressiveness, with far-reaching implications for voice technology and user engagement.
+			</p>
+			<details><summary><b>Bio</b></summary>
+				<small>
+					Maxwell Hope (he/they) recently earned a PhD from the University of Delaware, where his dissertation explored the creation, perception, and use of gender expansive synthetic voices. By day, they work at the U.S. Census Bureau, focusing on usability testing and data science; by night, they continue to conduct speech science research, deeply rooted in community-driven principles. They have three cats: Hoagie, Helena and Hensley.
+				</small>
+			</details>
+			</div>
+		</div>
+
+
+
+
+  <hr />
+	<div class="row paper-block rounded justify-content-center">
+		<div class="col-md-2 date-center">
+			<big><b>Tuesday, October 8, 2024</b></big>
+			<br />1:30pm - 2:30pm ET
+			<br />ITE 325B
+			<br /><br /><a href="https://umbc.webex.com/umbc/ldr.php?RCID=ff89b1c6e4df895eca010aa28ca28d91" class="badge badge-web badge-sm text-decoration-none mb-1">Recording</a>
+		</div>
+		<div class="col-md-2-person mb-3">
+			<img class="person-img" src="assets/img/speakers/Reno-Kriz.webp" />
+		</div>
+		<div class="col-md-7 mb-3">
+			<br />
+			<big><b> <a href="https://hltcoe.jhu.edu/researcher/reno-kriz/" aria-label="Reno Kriz's website">Reno Kriz</a> <br /> Research Scientist at the Johns Hopkins University Human Lanugage Technology Center of Excellence (HLTCOE)</b></big>
+			<br /><br />
+			<p> <b>Takeaways from the SCALE 2024 Workshop on Event-Centric Video Retrieval</b><br />
+				Information dissemination for current events has traditionally consisted of professionally collected and produced materials, leading to large collections of well-written news articles and high-quality videos. As a result, most prior work in event analysis and retrieval has focused on leveraging this traditional news content, particularly in English. However, much of the event-centric content today is generated by non-professionals, such as on-the-scene witnesses to events who hastily capture videos and upload them to the internet without further editing; these are challenging to find due to quality variance, as well as a lack of text or speech overlays providing clear descriptions of what is occurring. To address this gap, SCALE 2024, a 10-week research workshop hosted at the Human Language Technology Center of Excellence (HLTCOE), focused on multilingual event-centric video retrieval, or the task of finding videos about specific current events. Around 50 researchers and students participated in this workshop and were split up into five sub-teams. The Infrastructure team focused on developing MultiVENT 2.0, a challenging new video retrieval dataset consisting of 20x more videos than prior work and targeted queries about specific world events across six languages. The other teams worked on improving models from specific modalities, specifically Vision, Optical Character Recognition (OCR), Audio, and Text. Overall, we came away with three primary findings: extracting specific text from a video allows us to take better advantage of powerful methods from the text information retrieval community; LLM summarization of initial text outputs from videos is helpful, especially for noisy text coming from OCR; and no one modality is sufficient, with fusing outputs from all modalities resulting in significantly higher performance.
+			</p>
+			<details><summary><b>Bio</b></summary>
+				<small>
+					Reno Kriz is a research scientist at the Johns Hopkins University Human Language Technology Center of Excellence (HLTCOE). His primary research interests involve leverage large pre-trained models for a variety of natural language understanding tasks, including those crossing into other modalities, e.g., vision and speech understanding. These multimodal interests have recently involved the 2024 Summer Camp for Language Exploration (SCALE) on event-centric video retrieval and understanding. He received his PhD from the University of Pennsylvania where he worked with Chris Callison-Burch and Marianna Apidianaki on text simplification and natural language generation. Prior to that, he received BA degrees in Computer Science, Mathematics, and Economics from Vassar College.
+				</small>
+			</details>
+			</div>
+		</div>
+
+
+
+
+  <hr />
+	<div class="row paper-block rounded justify-content-center">
+		<div class="col-md-2 date-center">
+			<big><b>Tuesday, September 10, 2024</b></big>
+			<br />3pm - 4pm ET
+			<br />ITE 325B
+			<br /><br /><a href="https://umbc.webex.com/umbc/ldr.php?RCID=4d8a66b087c7f792a64cebf59bc85d16" class="badge badge-web badge-sm text-decoration-none mb-1">Recording</a>
+		</div>
+		<div class="col-md-2-person mb-3">
+			<img class="person-img" src="assets/img/speakers/kummerfeld.jpg" />
+		</div>
+		<div class="col-md-7 mb-3">
+			<br />
+			<big><b> <a href="https://jkk.name/" aria-label="Jonathan K. Kummerfeld's website">Jonathan K. Kummerfeld</a> <br /> Senior Lecturer at the University of Sydney</b></big>
+			<br /><br />
+			<p> <b>AI Resilient Interfaces for Code Generation and Efficient Reading</b><br />
+				AI is being integrated into virtually every computer system we use, but often in ways that mean we cannot see the decisions AI makes for us. If we don't see a decision, we cannot notice whether we agree with it, and what we don't notice, we cannot change. For example, using an AI summarization system means trusting that it has captured all the aspects of a document that are relevant to you. If the task is high stakes then the only way to check is to read the original document, but that significantly decreases the value of the summary. In this talk, I will present the concept of AI resilient interfaces: systems that use AI while giving users the information they need to notice and change its decisions. I will walk through two examples of novel systems that are more AI resilient than the typical solution to the problem, for (1) SQL generation, and (2) faster reading. I will conclude with thoughts on the potential and pitfalls of designing with AI resilience in mind.
+			</p>
+			<details><summary><b>Bio</b></summary>
+				<small>
+					Jonathan K. Kummerfeld is a Senior Lecturer (ie., research tenure-track Assistant Professor) in the School of Computer Science at the University of Sydney. He is currently also a DECRA fellow, and collaborates with a range of academics across the world, including on DARPA-funded projects on AI agents that communicate. He completed his Ph.D. at the University of California, Berkeley, and was previously a postdoc at the University of Michigan, and a visiting scholar at Harvard. Jonathan’s research focuses on interactions between people and NLP systems, developing more effective algorithms, workflows, and systems for collaboration. He has been on the program committee for over 50 conferences and workshops. He currently serves as Co-CTO of ACL Rolling Review (a peer review system), and is a standing reviewer for the Computational Linguistics journal and the Transactions of the Association for Computational Linguistics journal.
+				</small>
+			</details>
+			</div>
+		</div>
+
+
+</div>
+
+
+</div>
+</div>
+
+
+</div>
+</div>
+
+:ET
