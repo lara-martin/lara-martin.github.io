@@ -115,10 +115,8 @@ layout: default
             <h3 class="mb-4">Contact</h3>
             <div class="row mb-3">
                     <div class="col-sm-6 py-2"><h6>Online <i class="fa-solid fa-globe" aria-label="globe icon"></i></h6>
-                    <span class="text-secondary"><a aria-label="Bluesky account" href="https://bsky.app/profile/laramartin.net"><i class="icon fa-brands fa-square-bluesky ai-2x"><span class="tooltiptext">Bluesky</span></i></a></span>
-                    <span class="text-secondary"><a aria-label="LinkedIn page" href="https://www.linkedin.com/in/lara-j-martin"><i class="icon fa-brands fa-linkedin ai-2x"><span class="tooltiptext">LinkedIn</span></i></a></span>  
-                    <!--<a rel="me" href="https://sigmoid.social/@laramar" aria-label="Mastodon"><i class="icon fa-brands fa-mastodon"><span class="tooltiptext">Mastodon</span></i></a>                        
-                    <span class="text-secondary"><a aria-label="X account" href="https://twitter.com/LangTechLara"><i class="icon fa-brands fa-square-x-twitter"><span class="tooltiptext">Twitter/X</span></i></a></span>-->
+                    <span class="text-secondary"><a aria-label="Bluesky account" href="https://bsky.app/profile/laramartin.net"><i class="icon fa-brands fa-square-bluesky ai-2x"><span class="tooltiptext research">Bluesky</span></i></a></span>
+                    <span class="text-secondary"><a aria-label="LinkedIn page" href="https://www.linkedin.com/in/lara-j-martin"><i class="icon fa-brands fa-linkedin ai-2x"><span class="tooltiptext research">LinkedIn</span></i></a></span>  
                     </div>
                 <div class="col-sm-6 py-2"><h6>Email <i class="fa fa-envelope" aria-label="email icon"></i> </h6><span class="text-secondary">
                 	<div id="email" style="display:inline;"> 
@@ -220,7 +218,7 @@ layout: default
 	<!--<p>I am currently a <a aria-label="CI Fellows 2020 page" href="https://cifellows2020.org/">CIFellow</a> at the University of Pennsylvania, working with <a aria-label="Chris Callison-Burch" href="https://www.cis.upenn.edu/~ccb/">Dr. Chris Callison-Burch</a>. I earned my PhD in <a aria-label="HCC Program at Georgia Tech" href="https://www.cc.gatech.edu/degree-programs/phd-human-centered-computing">Human-Centered Computing</a> in the <a aria-label="School of Interactive Computing at Georgia Tech" href="https://www.ic.gatech.edu/">School of Interactive Computing</a> at the Georgia Institute of Technology. I worked with <a aria-label="Mark O. Riedl" href="http://eilab.gatech.edu/mark-riedl">Dr. Mark Riedl</a> in the <a aria-label="EI Lab" href="http://eilab.gatech.edu/">Entertainment Intelligence Lab</a>, doing automated story generation.</p>-->
 	<!--<p>I have a Masters in Language Technologies from <a aria-label="Language Technologies Institute" href="https://www.lti.cs.cmu.edu/">LTI at Carnegie Mellon University</a> in their School of Computer Science. I received my BS in Computer Science and Linguistics from Rutgers University &mdash; New Brunswick.</p>-->
 	<p>Some of my non-research passions include AI equity, science communication, and educating children about computer science and technology.</p>
-	<p><a href="https://github.com/lara-martin/CV/raw/main/LaraMartinCV.pdf" aria-label="Lara's CV pdf">Check out my CV</a> for more information.</p>
+	<p style="margin-bottom: 4rem;"><a href="https://github.com/lara-martin/CV/raw/main/LaraMartinCV.pdf" aria-label="Lara's CV pdf">Check out my CV</a> for more information.</p>
 	
 	            <h3 class="mb-4">Third-Person Bio</h3>
             <p>Dr. Lara J. Martin (she/they) is an assistant professor at the University of Maryland, Baltimore County in the CSEE department, researching human-centered artificial intelligence with a focus on natural language processing applications. They have worked in the areas of automated story generation, augmentative and alternative communication (AAC) tools, AI for tabletop roleplaying games, speech processing, and affective computing&mdash;publishing in top-tier conferences such as AAAI, ACL, EMNLP, and IJCAI.
