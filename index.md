@@ -172,7 +172,7 @@ layout: default
 <div class="container-fluid py-5" id="bio">
 <div class="container">
     <div class="position-relative d-flex align-items-center justify-content-center">
-        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Biography</h1>
+        <h1 class="display-1 text-uppercase text-white background-header">Biography</h1>
         <h1 class="position-absolute text-uppercase text-primary">Biography</h1>
     </div>
     
@@ -241,7 +241,7 @@ layout: default
 <div class="container-fluid pt-5" id="teaching">
 <div class="container">
     <div class="position-relative d-flex align-items-center justify-content-center">
-        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Teaching</h1>
+        <h1 class="display-1 text-uppercase text-white background-header">Teaching</h1>
         <h1 class="position-absolute text-uppercase text-primary">Teaching</h1>
     </div>
     <center>I have a <a aria-label="Lara's teaching certificate" href="assets/img/teaching-certificate.pdf">teaching certificate</a> from <a aria-label="Tech to Teaching" href="https://ctl.gatech.edu/tech-teaching">Georgia Tech</a>, Spring 2019.</center>
@@ -274,7 +274,7 @@ layout: default
 <div class="container-fluid pt-5" id="media">
 <div class="container">
     <div class="position-relative d-flex align-items-center justify-content-center">
-        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Media</h1>
+        <h1 class="display-1 text-uppercase text-white background-header">Media</h1>
         <h1 class="position-absolute text-uppercase text-primary">Media</h1>
     </div>
     <div class="row pb-3">
@@ -296,7 +296,7 @@ layout: default
 <div class="container-fluid pt-5 pb-3" id="talks">
 <div class="container">
     <div class="position-relative d-flex align-items-center justify-content-center">
-        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Talks</h1>
+        <h1 class="display-1 text-uppercase text-white background-header">Talks</h1>
         <h1 class="position-absolute text-uppercase text-primary">Talks</h1>
     </div>
     <div class="row">
@@ -325,7 +325,7 @@ layout: default
 <div class="container-fluid pt-5" id="blog">
 <div class="container">
     <div class="position-relative d-flex align-items-center justify-content-center">
-        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Blog</h1>
+        <h1 class="display-1 text-uppercase text-white background-header">Blog</h1>
         <h1 class="position-absolute text-uppercase text-primary">Blog</h1>
     </div>
     <div class="row">
@@ -359,7 +359,7 @@ layout: default
 <div class="container-fluid py-5" id="random">
 <div class="container">
     <div class="position-relative d-flex align-items-center justify-content-center">
-        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Fun Facts</h1>
+        <h1 class="display-1 text-uppercase text-white background-header">Fun Facts</h1>
         <h1 class="position-absolute text-uppercase text-primary">Fun Facts</h1>
     </div>
     <div class="row justify-content-center">
