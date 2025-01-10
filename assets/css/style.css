@@ -9769,7 +9769,8 @@ h6,
 }
 
 .text-stroke-header {
-  -webkit-text-stroke: 3px #ffffff;
+  /*-webkit-text-stroke: 3px #ffffff;*/
+  text-shadow: -3px -3px 0 #ffffff, 3px -3px 0 #ffffff, -3px 3px 0 #ffffff, 3px 3px 0 #ffffff;
   color: transparent;
 }
 
@@ -9848,7 +9849,8 @@ h6,
 }
 
 .name-header {
--webkit-text-stroke: 2px #ffffff;
+/*-webkit-text-stroke: 2px #ffffff;*/
+text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
 }
 
 /** phone time **/
@@ -9879,7 +9881,8 @@ h6,
 		padding-bottom: 2rem !important;
 	}
 	.name-header {
-		-webkit-text-stroke: 1px #ffffff;
+		/*-webkit-text-stroke: 1px #ffffff;*/
+		text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 		letter-spacing: 1px;
 	}
 	.mb-5, .my-5 {
