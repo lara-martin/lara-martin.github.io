@@ -10385,3 +10385,7 @@ mark {
 .bigger-link {
 	font-size: 1.15rem;
 }
+
+.background-header {
+	text-shadow: -1px -1px 0 #dee2e6, 1px -1px 0 #dee2e6, -1px 1px 0 #dee2e6, 1px 1px 0 #dee2e6;
+}
