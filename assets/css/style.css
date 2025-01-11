@@ -10349,10 +10349,6 @@ mark {
 
 
 
-.acl {
-	padding-bottom: 10px;
-	width: 2em;
-}
  
 
  
@@ -10389,3 +10385,10 @@ mark {
 .background-header {
 	text-shadow: -1px -1px 0 #dee2e6, 1px -1px 0 #dee2e6, -1px 1px 0 #dee2e6, 1px 1px 0 #dee2e6;
 }
+
+.custom-button {
+	font-size: 1.8em;
+	top: 2.3px;
+	position: relative;
+}
+

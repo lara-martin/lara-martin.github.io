@@ -150,10 +150,10 @@ layout: default
 			<a aria-label="dblp" href="https://dblp.org/pid/353/3712"><i class="icon ai ai-dblp-square ai-2x"><span class="tooltiptext research">dblp</span></i></a>
 			<a aria-label="arXiv" href="https://arxiv.org/a/martin_l_2.html"><i class="icon ai ai-arxiv-square ai-2x"><span class="tooltiptext research">arXiv</span></i></a>			
 			<a aria-label="Scopus" href="https://www.scopus.com/authid/detail.uri?authorId=57225818647"><i class="icon ai ai-scopus-square ai-2x"><span class="tooltiptext research">Scopus</span></i></a>
-			<!--<a aria-label="Papers with Code" href="https://paperswithcode.com/search?q=author%3ALara+J.+Martin"><img class="acl ai icon ai-2x" src="assets/fonts/paperswithcode-square.svg" alt="Papers with Code logo"><span class="tooltiptext research">Papers with Code</span></a>-->
-			<!--<a aria-label="Association for Computational Linguistics profile" href="https://aclanthology.org/people/l/lara-j-martin/"><img class="acl ai icon ai-2x" src="assets/fonts/ACL-square.svg" alt="ACL logo"><span class="tooltiptext research">ACL</span></a>-->
+			<a aria-label="Papers with Code" href="https://paperswithcode.com/search?q=author%3ALara+J.+Martin"><i class="ai icon custom-button icon-paperswithcode" alt="Papers with Code logo"><span class="tooltiptext research">Papers with Code</span></i></a>
+			<a aria-label="Association for Computational Linguistics profile" href="https://aclanthology.org/people/l/lara-j-martin/"><i class="ai icon custom-button icon-acl" alt="ACL logo"><span class="tooltiptext research">ACL</span></i></a>
 			<!--<a aria-label="IEEE profile" href="https://ieeexplore.ieee.org/author/37085522265"><i class="icon ai ai-ieee-square ai-2x"><span class="tooltiptext research">IEEE</span></i></a>-->
-   			<!--<a aria-label="OpenReview" href="https://openreview.net/profile?id=~Lara_J._Martin1"><img class="ai icon ai-2x" src="assets/fonts/openreview-square.svg" alt="OpenReview logo"><span class="tooltiptext research">OpenReview</span></a>-->
+			<a aria-label="OpenReview" href="https://openreview.net/profile?id=~Lara_J._Martin1"><i class="ai icon custom-button icon-openreview"  alt="OpenReview logo"><span class="tooltiptext research">OpenReview</span></i></a>
 			
 			</div>
 	</div>
