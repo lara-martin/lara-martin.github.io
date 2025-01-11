@@ -10,7 +10,7 @@
     font-style: normal;
 }
 [class*='icon-']:before{
-	display: inline-block;
+   display: inline-block;
    font-family: 'Logos';
    font-style: normal;
    font-weight: normal;
@@ -18,3 +18,12 @@
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale
 }
+
+.icon-acl:before {
+  content: "A"; }
+
+.icon-openreview:before {
+  content: "B"; }
+
+.icon-paperswithcode:before {
+  content: "C"; }
