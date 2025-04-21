@@ -87,3 +87,21 @@
   web: https://umbc.webex.com/meet/fhamidi
   rsvp: https://my3.my.umbc.edu/groups/langtech/events/136186
   recording:   
+
+-
+  name: Alyssa Hillary Zisk
+  position: Research Team Lead
+  institute: AssistiveWare
+  url: https://www.assistiveware.com/person/alyssa-hillary-zisk
+  bio: "Dr. Alyssa Hillary Zisk (they/them) is the AAC research team lead at AssistiveWare. They are also an Autistic part-time AAC user with two many research interests and no real intention of narrowing it down. Some of their AAC research is relevant to their AAC use and needs, such as studying AAC use and relevant speech experiences for autistic people who use both AAC and speech. Other parts of their AAC research, including their work on large anonymous language use data, are separate from Dr. Zisk's AAC use and needs."
+  img: AlyssaFLOOR2023.png
+  talk_title: "Trying to say 怎么fucking了: code-mixing with augmentative and alternative communication (AAC)"
+  abstract: "People who use multiple languages mix our languages. Neurotypical and neurodivergent alike, we mix our languages, and the patterns of how we do so are often similar. However, AAC users may not get to mix our languages: some languages aren't supported by any existing high-tech AAC tools. Even if all of an AAC user's languages are supported by at least one option, they may or may not be supported by the same options -- and AAC systems don't always support combining languages even when they technically have all of a person's languages. This talk mixes the personal (怎么fucking了 is Dr. Zisk's actual test phrase for bilingual AAC) with the technical (automatic language detection) and the sociotechnical (what we don't make available in AAC systems, even though we technically could) to address current gaps in multilingual AAC."
+  host: Lara J. Martin
+  host_url: https://laramartin.net
+  date: 30-04-2025
+  time: 4:00pm - 5:00pm ET
+  location: ITE 325B
+  web: https://umbc.webex.com/meet/laramar
+  rsvp: https://my3.my.umbc.edu/groups/langtech/events/142434
+  recording:  
