@@ -108,7 +108,9 @@ UMBC's Language Technology Seminar Series (LaTeSS &ndash; pronounced lattice) sh
 			<big><b>{{ talk.date | date: "%A, %B %-d, %Y" }}</b></big>
 			<br>{{talk.time}}
 			<br>{{talk.location}}
+			{% if talk.recording %}
 			<br><br><a href="{{talk.recording}}" class="badge badge-web badge-sm text-decoration-none mb-1">Recording</a>
+			{% endif %}
 		</div>
 		<div class="col-md-2-person mb-3">
 			<img class="person-img" src="assets/img/speakers/{{talk.img}}">
