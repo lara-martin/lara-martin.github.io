@@ -30,3 +30,8 @@ $(".collapsible").on('click', function(e){
 	    //setTimeout(() => {$(notification).css({"opacity":"0"});}, 2000);
 	}
 });
+
+
+function collapseOnClick() {
+	document.getElementById("navbarCollapse").classList.remove("show");
+}
