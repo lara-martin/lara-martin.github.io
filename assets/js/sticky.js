@@ -10,3 +10,8 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+
+function collapseOnClick() {
+	document.getElementById("navbarCollapse").classList.remove("show");
+}

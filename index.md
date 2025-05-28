@@ -21,7 +21,7 @@ layout: default
 
 
 <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-    <div class="navbar-nav m-auto py-0">
+    <div class="navbar-nav m-auto py-0" onclick="collapseOnClick()">
         <a href="#home" class="nav-item nav-link active">Home</a>
         <a href="#news" class="nav-item nav-link">News</a>
         <a href="#contact" class="nav-item nav-link">Contact</a>
