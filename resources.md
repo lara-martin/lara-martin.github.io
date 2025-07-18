@@ -219,7 +219,7 @@ You might also be interested in <a href="https://cognitiveai.org/" aria-label="P
 </div>
 
 
-<h2> Story Evaluation, Understanding, & Cloze Tests </h2>
+<h2> Story Evaluation, Understanding, Cloze Tests, & Benchmarks </h2>
 <div id="table-wrapper">
 <div id="table-scroll">
 <table id="tests">

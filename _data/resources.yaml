@@ -609,6 +609,12 @@ vision:
 ####################
 eval:
   -
+    name: WhoDunIt
+    paper1: "WhoDunIt: Evaluation benchmark for culprit detection in mystery stories"
+    paper_url1: http://arxiv.org/abs/2502.07747
+    year: 2025
+    url: https://github.com/kjgpta/WhoDunIt-Evaluation_benchmark_for_culprit_detection_in_mystery_stories
+  -
     name: MiniCheck
     info: looks up facts across datasets
     paper1: "MiniCheck: Efficient Fact-Checking of LLMs on Grounding Documents"
@@ -811,6 +817,12 @@ scrapers:
 ###################
 if:
   -
+    name: TALES
+    paper1: "TALES: Text Adventure Learning Environment Suite"
+    paper_url1: https://arxiv.org/abs/2504.14128
+    year: 2025
+    url: https://github.com/microsoft/tale-suite
+  -
     name: Word2World
     paper1: "Word2World: Generating Stories and Worlds through Large Language Models"
     paper_url1: https://arxiv.org/abs/2405.06686
@@ -870,6 +882,12 @@ if:
 
 ###############
 agents:
+  -
+    name: ChatRPG
+    url: https://github.com/KarmaKamikaze/ChatRPG
+    paper_url1: http://arxiv.org/abs/2502.19519
+    paper1: "Static Vs. Agentic Game Master AI for Facilitating Solo Role-Playing Experiences"
+    year: 2025
   -
     name: Generative Agents
     url: https://github.com/joonspk-research/generative_agents
@@ -995,10 +1013,17 @@ planning:
 
 ##############
 knowledge:
+  - 
+    name: DoWhy
+    info: causal inference
+    year: 2020
+    paper1: "DoWhy: An End-to-End Library for Causal Inference"
+    paper_url1: https://arxiv.org/abs/2011.04216
+    url: www.pywhy.org/dowhy
   -
     name: CultureBank
     paper1: "CultureBank: An Online Community-Driven Knowledge Base Towards Culturally Aware Language Technologies"
-    paper_url: http://arxiv.org/abs/2404.15238
+    paper_url1: http://arxiv.org/abs/2404.15238
     year: 2024
     hugging_face: https://huggingface.co/collections/SALT-NLP/culturebank-6626ee7dcd54f5fffb6769fe
   -
