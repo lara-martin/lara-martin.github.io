@@ -129,7 +129,7 @@ layout: default
 			</span></div>
 
                 <div class="col-sm-6 py-2"><h6>In Person <i class="fa-solid fa-people-roof" aria-label="people under roof icon"></i> </h6><span class="text-secondary">
-			Information Technology and Engineering (ITE) Building, Room 216
+			Information Technology and Engineering (ITE) Building, Room TBA (Moving offices!)
 			<br>
 			1000 Hilltop Circle, Baltimore, MD 21250</span>
 		</div>
