@@ -29,12 +29,11 @@ layout: default
         <a href="#bio" class="nav-item nav-link">Bio</a>
         <a href="#teaching" class="nav-item nav-link">Teaching</a>
         <a href="#media" class="nav-item nav-link">Media</a>
-        <a href="#talks" class="nav-item nav-link">Talks</a>
         <a href="#blog" class="nav-item nav-link">Blog</a>
         <a href="#random" class="nav-item nav-link">Fun Facts</a>
-        <a href="/lab/publications" class="nav-item nav-link outside-link"> > Publications</a>
-        <a href="/lab" class="nav-item nav-link outside-link"> > LARA Lab</a>
-		<a href="/LaTeSS" class="nav-item nav-link outside-link"> > LaTeSS (Seminar)</a>
+        <a href="/lab/publications" class="nav-item nav-link outside-link">Publications</a>
+        <a href="/lab" class="nav-item nav-link outside-link">LARA Lab</a>
+		<a href="/LaTeSS" class="nav-item nav-link outside-link">LaTeSS (Seminar)</a>
     </div>
 </div>
 </nav>
@@ -275,12 +274,15 @@ layout: default
 
 
 <!-- Media Start -->
+<!-- Articles Start -->
 <div class="container-fluid pt-5" id="media">
 <div class="container">
     <div class="position-relative d-flex align-items-center justify-content-center">
         <h1 class="display-1 text-uppercase text-white background-header">Media</h1>
         <h1 class="position-absolute text-uppercase text-primary">Media</h1>
     </div>
+    
+    <h3 class="mb-4">Articles</h3>
     <div class="row pb-3">
 	{% for m in site.data.media %}
 	
@@ -291,18 +293,20 @@ layout: default
 
     </div>
 
-</div>
-</div>
-<!-- Media End -->
+<!--</div>
+</div>-->
 
+<!-- Articles End -->
 
 <!-- Talks Start -->
-<div class="container-fluid pt-5 pb-3" id="talks">
-<div class="container">
-    <div class="position-relative d-flex align-items-center justify-content-center">
+   <!-- <div class="container-fluid pt-5 pb-3" id="talks">
+	<div class="container">
+	<div class="position-relative d-flex align-items-center justify-content-center">
         <h1 class="display-1 text-uppercase text-white background-header">Talks</h1>
         <h1 class="position-absolute text-uppercase text-primary">Talks</h1>
     </div>
+    -->
+    <h3 class="mb-4">Talks</h3>
     <div class="row">
     {% for talk in site.data.talks %}
         <div class="col-12 text-center mb-2">
@@ -323,6 +327,7 @@ layout: default
 </div>
 </div>
 <!-- Talks End -->
+<!-- Media End -->
 
 
 <!-- Blog Start -->
