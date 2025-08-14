@@ -58,13 +58,13 @@ layout: default
 			<a href="https://umbc.edu/" aria-label="UMBC">University of Maryland, Baltimore County</a></h3>
             <br>
             <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
-            <div class="typed-text d-none">Human-Centered AI, Applied NLP, Neurosymbolic Methods, Automated Story Generation, AAC, Dungeons and Dragons AI</div>
+            <div class="typed-text d-none">Human-Centered AI, NLP, Neurosymbolic Methods, Automated Story Generation, AAC, Dungeons and Dragons AI</div>
             <h1 class="d-inline font-weight-lighter text-white post-typed"> Researcher</h1>
             
         <h5 style="text-transform:none;"><a href="http://ipa-reader.xyz/?text=l%C9%91%C9%B9.%C9%99&voice=Joanna" aria-label="hear how Lara is said">How to say Lara <i class="fa-solid fa-volume-high"></i></a></h5>
         I make systems that improve how people talk <em>with</em> computers and to each other <em>through</em> computers.
         Most of my career so far has been teaching computers how to tell stories (also known as automated story generation) and working my way towards an <a href="https://www.wired.com/story/forget-chess-real-challenge-teaching-ai-play-dandd/" aria-label="Wired article on Lara's work about teaching AI to play D\&D">AI Dungeon Master</a>.
-        I am also currently working on <a href="https://arxiv.org/abs/2404.17730" aria-label="my AAC paper interviewing autistic adults">Augmentative and Alternative Communication (AAC)</a> and speech technologies.
+        I also work on <a href="https://arxiv.org/abs/2404.17730" aria-label="my AAC paper interviewing autistic adults">Augmentative and Alternative Communication (AAC)</a> and speech technologies.
         <br><br>
         I'm an affiliate in the <a href="https://informationsystems.umbc.edu/" aria-label="information systems department at UMBC">Information Systems Department</a> and member of <a href="https://ai.umbc.edu/" aria-label="UMBC's center for AI">UMBC's Center for AI</a>.
 		<br>

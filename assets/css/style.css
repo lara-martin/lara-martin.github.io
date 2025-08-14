@@ -2686,13 +2686,13 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: var(--primary);
+  color: var(--deep-purple);
   border-color: var(--primary);
 }
 
 .btn-outline-primary:hover {
-  color: #fff;
-  background-color: var(--primary);
+  color: slateblue;
+  background-color: var(--periwinkle);
   border-color: var(--primary);
 }
 
@@ -2880,6 +2880,10 @@ fieldset:disabled a.btn {
 .btn-outline-light {
   color: #ffffff;
   border-color: #ffffff;
+  height: 90px;
+  align-content: center;
+  padding: 0px 10px !important;
+  font-size: 1.1rem;
 }
 
 .btn-outline-light:hover {
@@ -9779,7 +9783,7 @@ h6,
 
 .btn {
   padding: 10px 25px;
-  border-radius: 100px;
+  border-radius: 40px;
 }
 
 .btn-social {
@@ -9832,7 +9836,7 @@ h6,
   padding: 10px 10px;
   color: var(--gray-dark);
   font-weight: 500;
-  outline: none;
+  /*outline: none;*/
   align-content: center;
   text-align: center;
 }
@@ -10262,7 +10266,7 @@ mark {
 }
 
 .icon .tooltiptext {
-	background-color: var(--pink);
+	background-color: var(--light-green);
 	color: var(--deep-purple);
 	padding: 1px 5px;
 	font-size: 1rem;
@@ -10270,6 +10274,7 @@ mark {
 	top: 20px;
   	left: 50%;
   	font-style: normal;
+  	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .icon .research{
@@ -10357,7 +10362,10 @@ mark {
 
 .outside-link {
 	background: var(--light-blue);
-	outline: black dashed 0.5pt;
+	outline: black outset 0.5pt;
+}
+.outside-link:hover {
+	outline-style: inset;
 }
 
 .bigger-link {
@@ -10365,7 +10373,7 @@ mark {
 }
 
 .background-header {
-	text-shadow: -1px -1px 0 #dee2e6, 1px -1px 0 #dee2e6, -1px 1px 0 #dee2e6, 1px 1px 0 #dee2e6;
+	text-shadow: -1px -1px 0 var(--pink), 1px -1px 0 #dee2e6, -1px 1px 0 #dee2e6, 1px 1px 0 #dee2e6;
 }
 
 .custom-button {
