@@ -39,6 +39,7 @@ layout: default
 </nav>
 <!-- Navbar End -->
 
+<div id="toc-skipped"></div>
 
 <!-- Header Start -->
 <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">

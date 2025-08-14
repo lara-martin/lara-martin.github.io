@@ -6,7 +6,7 @@ layout: seminar
 <div class="topbar">
 <div class="head">
 <h1>UMBC Language Technology Seminar Series (LaTeSS)</h1>
-<h5 style="text-transform:none;">Hosted by <a href="https://laramartin.net" aria-label="Lara's website">Lara J. Martin</a> at <a href="https://www.csee.umbc.edu/" aria-label="UMBC's computer science and electrical engineering department">UMBC</a></h5>
+<h5>Hosted by <a href="https://laramartin.net" aria-label="Lara's website">Lara J. Martin</a> at <a href="https://www.csee.umbc.edu/" aria-label="UMBC's computer science and electrical engineering department">UMBC</a></h5>
 </div>
 </div>
 
@@ -18,9 +18,10 @@ layout: seminar
 
 
 <ul id="navbar">
+<li class="navbar-split"><a href="https://laramartin.net" aria-label="link back to Lara's main site">Back to Home</a></li>
 	<li><a href="#upcoming">Upcoming Talks</a></li>
 	<li><a href="#past">Past Talks</a></li>
-	<!--<li style="border-right: 1px #CCC solid;"><a href="https://laramartin.net" aria-label="link back to Lara's main site">Back to Home</a></li>
+	<!--
 	<li class="dropdown">
 		<a class="dropbtn" ><i class="fa fa-caret-down"></i> Datasets</a>
 		<div class="dropdown-content">

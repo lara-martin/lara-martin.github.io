@@ -18,7 +18,7 @@ active_tab: resources
 
 
 <ul id="navbar">
-	<li style="border-right: 1px #CCC solid;"><a href="https://laramartin.net" aria-label="link back to Lara's main site">Back to Home</a></li>
+	<li class="navbar-split"><a href="https://laramartin.net" aria-label="link back to Lara's main site">Back to Home</a></li>
 	<li class="dropdown">
 		<a class="dropbtn" ><i class="fa fa-caret-down"></i> Datasets</a>
 		<div class="dropdown-content">
