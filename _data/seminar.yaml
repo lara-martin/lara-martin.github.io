@@ -104,3 +104,22 @@
   web: https://umbc.webex.com/meet/laramar
   rsvp: https://my3.my.umbc.edu/groups/langtech/events/142434
   recording: https://umbc.webex.com/umbc/ldr.php?RCID=f03f7663f79348a98d24780de89a1dea
+
+-
+  name: Bryan Li
+  position: PhD Candidate
+  institute: University of Pennsylvania
+  url: https://manestay.github.io/
+  bio: "Bryan Li is a final-year PhD student at the University of Pennsylvania, advised by Prof. Chris Callison-Burch. His research focuses on multilingual evaluations of LLMs, spanning both the fields of natural language processing and computational social science. His work has appeared in conferences such as ACL, COLM, and ICLR. Outside of research, you can find him in a trendy cafe, a river-side running trail, or at home listening to a good podcast."
+  img: bryan-li.jpg
+  talk_title: "Towards Multilingual Evaluations of Knowledge for Large Language Models"
+  abstract: "Contemporary language models (LMs) support dozens of languages, promising to broaden information access for global users. However, existing multilingual evaluations largely study factual recall tasks, failing to address knowledge-intensive tasks shaped by the uneven coverage and different perspectives of knowledge across languages. This dissertation investigates how LMs handle such tasks by examining their internal parametric knowledge and their use of externally-provided contextual knowledge. In the first part, I introduce benchmarks for complex reasoning and territorial disputes, and find that LM responses on both tasks exhibit a lack of cross-lingual robustness, outputting inconsistent answers to underlying queries written in different languages. I then show that lightweight methods of leveraging program code and persona-based prompting can mitigate these issues.<br><br>In the second part, I explore the retrieval-augmented generation (RAG) setting, which combines LM's internal parametric knowledge with contextual knowledge from external knowledge bases (KBs). Focusing on the territorial disputes task, I show that while RAG over single-language or single-source KBs has mixed effects on robustness, retrieving over multilingual and multi-source KBs — Wikipedia, as well as a large-scale dataset of state media articles I collected — substantially boosts robustness. Together, these findings highlight the need for LMs that can navigate, and assist users in navigating, the real-world distribution of knowledge across languages and sources. This is a practice dissertation talk, and your feedback would be greatly appreciated!"
+  host: Lara J. Martin
+  host_url: https://laramartin.net
+  date: 14-10-2025
+  time: 2:00pm - 3:00pm ET
+  location: ITE 325B
+  web: https://umbc.webex.com/meet/laramar
+  rsvp: 
+  recording: 
+  
