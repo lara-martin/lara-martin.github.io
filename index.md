@@ -59,7 +59,7 @@ layout: default
 			<a href="https://umbc.edu/" aria-label="UMBC">University of Maryland, Baltimore County</a></h3>
             <br>
             <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
-            <div class="typed-text d-none">Human-Centered AI, NLP, Neurosymbolic Methods, Automated Story Generation, AAC, Dungeons and Dragons AI</div>
+            <div class="typed-text d-none">Human-Centered AI, Neurosymbolic NLP, Automated Story Generation, AAC, Dungeons and Dragons AI</div>
             <h1 class="d-inline font-weight-lighter text-white post-typed"> Researcher</h1>
             
         <h5 style="text-transform:none;"><a href="http://ipa-reader.xyz/?text=l%C9%91%C9%B9.%C9%99&voice=Joanna" aria-label="hear how Lara is said">How to say Lara <i class="fa-solid fa-volume-high"></i></a></h5>
@@ -78,7 +78,7 @@ layout: default
                 
                 <a aria-label="Lara&#39;s lab page" href="/lab" class="btn btn-outline-light mr-5"> LARA Lab</a>
                 
-                <a aria-label="Lara&#39;s UMBC page" href="https://www.csee.umbc.edu/lara-j-martin/ " class="btn btn-outline-light mr-5"> UMBC Personal Page</a>
+                <a aria-label="Lara&#39;s UMBC page" href="https://www.csee.umbc.edu/lara-j-martin/" class="btn btn-outline-light mr-5"> UMBC Personal Page</a>
                 
                 <a aria-label="interactive fiction and story generation resource list" href="/resources.html" class="btn btn-outline-light mr-5"> Interactive Fiction and Story Generation Resources</a>               
             </div>

@@ -1225,6 +1225,13 @@ knowledge:
 ##################
 code:
   -
+    name: Temporal Entity Annotator (TEA)
+    info: extracting narrative timelines
+    url: https://text-machine.cs.uml.edu/projects/temporal/
+    paper1: "Temporal Information Extraction for Question Answering Using Syntactic Dependencies in an LSTM-based Architecture"
+    paper_url1: https://aclanthology.org/D17-1092/
+    year: 2017
+  -
     name: IBSEN
     info: director-actor agent collaboration
     url: https://github.com/OpenDFM/ibsen
