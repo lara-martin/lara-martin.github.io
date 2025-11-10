@@ -1,8 +1,13 @@
-
+-
+  date: 2025-12-20
+  location: Mumbai, India
+  text: |+
+    Shadab Choudhury and Asha Kumar's paper "<a href="https://arxiv.org/abs/2503.11881" aria-label="representation alignment paper on arXiv">Evaluating Human-LLM Representation Alignment: A Case Study on Affective Sentence Generation for Augmentative and Alternative Communication</a>" has been accepted to IJCNLP-AACL Findings 2025!
 -
   date: 2025-11-09
+  location: Suzhou, China
   text: |+
-    Patty Delafuente & Arya Honraopatil's paper "Does Reasoning Help LLM Agents Play Dungeons and Dragons? A Prompt Engineering Experiment" and Anson Huang's paper "<a href="https://arxiv.org/abs/2412.10582" aria-label="what if paper">WHAT-IF: Exploring Branching Narratives by Meta-Prompting Large Language Models</a>" have both been accepted to the <a href="https://wordplay-workshop.github.io/" aria-label="Wordplay workshop">Wordplay Workshop</a> at EMNLP 2025!
+    Patty Delafuente & Arya Honraopatil's paper "<a href="https://arxiv.org/abs/2510.18112" aria-label="D&D reasoning paper">Does Reasoning Help LLM Agents Play Dungeons and Dragons? A Prompt Engineering Experiment</a>" and Anson Huang's paper "<a href="https://arxiv.org/abs/2412.10582" aria-label="what if paper">WHAT-IF: Exploring Branching Narratives by Meta-Prompting Large Language Models</a>" have both been accepted to the <a href="https://wordplay-workshop.github.io/" aria-label="Wordplay workshop">Wordplay Workshop</a> at EMNLP 2025!
 
 -
   date: 2025-09-25

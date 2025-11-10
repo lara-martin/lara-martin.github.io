@@ -13,18 +13,25 @@
 
 datasets:
   -
+    name: AmbiStory
+    url: https://github.com/Janosch-Gehring/ambistory
+    info: lexically-ambiguous short stories
+    paper1: "AmbiStory: A Challenging Dataset of Lexically Ambiguous Short Stories"
+    paper_url1: https://aclanthology.org/2025.starsem-1.12/
+    year: 2025
+  -
     name: StoryPerceptions
     info: crowd annotations of narratives in social media posts
     url: https://github.com/joel-mire/story-perceptions
     paper1: "The Empirical Variability of Narrative Perceptions of Social Media Texts"
     paper_url1: 
     year: 2024
-#  -
-#    name: Anthology [To be released]
-#    url: https://github.com/CannyLab/anthology
-#    paper1: "Virtual Personas for Language Models via an Anthology of Backstories"
-#    paper_url1: https://arxiv.org/abs/2407.06576
-#    year: 2024
+  -
+    name: Anthology
+    url: https://github.com/CannyLab/anthology
+    paper1: "Virtual Personas for Language Models via an Anthology of Backstories"
+    paper_url1: https://aclanthology.org/2024.emnlp-main.1110/
+    year: 2024
   -
     name: Quest-GPT-2
     info: quests and descriptions from 6 RPGs
@@ -37,14 +44,14 @@ datasets:
     info: finding stories in online communities
     url: https://github.com/maria-antoniak/storyseeker
     paper1: "Where Do People Tell Stories Online? Story Detection Across Online Communities"
-    paper_url1: https://arxiv.org/abs/2311.09675
+    paper_url1: https://aclanthology.org/2024.acl-long.383/
     year: 2024
-  -
-    name: MirrorStories
-    url: https://www.mirrorstories.me/
-    paper_url1: https://arxiv.org/abs/2409.13935
-    year: 2024
-    paper1: "MirrorStories: Reflecting Diversity through Personalized Narrative Generation with Large Language Models"
+  #-
+  #  name: MirrorStories [url broke]
+  #  url: https://www.mirrorstories.me/
+  #  paper_url1: https://aclanthology.org/2024.emnlp-main.382/
+  #  year: 2024
+  #  paper1: "MirrorStories: Reflecting Diversity through Personalized Narrative Generation with Large Language Models"
   -
     name: EmoBench
     info: English and Chinese stories and LLM's judgments of emotional intelligence
@@ -59,7 +66,7 @@ datasets:
     url: https://github.com/melaniesubbiah/storysumm
     code: https://github.com/melaniesubbiah/storysumm
     paper1: "STORYSUMM: Evaluating Faithfulness in Story Summarization"
-    paper_url1: https://arxiv.org/abs/2407.06501
+    paper_url1: https://aclanthology.org/2024.emnlp-main.557/
     year: 2024
   -
     name: Choice-75
@@ -74,7 +81,7 @@ datasets:
     info: narrative styles that lead to empathy
     url: https://github.com/mitmedialab/heartfelt-narratives-emnlp
     paper1: "HEART-felt Narratives: Tracing Empathy and Narrative Style in Personal Stories with LLMs"
-    paper_url1: https://arxiv.org/abs/2405.17633
+    paper_url1: https://aclanthology.org/2024.emnlp-main.59/
     year: 2024
   -
     name: DnD Spells
@@ -618,13 +625,13 @@ eval:
     name: MiniCheck
     info: looks up facts across datasets
     paper1: "MiniCheck: Efficient Fact-Checking of LLMs on Grounding Documents"
-    paper_url1: https://arxiv.org/abs/2404.10774
+    paper_url1: https://aclanthology.org/2024.emnlp-main.499/
     year: 2024
     url: https://github.com/Liyan06/MiniCheck
   -
     name: FABLES (Faithfulness Annotations for Book-LEngth Summarization)
     paper1: "FABLES: Evaluating faithfulness and content selection in book-length summarization"
-    paper_url1: https://arxiv.org/abs/2404.01261
+    paper_url1: https://openreview.net/forum?id=YfHxQSoaWU
     year: 2024
     url: https://github.com/mungg/FABLES
   -
@@ -877,7 +884,21 @@ if:
     url: https://www.microsoft.com/en-us/research/project/textworld/
     year: 2018
 
-
+###############
+other_env:
+  -
+    name: Collab-Overcooked 
+    url: https://github.com/YusaeMeow/Collab-Overcooked
+    paper_url1: https://aclanthology.org/2025.emnlp-main.249/
+    paper1: "Collab-Overcooked: Benchmarking and Evaluating Large Language Models as Collaborative Agents"
+    year: 2025
+  -
+    name: Turnabout LLM
+    url: https://github.com/zharry29/turnabout_llm
+    paper_url1: https://aclanthology.org/2025.emnlp-main.101/
+    paper1: "TurnaboutLLM: A Deductive Reasoning Benchmark from Detective Games"
+    year: 2025
+    
 
 
 ###############
@@ -1023,7 +1044,7 @@ knowledge:
   -
     name: CultureBank
     paper1: "CultureBank: An Online Community-Driven Knowledge Base Towards Culturally Aware Language Technologies"
-    paper_url1: http://arxiv.org/abs/2404.15238
+    paper_url1: https://aclanthology.org/2024.findings-emnlp.288/
     year: 2024
     hugging_face: https://huggingface.co/collections/SALT-NLP/culturebank-6626ee7dcd54f5fffb6769fe
   -
@@ -1040,7 +1061,7 @@ knowledge:
     url: https://github.com/allenai/comet-atomic-2020
     info: updated ATOMIC
     paper1: "COMET-ATOMIC 2020: On Symbolic and Neural Commonsense Knowledge Graphs"
-    paper_url1: https://arxiv.org/abs/2010.05953
+    paper_url1: https://ojs.aaai.org/index.php/AAAI/article/view/16792
     year: 2021 
   -
     name: SCRUPLES (Subreddit Corpus Requiring Understanding Principles in Life-like Ethical Situations)
@@ -1243,7 +1264,7 @@ code:
     name: Collaborative Comic Generation
     url: https://github.com/RimiChen/Collaborative_Comic_Generation
     paper1: "Collaborative Comic Generation: Integrating Visual Narrative Theories with AI Models for Enhanced Creativity"
-    paper_url1: https://arxiv.org/abs/2409.17263
+    paper_url1: https://ceur-ws.org/Vol-3810/paper8.pdf
     year: 2024
   -
     name: LegalStories
@@ -1270,8 +1291,8 @@ code:
     info: generate stories from outlines with OPT
     url: https://github.com/yangkevin2/doc-story-generation
     paper1: "DOC: Improving Long Story Coherence With Detailed Outline Control"
-    paper_url1: https://arxiv.org/abs/2212.10077
-    year: 2022
+    paper_url1: https://aclanthology.org/2023.acl-long.190/
+    year: 2023
   -
     name: Re^3 (Recursive Reprompting and Revision)
     info: code to generate stories from premises with GPT-3
