@@ -2701,10 +2701,11 @@ ul#list > li {
 
 /* Table */
 
+/*
 table-wrapper {
   -webkit-overflow-scrolling: touch;
   overflow-x: auto;
-}
+}*/
 
 table {
   /*margin: 0 0 2rem 0;
@@ -4068,7 +4069,7 @@ mark {
 
 /*https://www.w3schools.com/code/tryit.asp?filename=FOUGL6SG7XQW*/
 
-#table-scroll {
+table-scroll {
   height: 550px;
   overflow: auto;
   /*margin-top:20px;*/
@@ -4079,16 +4080,16 @@ mark {
 }
 
 @media screen and (min-width: 1300px) {
-  #table-scroll {
+  table-scroll {
     width: 1300px;
   }
 }
 
-#table-wrapper table {
+table-wrapper table {
   width: 100%;
 }
 
-#table-wrapper table thead th .text {
+table-wrapper table thead th .text {
   position: absolute;
   top: -20px;
   z-index: 2;
@@ -4096,12 +4097,12 @@ mark {
   width: 35%;
 }
 
-#table-wrapper thead {
+table-wrapper thead {
   position: sticky;
   top: 0;
 }
 
-#table-wrapper th {
+table-wrapper th {
   text-decoration: underline dotted 1px;
 }
 th:hover {

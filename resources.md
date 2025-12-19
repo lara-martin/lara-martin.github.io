@@ -82,18 +82,18 @@ You might also be interested in <a href="https://cognitiveai.org/" aria-label="P
 
 
 <h2> Story Datasets</h2>
-<div id="table-wrapper">
-<div id="table-scroll">
+<div class="table-wrapper">
+<div class="table-scroll">
 <table id="data">
 
   <thead>
     <tr>
-      <th onclick="sortTable(0,'data')" aria-label="sort by dataset">Dataset<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(1,'data')" aria-label="sort by year">Year<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(2,'data')" aria-label="sort by paper">Papers<div class="fa fa-fw fa-sort"/></th>
-      <th onclick="sortTable(3,'data')" aria-label="sort by paper code">Paper Code (Baselines)<div class="fa fa-fw fa-sort"/></th>
-      <th onclick="sortTable(4,'data')" aria-label="sort by hugging face link">Hugging Face Link<div class="fa fa-fw fa-sort"/></th>
-      <!--<th onclick="sortTable(5,'data')" aria-label="sort by leaderboard">Leaderboard<div class="fa fa-fw fa-sort"/></th>-->
+      <th onclick="sortTable(0,'data')" aria-label="sort by dataset" scope="col">Dataset<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(1,'data')" aria-label="sort by year" scope="col">Year<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(2,'data')" aria-label="sort by paper" scope="col">Papers<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(3,'data')" aria-label="sort by paper code" scope="col">Paper Code (Baselines)<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(4,'data')" aria-label="sort by hugging face link" scope="col">Hugging Face Link<div class="fa fa-fw fa-sort"/></th>
+      <!--<th onclick="sortTable(5,'data')" aria-label="sort by leaderboard" scope="col">Leaderboard<div class="fa fa-fw fa-sort"/></th>-->
     </tr>
   </thead>
   <tbody>
@@ -152,17 +152,17 @@ You might also be interested in <a href="https://cognitiveai.org/" aria-label="P
 
 <h2> Mixed Visual & Textual Datasets and Methods </h2>
 
-<div id="table-wrapper">
-<div id="table-scroll">
+<div class="table-wrapper">
+<div class="table-scroll">
 <table id="visual">
   <thead>
     <tr>
-      <th onclick="sortTable(0,'visual')" aria-label="sort by dataset">Dataset<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(1,'visual')" aria-label="sort by year">Year<div class="fa fa-fw fa-sort"/></th>
-      <th onclick="sortTable(2,'visual')" aria-label="sort by paper">Papers<div class="fa fa-fw fa-sort"/></th>
-      <th onclick="sortTable(3,'visual')" aria-label="sort by paper code">Paper Code<div class="fa fa-fw fa-sort"/></th>
-      <th onclick="sortTable(4,'visual')" aria-label="sort by hugging face link">Hugging Face Link<div class="fa fa-fw fa-sort"/></th>
-      <!--<th onclick="sortTable(5,'visual')" aria-label="sort by leaderboard link">Leaderboard<div class="fa fa-fw fa-sort"/></th>-->
+      <th onclick="sortTable(0,'visual')" aria-label="sort by dataset" scope="col">Dataset<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(1,'visual')" aria-label="sort by year" scope="col">Year<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(2,'visual')" aria-label="sort by paper" scope="col">Papers<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(3,'visual')" aria-label="sort by paper code" scope="col">Paper Code<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(4,'visual')" aria-label="sort by hugging face link" scope="col">Hugging Face Link<div class="fa fa-fw fa-sort"/></th>
+      <!--<th onclick="sortTable(5,'visual')" aria-label="sort by leaderboard link" scope="col">Leaderboard<div class="fa fa-fw fa-sort"/></th>-->
     </tr>
   </thead>
   <tbody>
@@ -220,14 +220,14 @@ You might also be interested in <a href="https://cognitiveai.org/" aria-label="P
 
 
 <h2> Story Evaluation, Understanding, Cloze Tests, & Benchmarks </h2>
-<div id="table-wrapper">
-<div id="table-scroll">
+<div class="table-wrapper">
+<div class="table-scroll">
 <table id="tests">
   <thead>
     <tr>
-      <th onclick="sortTable(0,'tests')" aria-label="sort by name">Test<div class="fa fa-fw fa-sort"/></th>
-      <th onclick="sortTable(1,'tests')" aria-label="sort by year">Year<div class="fa fa-fw fa-sort"/></th>
-      <th onclick="sortTable(2,'tests')" aria-label="sort by paper">Papers<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(0,'tests')" aria-label="sort by name" scope="col">Test<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(1,'tests')" aria-label="sort by year" scope="col">Year<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(2,'tests')" aria-label="sort by paper" scope="col">Papers<div class="fa fa-fw fa-sort"/></th>
       <!--<th onclick="sortTable(3,'tests')" aria-label="sort by leaderboard">Leaderboard<div class="fa fa-fw fa-sort"/></th>-->
     </tr>
   </thead>
@@ -278,15 +278,15 @@ You might also be interested in <a href="https://cognitiveai.org/" aria-label="P
 
 
 <h2> Data Scrapers & Processors </h2>
-<div id="table-wrapper">
-<div id="table-scroll">
+<div class="table-wrapper">
+<div class="table-scroll">
 
 
 <table id="scrapers">
   <thead>
     <tr>
-      <th onclick="sortTable(0,'scrapers')" aria-label="sort by dataset name">Dataset<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(1,'scrapers')">Info<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(0,'scrapers')" aria-label="sort by dataset name" scope="col">Dataset<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(1,'scrapers')" aria-label="scraper info" scope="col">Info<div class="fa fa-fw fa-sort"/></th>
     </tr>
   </thead>
   <tbody>
@@ -317,14 +317,14 @@ You might also be interested in <a href="https://cognitiveai.org/" aria-label="P
 
 
 <h2> Interactive Fiction Environments</h2>
-<div id="table-wrapper">
-<div id="table-scroll">
+<div class="table-wrapper">
+<div class="table-scroll">
 <table id="if">
   <thead>
     <tr>
-      <th onclick="sortTable(0,'if')" aria-label="sort by name">Environment<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(1,'if')" aria-label="sort by year">Year<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(2,'if')" aria-label="sort by paper">Papers<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(0,'if')" aria-label="sort by name" scope="col">Environment<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(1,'if')" aria-label="sort by year" scope="col">Year<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(2,'if')" aria-label="sort by paper" scope="col">Papers<div class="fa fa-fw fa-sort"/></th>
     </tr>
   </thead>
   <tbody>
@@ -366,14 +366,14 @@ You might also be interested in <a href="https://cognitiveai.org/" aria-label="P
 </div>
 
 <h2>Interactive Fiction Agents</h2>
-<div id="table-wrapper">
-<div id="table-scroll">
+<div class="table-wrapper">
+<div class="table-scroll">
 <table id="agents">
   <thead>
     <tr>
-      <th onclick="sortTable(0,'agents')" aria-label="sort by name">Agent<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(1,'agents')" aria-label="sort by year">Year<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(2,'agents')" aria-label="sort by paper">Papers<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(0,'agents')" aria-label="sort by name" scope="col">Agent<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(1,'agents')" aria-label="sort by year" scope="col">Year<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(2,'agents')" aria-label="sort by paper" scope="col">Papers<div class="fa fa-fw fa-sort"/></th>
     </tr>
   </thead>
   <tbody>
@@ -417,14 +417,14 @@ You might also be interested in <a href="https://cognitiveai.org/" aria-label="P
 
 
 <h2> Story Planning Systems</h2>
-<div id="table-wrapper">
-<div id="table-scroll">
+<div class="table-wrapper">
+<div class="table-scroll">
 <table id="planning">
   <thead>
     <tr>
-      <th onclick="sortTable(0,'planning')">Planner<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(1,'planning')">Year<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(2,'planning')">Papers<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(0,'planning')" scope="col">Planner<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(1,'planning')" scope="col">Year<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(2,'planning')" scope="col">Papers<div class="fa fa-fw fa-sort"/></th>
     </tr>
   </thead>
   <tbody>
@@ -466,14 +466,14 @@ You might also be interested in <a href="https://cognitiveai.org/" aria-label="P
 
 
 <h2> Story Generation Code </h2>
-<div id="table-wrapper">
-<div id="table-scroll">
+<div class="table-wrapper">
+<div class="table-scroll">
 <table id="code">
   <thead>
     <tr>
-      <th onclick="sortTable(0,'code')">Code<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(1,'code')">Year<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(2,'code')">Papers<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(0,'code')" scope="col">Code<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(1,'code')" scope="col">Year<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(2,'code')" scope="col">Papers<div class="fa fa-fw fa-sort"/></th>
     </tr>
   </thead>
   <tbody>
@@ -513,13 +513,13 @@ You might also be interested in <a href="https://cognitiveai.org/" aria-label="P
 </div>
 
 <h3> Libraries & Toolkits</h3>
-<div id="table-wrapper">
-<div id="table-scroll">
+<div class="table-wrapper">
+<div class="table-scroll">
 <table id="libraries">
   <thead>
     <tr>
-      <th onclick="sortTable(0,'libraries')">Library<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(1,'libraries')">Info<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(0,'libraries')" scope="col">Library<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(1,'libraries')" scope="col">Info<div class="fa fa-fw fa-sort"/></th>
     </tr>
   </thead>
   <tbody>
@@ -550,15 +550,15 @@ You might also be interested in <a href="https://cognitiveai.org/" aria-label="P
 
 
 <h2> Knowledge Bases &amp; Commonsense Reasoning</h2>
-<div id="table-wrapper">
-<div id="table-scroll">
+<div class="table-wrapper">
+<div class="table-scroll">
 <table id="kb">
   <thead>
     <tr>
-      <th onclick="sortTable(0,'kb')">Knowledge Base<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(1,'kb')">Year<div class="fa fa-fw fa-sort"/></th>
-      <th onclick="sortTable(2,'kb')">Papers<div class="fa fa-fw fa-sort"/></th>
-      <th onclick="sortTable(3,'kb')">Hugging Face Link<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(0,'kb')" scope="col">Knowledge Base<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(1,'kb')" scope="col">Year<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(2,'kb')" scope="col">Papers<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(3,'kb')" scope="col">Hugging Face Link<div class="fa fa-fw fa-sort"/></th>
     </tr>
   </thead>
   <tbody>
@@ -606,13 +606,13 @@ You might also be interested in <a href="https://cognitiveai.org/" aria-label="P
 <h2> Extras </h2>
 
 <h3>Programming Languages & Authoring Tools for Writing Interactive Fiction</h3>
-<div id="table-wrapper">
-<div id="table-scroll">
+<div class="table-wrapper">
+<div class="table-scroll">
 <table id="langs">
   <thead>
     <tr>
-      <th onclick="sortTable(0,'langs')">Language<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(1,'langs')">Repo<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(0,'langs')" scope="col">Language<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(1,'langs')" scope="col">Repo<div class="fa fa-fw fa-sort"/></th>
     </tr>
   </thead>
   <tbody>
@@ -642,16 +642,16 @@ You might also be interested in <a href="https://cognitiveai.org/" aria-label="P
 </div>
 
 <h3> Notable IF Games</h3>
-<div id="table-wrapper">
-<div id="table-scroll">
+<div class="table-wrapper">
+<div class="table-scroll">
 
 <table id="notable">
   <thead>
     <tr>
-      <th onclick="sortTable(0,'notable')">Game<div class="fa fa-fw fa-sort"/></th>
-      <th onclick="sortTable(1,'notable')">Year<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(2,'notable')">Authors<div class="fa fa-fw fa-sort"/></th>
-      <th onclick="sortTable(3,'notable')">Papers<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(0,'notable')" scope="col">Game<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(1,'notable')" scope="col">Year<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(2,'notable')" scope="col">Authors<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(3,'notable')" scope="col">Papers<div class="fa fa-fw fa-sort"/></th>
     </tr>
   </thead>
   <tbody>
@@ -715,13 +715,13 @@ You might also be interested in <a href="https://cognitiveai.org/" aria-label="P
 
 
 <h3>RPG/IF Inspiration</h3>
-<div id="table-wrapper">
-<div id="table-scroll">
+<div class="table-wrapper">
+<div class="table-scroll">
 <table id="inspo">
   <thead>
     <tr>
-      <th onclick="sortTable(0,'inspo')">Name<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(1,'inspo')">Info<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(0,'inspo')" scope="col">Name<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(1,'inspo')" scope="col">Info<div class="fa fa-fw fa-sort"/></th>
     </tr>
   </thead>
   <tbody>
@@ -752,14 +752,14 @@ You might also be interested in <a href="https://cognitiveai.org/" aria-label="P
 
 
 <h3> Related Courses</h3>
-<div id="table-wrapper">
-<div id="table-scroll">
+<div class="table-wrapper">
+<div class="table-scroll">
 <table id="courses">
   <thead>
     <tr>
-      <th onclick="sortTable(0,'courses')">Course<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(1,'courses')">Taught By<div class="fa fa-fw fa-sort"/></th>
-      <th onclick="sortTable(2,'courses')">Year<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(0,'courses')" scope="col">Course<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(1,'courses')" scope="col">Taught By<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(2,'courses')" scope="col">Year<div class="fa fa-fw fa-sort"/></th>
     </tr>
   </thead>
   <tbody>
@@ -816,13 +816,13 @@ You might also be interested in <a href="https://cognitiveai.org/" aria-label="P
 
 
 <h3> Generators for TRPGs and IF </h3>
-<div id="table-wrapper">
-<div id="table-scroll">
+<div class="table-wrapper">
+<div class="table-scroll">
 <table id="gen">
   <thead>
     <tr>
-      <th onclick="sortTable(0,'gen')">Name<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(1,'gen')">Info<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(0,'gen')" scope="col">Name<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(1,'gen')" scope="col">Info<div class="fa fa-fw fa-sort"/></th>
     </tr>
   </thead>
   <tbody>
@@ -857,13 +857,13 @@ You might also be interested in <a href="https://cognitiveai.org/" aria-label="P
 
 
 <h3>Various Tools</h3>
-<div id="table-wrapper">
-<div id="table-scroll">
+<div class="table-wrapper">
+<div class="table-scroll">
 <table id="tools">
   <thead>
     <tr>
-      <th onclick="sortTable(0,'tools')">Name<div class="fa fa-fw fa-sort"/></th> 
-      <th onclick="sortTable(1,'tools')">Info<div class="fa fa-fw fa-sort"/></th>
+      <th onclick="sortTable(0,'tools')" scope="col">Name<div class="fa fa-fw fa-sort"/></th> 
+      <th onclick="sortTable(1,'tools')" scope="col">Info<div class="fa fa-fw fa-sort"/></th>
     </tr>
   </thead>
   <tbody>

@@ -315,7 +315,7 @@ datasets:
     name: WikiHow Goal-Step
     url: https://github.com/zharry29/wikihow-goal-step
     info:
-    paper1: "WikiHow: A Large Scale Text Summarization Dataset"
+    paper1: "Reasoning about Goals, Steps, and Temporal Ordering with WikiHow"
     paper_url1: https://aclanthology.org/2020.emnlp-main.374
     code: https://github.com/zharry29/wikihow-goal-step
     year: 2020
