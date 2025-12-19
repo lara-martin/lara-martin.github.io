@@ -9680,8 +9680,8 @@ h6,
 
 .name-header {
   /*-webkit-text-stroke: 2px #ffffff;*/
-  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
-    2px 2px 0 black;
+  text-shadow: -2px -2px 0 var(--gray-dark), 2px -2px 0 var(--gray-dark), -2px 2px 0 var(--gray-dark),
+    2px 2px 0 var(--gray-dark);
 }
 
 /** phone time **/
@@ -9718,8 +9718,8 @@ h6,
   }
   .name-header {
     /*-webkit-text-stroke: 1px #ffffff;*/
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
-      1px 1px 0 black;
+    text-shadow: -1px -1px 0 var(--gray-dark), 1px -1px 0 var(--gray-dark), -1px 1px 0 var(--gray-dark),
+      1px 1px 0 var(--gray-dark);
     letter-spacing: 1px;
   }
   .mb-5,

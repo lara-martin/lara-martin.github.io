@@ -102,7 +102,7 @@ layout: default
 		</div>	
 		<ul class="news">
 			{% for news in site.data.news %}
-			<li future-date="{{ news.date | date: '%Y%m%d' }}" {% if news.highlight %}style="background: rgb(194, 242, 182);"{% endif %}><strong>{{ news.date | date: '%-m/%-d/%Y' }}{% if news.end %} - {{ news.end | date: '%-m/%-d/%Y' }}{%endif%}</strong> - {{ news.text }} {% if news.location %}  &ndash; <em>{{news.location}}</em>{%endif%}</li>				
+			<li future-date="{{ news.date | date: '%Y%m%d' }}" {% if news.highlight %}style="background: #F5E3C5;"{% endif %}><strong>{{ news.date | date: '%-m/%-d/%Y' }}{% if news.end %} - {{ news.end | date: '%-m/%-d/%Y' }}{%endif%}</strong> - {{ news.text }} {% if news.location %}  &ndash; <em>{{news.location}}</em>{%endif%}</li>				
 			{% endfor %}							
 		</ul>
 	</div>
