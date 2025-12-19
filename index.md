@@ -19,7 +19,6 @@ layout: default
 </button>
 
 
-
 <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse" onclick="collapseOnClick()" aria-label="navigation">
     <div class="navbar-nav m-auto py-0">
         <a href="#home" class="nav-item nav-link active">Home</a>
@@ -42,6 +41,7 @@ layout: default
 <div id="toc-skipped"></div>
 
 <!-- Header Start -->
+<header>
 <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
 <div class="container">
     <div class="row align-items-center">
@@ -58,9 +58,16 @@ layout: default
             <a href="https://www.csee.umbc.edu/" aria-label="UMBC's Computer Science and Electrical Engineering department">Computer Science and Electrical Engineering</a> at the<br>
 			<a href="https://umbc.edu/" aria-label="UMBC">University of Maryland, Baltimore County</a></h3>
             <br>
-            <h1 class="typed-text-output d-inline font-weight-lighter"></h1>
-            <div class="typed-text d-none">Human-Centered AI, Neurosymbolic NLP, Automated Story Generation, AAC, Dungeons and Dragons AI</div>
-            <h1 class="d-inline font-weight-lighter text-post-typed"> Researcher</h1>
+            <h1 class="typed-text-output d-inline font-weight-lighter">
+            <div id="typed-text" class="d-none">
+            <span>Human-Centered AI</span>
+            <span>Neurosymbolic NLP</span>
+            <span>Automated Story Generation</span>
+            <span>AAC</span>
+            <span>Dungeons and Dragons AI</span>
+            </div>
+            <span id="typed" class="d-inline font-weight-lighter text-post-typed"></span> Researcher
+            </h1>
             
         <h5 style="text-transform:none;"><a href="http://ipa-reader.xyz/?text=l%C9%91%C9%B9.%C9%99&voice=Joanna" aria-label="hear how Lara is said">How to say Lara <i class="fa-solid fa-volume-high"></i></a></h5>
         I make systems that improve how people talk with computers and to each other through computers.
@@ -88,10 +95,12 @@ layout: default
     </div>
 </div>
 </div>
+</header>
 <!-- Header End -->
 
 
 <!-- News Start -->
+<section aria-label="news">
 <div class="container-fluid py-5" id="news">
 <div class="container">
     <!-- News Section -->
@@ -108,10 +117,11 @@ layout: default
 	</div>
 </div>
 </div>
-	
+</section>
 <!-- News End -->
 
 <!-- Contact Start -->
+<section aria-label="contact">
 <div class="container-fluid py-5" id="contact">
 <div class="container">	
     <div class="row align-items-center">
@@ -168,10 +178,11 @@ layout: default
     </div>
 </div>
 </div>
+</section>
 <!-- Contact End -->
 
 
-
+<main>
 <!-- Bio Start -->
 <div class="container-fluid py-5" id="bio">
 <div class="container">
@@ -407,4 +418,4 @@ layout: default
 </div>
 
 <!-- Fun Facts End -->
-
+</main>
