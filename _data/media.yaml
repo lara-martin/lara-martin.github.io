@@ -5,7 +5,8 @@
   date: 2023-08-19
   publication: The Register
   author: Thomas Claburn
-  img: https://regmedia.co.uk/2023/08/17/calypso_image.jpg
+  img: register-2023.jpg
+  alt: A screenshot of the Discord bot Calypso's output. It gives information for rolling for a random encounter and below is the rating interface that Calypso experiment participants used to rate the system.
 
 -
   text: "Next-Gen Innovators: Penn Engineering Postdoctoral Fellows Lead the Way on Groundbreaking Research"
@@ -14,7 +15,8 @@
   date: Fall 2022
   publication: Penn Engineering Magazine
   author: Amy Biemiller
-  img: https://magazine.seas.upenn.edu/wp-content/uploads/2022/12/post-docs-header-image.jpg
+  img: penn-engineering-2022.jpg
+  alt: A collage of Lara and two other UPenn postdocs posing for separate pictures.
 
 -
   text: "Lara Martin: \"How Can I get a system to tell a story about anything I want?\""
@@ -23,7 +25,8 @@
   date: Autumn 2021
   publication: TANK Magazine, Issue 88 (Narrative)
   author: Masoud Golsorkhi
-  img: https://magazine.tank.tv/media/522012/lara-martin.jpg
+  img: tank-2021.jpg
+  alt: A black and white photo of Lara.
 
 -
   label: Science Focus Podcast - Lara Martin on Teaching AI to Tell Stories
@@ -32,7 +35,8 @@
   author: Amy Barrett
   publication: Science Focus Podcast
   date: 2021-03-15
-  img: https://c02.purpledshub.com/uploads/sites/41/2021/03/Lara-Martin-18834bc.jpg?w=940&webp=1
+  img: science-focus-2021.webp
+  alt: A set of dice of different colors and numbers of sides. Below is the text 'Science Focus Podcast'.
 
 -
   label: BBC Science Focus magazine issue 'Dark Stars'
@@ -41,7 +45,8 @@
   author: Amy Barrett
   publication: Science Focus Magazine
   date: 2021-02-17
-  img: https://c02.purpledshub.com/uploads/sites/41/2021/02/FOC_360_p001-003_cover5JE-87890bf.jpg?webp=1&w=1200
+  img: science-focus-mag-2021.webp
+  alt: A picture of Science Focus Magazine's cover for their Dark Stars issue. It has a stylized illustration of a dark star.
   
 -
   label: Forget Chess—the Real Challenge Is Teaching AI to Play D&amp;D
@@ -50,7 +55,8 @@
   author: Will Knight
   publication: Wired
   date: 2020-02-28
-  img: https://media.wired.com/photos/5e5851b2ffd9380009895d8a/master/w_2560%2Cc_limit/Cul-DD-h_15290752.jpg
+  img: wired-2020.jpg
+  alt: A photo of a leather-bound notebook with a dragon etched on the cover. Above it are other tools for playing Dungeons and Dragons, including a set of dice.
 
 
 

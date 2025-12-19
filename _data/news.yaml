@@ -24,12 +24,12 @@
 
 -
   date: 2025-05-15
-  text: I attended the <a href="https://cra.org/ccc/events/ccc-computing-futures-symposium/">CCC Computing Futures Symposium</a>.
+  text: I attended the <a href="https://cra.org/ccc/events/ccc-computing-futures-symposium/" aria-label="website for CCC Futures Symposium">CCC Computing Futures Symposium</a>.
   location: Washington, DC
 
 -
   date: 2025-05-13
-  text: I attended the <a href="https://cra.org/ccc/events/cifellows-2025-symposium/">CIFellows 2025 Symposium</a>.
+  text: I attended the <a href="https://cra.org/ccc/events/cifellows-2025-symposium/" aria-label="website for CI Fellows 2025 Symposium">CIFellows 2025 Symposium</a>.
   location: Washington, DC
 
 -
@@ -72,16 +72,12 @@
   location: Baltimore, MD
 -
   date: 2023-10-08
-  text: <a href="https://arxiv.org/abs/2308.07540" aria-label="arxiv link to CALYPSO paper">CALYPSO&colon; LLMs as Dungeon Master's Assistants</a> was presented at <a href="https://sites.google.com/view/aiide-2023/home" aria-label="AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE) website">AIIDE 2023</a>
+  text: <a href="https://ojs.aaai.org/index.php/AIIDE/article/view/27534" aria-label="link to CALYPSO paper">CALYPSO&colon; LLMs as Dungeon Master's Assistants</a> was presented at <a href="https://sites.google.com/view/aiide-2023/home" aria-label="AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE) website">AIIDE 2023</a>
   location: Salt Lake City, UT
 -
   date: 2023-10-04
   text: Gave a talk at the University of Maryland, College Park's Computational Linguistics and Information Processing (CLIP) Colloquium
   location: College Park, MD
--
-  date: 2023-10-08
-  text: <a href="https://arxiv.org/abs/2308.07540" aria-label="arxiv link to CALYPSO paper">CALYPSO&colon; LLMs as Dungeon Master's Assistants</a> was presented at <a href="https://sites.google.com/view/aiide-2023/home" aria-label="AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE) website">AIIDE 2023</a>
-  location: Salt Lake City, UT
 -
   date: 2023-08-19
   text: <a href="https://zhu.codes/" aria-label="Andrew Zhu's homepage">Andrew Zhu</a>'s work on <a href="https://arxiv.org/abs/2308.07540" aria-label="arxiv link to CALYPSO paper">CALYPSO</a> was featured in <a href="https://www.theregister.com/2023/08/19/chatgpt_dnd_dm/" aria-label="The Register Article&colon; Hallucinating ChatGPT finds a role playing Dungeons & Dragons">The Register</a>.

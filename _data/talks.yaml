@@ -2,22 +2,22 @@
   id: tingenuity-ai
   name: Interactive Storytelling with AI – Dr. Lara Martin
   venue: Tingenuity AI podcast
-  link: https://www.youtube-nocookie.com/embed/K5cAzLGaDo8
+  link: "https://www.youtube-nocookie.com/embed/K5cAzLGaDo8?cc_lang_pref=en&cc_load_policy=1"
   date: 2025-07-11
 -
   id: gt-nlp-seminar
   name: Dungeons and Discourse&colon; Using Computational Storytelling to Look at Natural Language Use
   venue: Georgia Tech's NLP Seminar Series
-  link: "https://www.youtube-nocookie.com/embed/9SnsgglNHYA?start=171"
+  link: "https://www.youtube-nocookie.com/embed/9SnsgglNHYA?start=171&cc_lang_pref=en&cc_load_policy=1"
   date: 2020-09-11
 -
   id: usc-nl-seminar
   name: Dungeons and Discourse&colon; Using Computational Storytelling to Look at Natural Language Use
-  link: https://www.youtube-nocookie.com/embed/hldKVQj863o
+  link: "https://www.youtube-nocookie.com/embed/hldKVQj863o?cc_lang_pref=en&cc_load_policy=1"
   venue: USC's Natural Language Seminar
   date: 2022-05-05
 -
   id: jhu
-  venue: Johns Hopkins University's Center for Language & Speech Processng (CLSP)
-  link: https://www.youtube-nocookie.com/embed/Kyopo5y91Bk
+  venue: Johns Hopkins University's Center for Language & Speech Processing (CLSP)
+  link: "https://www.youtube-nocookie.com/embed/Kyopo5y91Bk?cc_lang_pref=en&cc_load_policy=1"
   date: 2024-02-16

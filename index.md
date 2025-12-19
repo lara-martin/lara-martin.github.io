@@ -258,11 +258,11 @@ layout: default
 	<h5 class="font-weight-bold mb-1">{{m.course}}</h5>
 	<h6>{{m.school}}</h6>
 	{% for semester in m.when %}
-	<em><a href="{{semester.link}}" class="bigger-link">{{semester.semester}}</a></em><br>
+	<em><a href="{{semester.link}}" class="bigger-link" aria-label="{{m.course}} website for {{semester.semester}}">{{semester.semester}}</a></em><br>
 	{% endfor %}
 	<small>{{m.note}}</small>
 	{% else %}
-	<h5 class="font-weight-bold mb-1">{{ m.course }}</h5> <h6>{{ m.school}}</h6><em>{% if m.link %}<a aria-label="{{ m.course }}" href="{{ m.link }}" class="bigger-link">{{m.semester}}</a>{%else%}<div class="bigger-link">{{m.semester}}</div>{%endif%}</em><br> <small>{{m.note}}</small>
+	<h5 class="font-weight-bold mb-1">{{ m.course }}</h5> <h6>{{ m.school}}</h6><em>{% if m.link %}<a aria-label="{{ m.course }}" href="{{ m.link }}" aria-label="{{m.course}} website for {{m.semester}}" class="bigger-link">{{m.semester}}</a>{%else%}<div class="bigger-link">{{m.semester}}</div>{%endif%}</em><br> <small>{{m.note}}</small>
 	{% endif %}
 	</div>
 	{% endfor %}
@@ -288,7 +288,7 @@ layout: default
 	{% for m in site.data.media %}
 	
 	<div class="col-lg-4 col-md-6 text-center mb-5">
-	<div style="object-fit:cover;"><img src="{{m.img}}" style="width:100%;"></div><br>
+	<div style="object-fit:cover;"><img src="assets/img/media/{{m.img}}" alt="{{m.alt}}" style="width:100%;"></div><br>
 	<em><a aria-label="{{ m.label }}" href="{{ m.link }}">{{ m.text }}</a></em> by {{ m.author }} for {{ m.publication }}.<br>{{ m.date | date: "%b %e, %Y" }}.</div>
 	{% endfor %}
 
@@ -314,7 +314,7 @@ layout: default
 
 		<h3>{{talk.date | date: '%-m/%-d/%Y'}} - {{talk.venue}}</h3>
 		<div class="content video" id="{{ talk.id }}"><div class="video-container">
-			<iframe aria-label="{{talk.venue}}" src="{{talk.link}}" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+			<iframe aria-label="Lara's talk at {{talk.venue}}" src="{{talk.link}}" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 			
 
 		</div></div>
@@ -376,25 +376,25 @@ layout: default
         <div class="col-lg-8">
             <div class="owl-carousel testimonial-carousel">
                 <div class="text-center">			
-			<a href="https://thenounproject.com/icon/raining-cats-and-dogs-89894/"><img class="img-fluid rounded-circle mx-auto mb-3" src="assets/img/noun-raining-cats-and-dogs-89894.png" aria-label="icon of a cat and a dog raining onto an umbrella; created by Aenne Brielmann from the Noun Project" style="width: 80px; height: 80px;"></a>
+			<a href="https://thenounproject.com/icon/raining-cats-and-dogs-89894/"><img class="img-fluid rounded-circle mx-auto mb-3" src="assets/img/noun-raining-cats-and-dogs-89894.png" alt="icon of a cat and a dog raining onto an umbrella. created by Aenne Brielmann from the Noun Project" style="width: 80px; height: 80px;"></a>
 
                     <h4 class="font-weight-light mb-4">I have been collecting a list of American English <a aria-label="Idiom list" href="https://docs.google.com/spreadsheets/d/1hvuFG_Tg4IQIhMRMY1bZYV5yeJUUDb54W2QZWEHaL_U/edit?usp=sharing">idioms</a> for foreign friends.</h4>
                     
                 </div>
                 <div class="text-center">
-                    <img class="img-fluid rounded-circle mx-auto mb-3" src="assets/img/LOLCat_Bible.jpg" style="width: 80px; height: 80px;" aria-label="LOL Cat Bible cover; taken from the Wikipedia page for 'LOLCat Bible Translation Project'">
+                    <img class="img-fluid rounded-circle mx-auto mb-3" src="assets/img/LOLCat_Bible.jpg" style="width: 80px; height: 80px;" alt="LOL Cat Bible cover. taken from the Wikipedia page for 'LOLCat Bible Translation Project'">
                     <h4 class="font-weight-light mb-4">I created a machine translation system with Vivian Robison for translating the Bible from 
 			<a aria-label="LOL speak to English Bible MT project" href="./poster/MT-project.pdf">LOLspeak to English</a>.</h4>
                     
 
                 </div>
                 <div class="text-center">
-                    <img class="img-fluid rounded-circle mx-auto mb-3" src="assets/img/festvox.png" style="width: 80px; height: 80px;" aria-label="Festvox logo; taken from http://www.festvox.org">
+                    <img class="img-fluid rounded-circle mx-auto mb-3" src="assets/img/festvox.png" style="width: 80px; height: 80px;" alt="Festvox logo; taken from http://www.festvox.org">
                     <h4 class="font-weight-light mb-4">I am a downloadable voice in the speech synthesis tool 
 			<a aria-label="Festvox" href="http://www.festvox.org/flite/">Festvox</a> (voice "<a aria-label="LJM voice in Festvox (download)" href="http://www.festvox.org/flite/packed/flite-2.0/voices/cmu_us_ljm.flitevox">US English Female LJM</a>").</h4>
                 </div>
                 <div class="text-center">
-                <img class="img-fluid rounded-circle mx-auto mb-3" src="assets/img/achlogo.png" style="width: 80px; height: 80px;" aria-label="The Association for Computational Heresy logo (parody of the ACM logo); taken from https://sigbovik.org/">
+                <img class="img-fluid rounded-circle mx-auto mb-3" src="assets/img/achlogo.png" style="width: 80px; height: 80px;" alt="The Association for Computational Heresy logo (parody of the ACM logo); taken from the sig bovik website">
                   <h4 class="font-weight-light mb-4">I presented at 
 			<a aria-label="SIGBOVIK 2015" href="http://sigbovik.org/2015/">SIGBOVIK 2015</a> (a fake conference) on "<a aria-label="Language Sequencing: Language as a Physical Entity slides" href="https://docs.google.com/presentation/d/1KRd6L_yGJgN6rNhW8EbOeNoDfRpnO4dMwptttT875jI/edit?usp=sharing">Language Sequencing: Language as a Physical Entity</a>" with 
 			<a aria-label="Meghana Kshirsagar" href="https://www.cs.cmu.edu/~mkshirsa/">Meghana Kshirsagar</a>.</h4>
