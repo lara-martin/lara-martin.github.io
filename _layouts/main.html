@@ -6,7 +6,7 @@ layout: blog-default
   <header>
     <div class="about">
       <div class="cover-author-image">
-        <a href="{{site.data.blog.url}}" aria-label="Back to main website"><img src="/assets/img/{% if site.data.blog.author-img %}{{site.data.blog.author-img}}{% endif %}" aria-label={{site.data.blog.author}}"></a>
+        <a href="{{site.data.blog.url}}" aria-label="Back to Lara's main website"><img src="/assets/img/{% if site.data.blog.author-img %}{{site.data.blog.author-img}}{% endif %}" alt="photo of {{site.data.blog.author}}"></a>
       </div>
       <div class="author-name">{{site.data.blog.author}}</div>
       <p>{{site.data.blog.about-author}}</p>
@@ -22,16 +22,16 @@ layout: blog-default
       <h3 class="contact-title">Contact me</h3>
       <ul>
         {% if site.data.blog.social-bluesky %}
-          <li><a href="{{site.data.blog.social-bluesky}}" target="_blank"><i class="fa-brands fa-bluesky"></i></a></li>
+          <li><a href="{{site.data.blog.social-bluesky}}" target="_blank" aria-label="Lara's Bluesky account"><i class="fa-brands fa-bluesky"></i></a></li>
         {% endif %}
         {% if site.data.blog.social-github %}
-          <li><a href="http://github.com/{{site.data.blog.social-github}}" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+          <li><a href="http://github.com/{{site.data.blog.social-github}}" aria-label="Lara's Github account" target="_blank"><i class="fa-brands fa-github"></i></a></li>
         {% endif %}
         {% if site.data.blog.social-linkedin %}
-          <li><a href="https://in.linkedin.com/in/{{site.data.blog.social-linkedin}}" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="https://in.linkedin.com/in/{{site.data.blog.social-linkedin}}" aria-label="Lara's LinkedIn account" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
         {% endif %}
         {% if site.data.blog.social-twitter %}
-          <li><a href="https://twitter.com/{{ site.data.blog.social-twitter }}" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="https://twitter.com/{{ site.data.blog.social-twitter }}" aria-label="Lara's X/Twitter account" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
         {% endif %}
       </ul>
     </section> <!-- End Section Contact -->

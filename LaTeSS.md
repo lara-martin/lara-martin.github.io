@@ -63,8 +63,8 @@ UMBC's Language Technology Seminar Series (LaTeSS &ndash; pronounced lattice) sh
 			<big><b>{{ talk.date | date: "%A, %B %-d, %Y" }}</b></big>
 			<br>{{talk.time}}
 			<br>{{talk.location}}
-			<br><br><a href="{{talk.web}}" class="badge badge-web badge-sm text-decoration-none mb-1">Webex Link</a>
-			<br><br><a href="{{talk.rsvp}}" class="badge badge-web badge-sm text-decoration-none mb-1">RSVP</a>
+			<br><br><a href="{{talk.web}}" class="badge badge-web badge-sm text-decoration-none mb-1" aria-label="WebEx link to join {{talk.name}}'s talk">WebEx Link</a>
+			<br><br><a href="{{talk.rsvp}}" class="badge badge-web badge-sm text-decoration-none mb-1" aria-label="RSVP to {{talk.name}}'s talk">RSVP</a>
 		</div>
 		<div class="col-md-2-person mb-3">
 			<img class="person-img" alt="{{talk.name}}'s photo" src="assets/img/speakers/{{talk.img}}">
@@ -110,7 +110,7 @@ UMBC's Language Technology Seminar Series (LaTeSS &ndash; pronounced lattice) sh
 			<br>{{talk.time}}
 			<br>{{talk.location}}
 			{% if talk.recording %}
-			<br><br><a href="{{talk.recording}}" class="badge badge-web badge-sm text-decoration-none mb-1">Recording</a>
+			<br><br><a href="{{talk.recording}}" aria-label="recording of {{talk.name}}'s talk" class="badge badge-web badge-sm text-decoration-none mb-1">Recording</a>
 			{% endif %}
 		</div>
 		<div class="col-md-2-person mb-3">

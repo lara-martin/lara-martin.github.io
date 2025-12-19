@@ -343,18 +343,18 @@ layout: default
         {% for post in site.posts %}
         <div class="col-lg-4 mb-5">
             <div class="position-relative mb-4">
-                <img class="img-fluid rounded w-100" src="/assets/img/{{post.img}}" alt="">
-                <a href="{{post.url}}"><div class="blog-date grow">
+                <img class="img-fluid rounded w-100" src="/assets/img/{{post.img}}" alt="{{post.fig-caption}}">
+                <div class="blog-date grow">
                     <h4 class="font-weight-bold mb-n1">{{post.date | date: '%d'}}</h4>
                     <small class="text-white text-uppercase font-weight-bold">{{post.date | date: '%b'}}</small>
                     <small class="text-white text-uppercase">{{post.date | date: '%Y'}}</small>
-                </div></a>
+                </div>
             </div>
-            <h5 class="font-weight-medium mb-4">{{post.title}}</h5>
+            <h5 class="font-weight-medium mb-4"><a href="{{post.url}}" aria-label="{{post.title}}">{{post.title}}</a></h5>
             
             <h6 class="font-weight-medium mb-4">{{post.description}} &middot; {% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</h6>
-            <p>{{ post.content | strip_html | truncatewords: 15 }}</p> 
-            <a class="btn btn-sm btn-outline-primary py-2" href="{{post.url}}">Read More</a>
+            <p><i>{{ post.content | strip_html | truncatewords: 15 }}</i></p> 
+            <!--<a class="btn btn-sm btn-outline-primary py-2" href="{{post.url}}">Read More</a>-->
         </div>
 	{% endfor %}
 
