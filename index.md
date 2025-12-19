@@ -53,18 +53,18 @@ layout: default
 
             
            
-            <h3 class="d-inline font-weight-lighter text-white">
+            <h3 class="d-inline font-weight-lighter">
             Assistant Professor in <br>
             <a href="https://www.csee.umbc.edu/" aria-label="UMBC's Computer Science and Electrical Engineering department">Computer Science and Electrical Engineering</a> at the<br>
 			<a href="https://umbc.edu/" aria-label="UMBC">University of Maryland, Baltimore County</a></h3>
             <br>
-            <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+            <h1 class="typed-text-output d-inline font-weight-lighter"></h1>
             <div class="typed-text d-none">Human-Centered AI, Neurosymbolic NLP, Automated Story Generation, AAC, Dungeons and Dragons AI</div>
-            <h1 class="d-inline font-weight-lighter text-white post-typed"> Researcher</h1>
+            <h1 class="d-inline font-weight-lighter text-post-typed"> Researcher</h1>
             
         <h5 style="text-transform:none;"><a href="http://ipa-reader.xyz/?text=l%C9%91%C9%B9.%C9%99&voice=Joanna" aria-label="hear how Lara is said">How to say Lara <i class="fa-solid fa-volume-high"></i></a></h5>
-        I make systems that improve how people talk <em>with</em> computers and to each other <em>through</em> computers.
-        Most of my career so far has been teaching computers how to tell stories (also known as automated story generation) and working my way towards an <a href="https://www.wired.com/story/forget-chess-real-challenge-teaching-ai-play-dandd/" aria-label="Wired article on Lara's work about teaching AI to play D\&D">AI Dungeon Master</a>.
+        I make systems that improve how people talk with computers and to each other through computers.
+        Most of my career so far has been teaching computers how to tell stories (also known as automated story generation) and working my way towards an <a href="https://www.wired.com/story/forget-chess-real-challenge-teaching-ai-play-dandd/" aria-label="Wired article on Lara's work about teaching AI to play D&D">AI Dungeon Master</a>.
         I also work on <a href="https://arxiv.org/abs/2404.17730" aria-label="my AAC paper interviewing autistic adults">Augmentative and Alternative Communication (AAC)</a> and speech technologies.
         <br><br>
         I'm an affiliate in the <a href="https://informationsystems.umbc.edu/" aria-label="information systems department at UMBC">Information Systems Department</a> and member of <a href="https://ai.umbc.edu/" aria-label="UMBC's center for AI">UMBC's Center for AI</a>.
@@ -74,13 +74,13 @@ layout: default
 		
             <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
             <br>
-                <a aria-label="Lara&#39;s CV" href="https://github.com/lara-martin/CV/raw/main/LaraMartinCV.pdf" class="btn btn-outline-light mr-5"> CV</a>
+                <a aria-label="Lara&#39;s CV" href="https://github.com/lara-martin/CV/raw/main/LaraMartinCV.pdf" class="btn btn-outline-dark mr-5"> CV</a>
                 
-                <a aria-label="Lara&#39;s lab page" href="/lab" class="btn btn-outline-light mr-5"> LARA Lab</a>
+                <a aria-label="Lara&#39;s lab page" href="/lab" class="btn btn-outline-dark mr-5"> LARA Lab</a>
                 
-                <a aria-label="Lara&#39;s UMBC page" href="https://www.csee.umbc.edu/lara-j-martin/" class="btn btn-outline-light mr-5"> UMBC Personal Page</a>
+                <a aria-label="Lara&#39;s UMBC page" href="https://www.csee.umbc.edu/lara-j-martin/" class="btn btn-outline-dark mr-5"> UMBC Personal Page</a>
                 
-                <a aria-label="interactive fiction and story generation resource list" href="/resources.html" class="btn btn-outline-light mr-5"> Interactive Fiction and Story Generation Resources</a>               
+                <a aria-label="interactive fiction and story generation resource list" href="/resources.html" class="btn btn-outline-dark mr-5"> Interactive Fiction and Story Generation Resources</a>               
             </div>
             <br>
         </div>
