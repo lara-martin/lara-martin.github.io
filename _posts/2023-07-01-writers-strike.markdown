@@ -5,7 +5,7 @@ date: 2023-07-01T00:00:00-05:00
 description: What you should and shouldn't be concerned about when it comes to your writing job. # Add post description (optional)
 img: Writers_Guild_of_America_2023_writers_strike.jpg # Add image post (optional)
 img-attribution: Fabebk via https://commons.wikimedia.org/wiki/File:Writers_Guild_of_America_2023_writers_strike.jpg
-fig-caption: A photograph of people striking with signs that say "Writers Generate All of it! Writers Guild on Strike!" and "No sleep til contract. Writers Guild on Strike!"
+fig-caption: A photograph of people striking with signs that say 'Writers Generate All of it! Writers Guild on Strike!' and 'No sleep til contract. Writers Guild on Strike!'
 tags: [Language Models, Neural Networks, ChatGPT, AI and Society]
 ---
 
