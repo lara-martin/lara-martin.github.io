@@ -58,15 +58,18 @@ layout: default
             <a href="https://www.csee.umbc.edu/" aria-label="UMBC's Computer Science and Electrical Engineering department">Computer Science and Electrical Engineering</a> at the<br>
 			<a href="https://umbc.edu/" aria-label="UMBC">University of Maryland, Baltimore County</a></h3>
             <br>
-            <h1 class="typed-text-output d-inline font-weight-lighter">
-            <div id="typed-text" class="d-none">
-            <span>Human-Centered AI</span>
-            <span>Neurosymbolic NLP</span>
-            <span>Automated Story Generation</span>
-            <span>AAC</span>
-            <span>Dungeons and Dragons AI</span>
+            <h1 class="d-inline font-weight-lighter">
+            <div class="type-wrap">
+            <div id="typed-text typed-text-output" class="d-none">
+				<span>Human-Centered AI</span>
+				<span>Neurosymbolic NLP</span>
+				<span>Automated Story Generation</span>
+				<span>AAC</span>
+				<span>Dungeons and Dragons AI</span>
             </div>
-            <span id="typed" class="d-inline font-weight-lighter text-post-typed"></span> Researcher
+            <span id="typed"></span> 
+            </div>
+            <span class="d-inline font-weight-lighter text-post-typed">Researcher</span>
             </h1>
             
         <h5 style="text-transform:none;"><a href="http://ipa-reader.xyz/?text=l%C9%91%C9%B9.%C9%99&voice=Joanna" aria-label="hear how Lara is said">How to say Lara <i class="fa-solid fa-volume-high"></i></a></h5>
