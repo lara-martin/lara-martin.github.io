@@ -20,7 +20,7 @@ layout: default
 
 
 
-<div class="collapse navbar-collapse px-lg-3" id="navbarCollapse" onclick="collapseOnClick()">
+<div class="collapse navbar-collapse px-lg-3" id="navbarCollapse" onclick="collapseOnClick()" aria-label="navigation">
     <div class="navbar-nav m-auto py-0">
         <a href="#home" class="nav-item nav-link active">Home</a>
         <a href="#news" class="nav-item nav-link">News</a>
@@ -314,7 +314,7 @@ layout: default
 
 		<h3>{{talk.date | date: '%-m/%-d/%Y'}} - {{talk.venue}}</h3>
 		<div class="content video" id="{{ talk.id }}"><div class="video-container">
-			<iframe aria-label="Lara's talk at {{talk.venue}}" src="{{talk.link}}" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+			<iframe aria-label="Lara's talk at {{talk.venue}}" title="{{talk.name}}" src="{{talk.link}}" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 			
 
 		</div></div>
