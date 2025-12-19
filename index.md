@@ -346,8 +346,8 @@ layout: default
                 <img class="img-fluid rounded w-100" src="/assets/img/{{post.img}}" alt="{{post.fig-caption}}">
                 <div class="blog-date grow">
                     <h4 class="font-weight-bold mb-n1">{{post.date | date: '%d'}}</h4>
-                    <small class="text-white text-uppercase font-weight-bold">{{post.date | date: '%b'}}</small>
-                    <small class="text-white text-uppercase">{{post.date | date: '%Y'}}</small>
+                    <small class="text-uppercase font-weight-bold">{{post.date | date: '%b'}}</small>
+                    <small class="text-uppercase">{{post.date | date: '%Y'}}</small>
                 </div>
             </div>
             <h5 class="font-weight-medium mb-4"><a href="{{post.url}}" aria-label="{{post.title}}">{{post.title}}</a></h5>
