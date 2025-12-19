@@ -9680,8 +9680,8 @@ h6,
 
 .name-header {
   /*-webkit-text-stroke: 2px #ffffff;*/
-  text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff,
-    2px 2px 0 #ffffff;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black;
 }
 
 /** phone time **/
