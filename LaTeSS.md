@@ -49,8 +49,8 @@ UMBC's Language Technology Seminar Series (LaTeSS &ndash; pronounced lattice) sh
 
 
 <h2 id="upcoming"> Schedule</h2>
-<div id="table-wrapper">
-<div id="table-scroll">
+<div class="table-wrapper">
+<div class="table-scroll">
 
 
 <div class="col-md-12 mb-3" style="font-size:16px;font-family: Lato, Helvetica, arial, sans-serif;">
@@ -94,8 +94,8 @@ UMBC's Language Technology Seminar Series (LaTeSS &ndash; pronounced lattice) sh
 <h2 id="past"> Past Talks</h2>
 
 
-<div id="table-wrapper">
-<div id="table-scroll">
+<div class="table-wrapper">
+<div class="table-scroll">
 
 
 <div class="col-md-12 mb-3" style="font-size:16px;font-family: Lato, Helvetica, arial, sans-serif;">

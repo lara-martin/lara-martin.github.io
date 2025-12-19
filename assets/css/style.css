@@ -9440,6 +9440,10 @@ button.bg-dark:focus {
   color: var(--primary) !important;
 }
 
+.text-top {
+	font-size: 3rem !important;
+}
+
 a.text-primary:hover,
 a.text-primary:focus {
   color: #078571 !important;
@@ -9682,6 +9686,10 @@ h6,
 
 /** phone time **/
 @media (max-width: 500px) {
+
+  .text-top {
+    font-size: 2rem !important;
+  }
   .typed-cursor {
     font-size: 20px;
   }
@@ -9710,8 +9718,8 @@ h6,
   }
   .name-header {
     /*-webkit-text-stroke: 1px #ffffff;*/
-    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
-      1px 1px 0 #ffffff;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+      1px 1px 0 black;
     letter-spacing: 1px;
   }
   .mb-5,

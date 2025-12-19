@@ -177,7 +177,7 @@ layout: default
 <div class="container">
     <div class="position-relative d-flex align-items-center justify-content-center">
         <h1 class="display-1 text-uppercase text-white background-header">Biography</h1>
-        <h1 class="position-absolute text-uppercase text-primary">Biography</h1>
+        <h1 class="position-absolute text-uppercase text-primary text-top">Biography</h1>
     </div>
     
 	
@@ -246,7 +246,7 @@ layout: default
 <div class="container">
     <div class="position-relative d-flex align-items-center justify-content-center">
         <h1 class="display-1 text-uppercase text-white background-header">Teaching</h1>
-        <h1 class="position-absolute text-uppercase text-primary">Teaching</h1>
+        <h1 class="position-absolute text-uppercase text-primary text-top">Teaching</h1>
     </div>
     <center>I have a <a aria-label="Lara's teaching certificate" href="assets/img/teaching-certificate.pdf">teaching certificate</a> from <a aria-label="Tech to Teaching" href="https://ctl.gatech.edu/tech-teaching">Georgia Tech</a>, Spring 2019.</center>
     <br>
@@ -280,7 +280,7 @@ layout: default
 <div class="container">
     <div class="position-relative d-flex align-items-center justify-content-center">
         <h1 class="display-1 text-uppercase text-white background-header">Media</h1>
-        <h1 class="position-absolute text-uppercase text-primary">Media</h1>
+        <h1 class="position-absolute text-uppercase text-primary text-top">Media</h1>
     </div>
     
     <h3 class="mb-4">Articles</h3>
@@ -304,7 +304,7 @@ layout: default
 	<div class="container">
 	<div class="position-relative d-flex align-items-center justify-content-center">
         <h1 class="display-1 text-uppercase text-white background-header">Talks</h1>
-        <h1 class="position-absolute text-uppercase text-primary">Talks</h1>
+        <h1 class="position-absolute text-uppercase text-primary text-top">Talks</h1>
     </div>
     -->
     <h3 class="mb-4">Talks</h3>
@@ -336,7 +336,7 @@ layout: default
 <div class="container">
     <div class="position-relative d-flex align-items-center justify-content-center">
         <h1 class="display-1 text-uppercase text-white background-header">Blog</h1>
-        <h1 class="position-absolute text-uppercase text-primary">Blog</h1>
+        <h1 class="position-absolute text-uppercase text-primary text-top">Blog</h1>
     </div>
     <div class="row">
         
@@ -370,7 +370,7 @@ layout: default
 <div class="container">
     <div class="position-relative d-flex align-items-center justify-content-center">
         <h1 class="display-1 text-uppercase text-white background-header">Fun Facts</h1>
-        <h1 class="position-absolute text-uppercase text-primary">Fun Facts</h1>
+        <h1 class="position-absolute text-uppercase text-primary text-top">Fun Facts</h1>
     </div>
     <div class="row justify-content-center">
         <div class="col-lg-8">
