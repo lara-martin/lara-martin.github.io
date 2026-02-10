@@ -3,8 +3,11 @@
   school: University of Maryland, Baltimore County
   when:
   -
-    semester: Spring 2025
+    semester: Spring 2026
     link: /NLP-class
+  -
+    semester: Spring 2025
+    link: /NLP-class/2025
   -
     semester: Spring 2024
     link: /NLP-class/2024
