@@ -1,4 +1,12 @@
 -
+  course: CMSC 412/612 Neurosymbolic Text Generation
+  note: A permanent course number version of Interactive Fiction and Text Generation
+  school: University of Maryland, Baltimore County
+  when:
+  -
+    semester: Fall 2026
+    link: /neurosymbolic-text-gen
+-
   course: CMSC 473/673 Natural Language Processing
   school: University of Maryland, Baltimore County
   when:
