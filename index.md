@@ -56,6 +56,7 @@ layout: default
 							<span>Human-Centered AI</span>
 							<span>Neurosymbolic NLP</span>
 							<span>Automated Story Generation</span>
+							<span>AI Alignment</span>
 							<span>AAC</span>
 							<span>Dungeons and Dragons AI</span>
 						</div>
@@ -78,7 +79,7 @@ layout: default
 					Most of my career so far has been teaching computers how to tell stories (also known as automated story generation) and working my way towards an <a href="https://www.wired.com/story/forget-chess-real-challenge-teaching-ai-play-dandd/" aria-label="Wired article on Lara's work about teaching AI to play D&D">AI Dungeon Master</a>.
 					I also work on <a href="https://arxiv.org/abs/2404.17730" aria-label="my AAC paper interviewing autistic adults">Augmentative and Alternative Communication (AAC)</a> and speech technologies.
 					<br><br>
-					I'm an affiliate in the <a href="https://informationsystems.umbc.edu/" aria-label="information systems department at UMBC">Information Systems Department</a> and member of <a href="https://ai.umbc.edu/" aria-label="UMBC's center for AI">UMBC's Center for AI</a>.
+					I'm an affiliate in the <a href="https://informationsystems.umbc.edu/" aria-label="information systems department at UMBC">Information Systems Department</a> and member of <a href="https://ai.umbc.edu/" aria-label="UMBC's center for AI">UMBC's Center for AI</a>. I am also a Research Expert for the nonprofit <a href="https://robotsforall.us/" aria-label="Robots for All">Robots for All</a>.
 					<br>
 					I run the <a href="./lab/">LARA Lab</a> and am a member of the <a href="http://iral.cs.umbc.edu/">Interactive Robotics and Language Lab (IRAL)</a>. My pronouns are <a aria-label="How to use she/they pronouns" href="https://en.pronouns.page/she&they">she/they</a>.
 					<div class="d-flex align-items-center justify-content-center justify-content-lg-start">
