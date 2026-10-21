@@ -65,7 +65,7 @@ layout: default
 						<span  id="typed"></span>
 						Researcher
 						
-						<div class="play-pause toggle" onclick="this.classList.toggle('active')">
+						<div class="play-pause toggle" onclick="this.classList.toggle('active')" aria-label="pause typing animation">
 						  <div class="pause-background"></div>
 						  <div class="pause-icon">
 						    <div class="play-icon play-left"></div>

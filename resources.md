@@ -63,10 +63,6 @@ active_tab: resources
 <div class="intro">
 <p>
 Here is a non-exhaustive list of various resources you might want if you're interested in automated story generation, interactive fiction (IF), or related research areas (such as story understanding and tabletop roleplaying games&mdash;TRPGs). <!--This list was first created when I co-taught <a href="https://interactive-fiction-class.org/" aria-label="Interactive Fiction and Text Generation course website">Interactive Fiction and Text Generation</a> at UPenn with Chris Callison-Burch.-->
-
-<br><br> I also made a list of <a href="https://docs.google.com/spreadsheets/d/1jlLdJj0NTOwv1JA2CvCLcKJ2_ogRQ3kK0nlAUzhinig/edit?usp=sharing" aria-label="Narrative Understanding & Generation Research People">related researchers</a>, and I try to keep up a list of <a href="https://docs.google.com/spreadsheets/d/1KZfkLMO0DdraeJwTTT4BEqJY0RlOBjunIKo1jzKiFkQ/edit?usp=sharing" aria-label="Academic Conference Deadlines spreadsheet">upcoming conference and workshop deadlines</a>.
-If you want me to add or update anything on any of these lists, please let me know! You can unscramble my email address here: 
-<div id="email" style="display:inline;padding-left: 2rem;"><noscript><i>Please enable Javascript to view</i></noscript></div>
 <p>
 Note: This is not a list of papers in the field, but rather a list of corpora &amp; code and their corresponding papers if they have it.
 <br>
