@@ -26,9 +26,11 @@ layout: default
 			<a href="#media" class="nav-item nav-link">Media</a>
 			<a href="#blog" class="nav-item nav-link">Blog</a>
 			<a href="#random" class="nav-item nav-link">Fun Facts</a>
-			<a href="/lab/publications" class="nav-item nav-link outside-link">Publications</a>
-			<a href="/lab" class="nav-item nav-link outside-link">LARA Lab</a>
-			<a href="/LaTeSS" class="nav-item nav-link outside-link">LaTeSS (Seminar)</a>
+			<a href="https://github.com/lara-martin/CV/raw/main/LaraMartinCV.pdf" class="nav-item nav-link outside-link">CV <i class="fa fa-external-link" aria-hidden="true"></i></a>
+			<a href="/lab/publications" class="nav-item nav-link outside-link">Publications <i class="fa fa-external-link" aria-hidden="true"></i></a>
+			<a href="/lab" class="nav-item nav-link outside-link">LARA Lab <i class="fa fa-external-link" aria-hidden="true"></i></a>
+			<a href="/resources.html" class="nav-item nav-link outside-link">Story Generation Resources <i class="fa fa-external-link" aria-hidden="true"></i></a>
+			<!--<a href="/LaTeSS" class="nav-item nav-link outside-link">LaTeSS (Seminar)</a>-->
 		</div>
 	</div>
 </nav>
@@ -79,15 +81,14 @@ layout: default
 					Most of my career so far has been teaching computers how to tell stories (also known as automated story generation) and working my way towards an <a href="https://www.wired.com/story/forget-chess-real-challenge-teaching-ai-play-dandd/" aria-label="Wired article on Lara's work about teaching AI to play D&D">AI Dungeon Master</a>.
 					I also work on <a href="https://arxiv.org/abs/2404.17730" aria-label="my AAC paper interviewing autistic adults">Augmentative and Alternative Communication (AAC)</a> and speech technologies.
 					<br><br>
-					I'm an affiliate in the <a href="https://informationsystems.umbc.edu/" aria-label="information systems department at UMBC">Information Systems Department</a> and member of <a href="https://ai.umbc.edu/" aria-label="UMBC's center for AI">UMBC's Center for AI</a>. I am also a Research Expert for the nonprofit <a href="https://robotsforall.us/" aria-label="Robots for All">Robots for All</a>.
-					<br>
 					I run the <a href="./lab/">LARA Lab</a> and am a member of the <a href="http://iral.cs.umbc.edu/">Interactive Robotics and Language Lab (IRAL)</a>. My pronouns are <a aria-label="How to use she/they pronouns" href="https://en.pronouns.page/she&they">she/they</a>.
+					<br>
+					I'm also affiliate faculty in the <a href="https://informationsystems.umbc.edu/" aria-label="information systems department at UMBC">Information Systems Department</a>, member of <a href="https://ai.umbc.edu/" aria-label="UMBC's center for AI">UMBC's Center for AI</a>, and a Research Expert for the nonprofit <a href="https://robotsforall.us/" aria-label="Robots for All">Robots for All</a>.
 					<div class="d-flex align-items-center justify-content-center justify-content-lg-start">
 						<br>
 						<a aria-label="Lara&#39;s CV" href="https://github.com/lara-martin/CV/raw/main/LaraMartinCV.pdf" class="btn btn-outline-dark mr-5"> CV</a>
 						<a aria-label="Lara&#39;s lab page" href="/lab" class="btn btn-outline-dark mr-5"> LARA Lab</a>
-						<a aria-label="Lara&#39;s UMBC page" href="https://www.csee.umbc.edu/lara-j-martin/" class="btn btn-outline-dark mr-5"> UMBC Personal Page</a>
-						<a aria-label="interactive fiction and story generation resource list" href="/resources.html" class="btn btn-outline-dark mr-5"> Interactive Fiction and Story Generation Resources</a>               
+						<a aria-label="Lara&#39;s UMBC page" href="https://www.csee.umbc.edu/lara-j-martin/" class="btn btn-outline-dark mr-5"> My UMBC Page</a>         
 					</div>
 					<br>
 				</div>
