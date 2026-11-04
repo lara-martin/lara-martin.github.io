@@ -18,7 +18,6 @@ layout: default
 	<div class="collapse navbar-collapse px-lg-3" id="navbarCollapse" onclick="collapseOnClick()" aria-label="navigation">
 		<div class="navbar-nav m-auto py-0">
 			<a href="#home" class="nav-item nav-link active">Home</a>
-			<a href="#news" class="nav-item nav-link">News</a>
 			<a href="#contact" class="nav-item nav-link">Contact</a>
 			<a href="#research" class="nav-item nav-link">Research Accounts</a>
 			<a href="#bio" class="nav-item nav-link">Bio</a>
@@ -97,26 +96,7 @@ layout: default
 	</div>
 </header>
 <!-- Header End -->
-<!-- News Start -->
-<section aria-label="news">
-	<div class="container-fluid py-5" id="news">
-		<div class="container">
-			<!-- News Section -->
-			<div class="gallery">
-				<h3 class="mb-4">News</h3>
-				<div style="position: relative;">
-					<a href="#contact" class="screen-reader-only" aria-label="skip news">Skip news</a>
-				</div>
-				<ul class="news">
-					{% for news in site.data.news %}
-					<li future-date="{{ news.date | date: '%Y%m%d' }}" {% if news.highlight %}style="background: #F5E3C5;"{% endif %}><strong>{{ news.date | date: '%-m/%-d/%Y' }}{% if news.end %} - {{ news.end | date: '%-m/%-d/%Y' }}{%endif%}</strong> - {{ news.text }} {% if news.location %}  &ndash; <em>{{news.location}}</em>{%endif%}</li>				
-					{% endfor %}							
-				</ul>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- News End -->
+
 <!-- Contact Start -->
 <section aria-label="contact">
 	<div class="container-fluid py-5" id="contact">
@@ -218,8 +198,6 @@ layout: default
 						<li>cognitive science,</li>
 						<li>and artifical intelligence.</li>
 					</ul>
-					<!--<p>I am currently a <a aria-label="CI Fellows 2020 page" href="https://cifellows2020.org/">CIFellow</a> at the University of Pennsylvania, working with <a aria-label="Chris Callison-Burch" href="https://www.cis.upenn.edu/~ccb/">Dr. Chris Callison-Burch</a>. I earned my PhD in <a aria-label="HCC Program at Georgia Tech" href="https://www.cc.gatech.edu/degree-programs/phd-human-centered-computing">Human-Centered Computing</a> in the <a aria-label="School of Interactive Computing at Georgia Tech" href="https://www.ic.gatech.edu/">School of Interactive Computing</a> at the Georgia Institute of Technology. I worked with <a aria-label="Mark O. Riedl" href="http://eilab.gatech.edu/mark-riedl">Dr. Mark Riedl</a> in the <a aria-label="EI Lab" href="http://eilab.gatech.edu/">Entertainment Intelligence Lab</a>, doing automated story generation.</p>-->
-					<!--<p>I have a Masters in Language Technologies from <a aria-label="Language Technologies Institute" href="https://www.lti.cs.cmu.edu/">LTI at Carnegie Mellon University</a> in their School of Computer Science. I received my BS in Computer Science and Linguistics from Rutgers University &mdash; New Brunswick.</p>-->
 					<p>Some of my non-research passions include AI equity, science communication, and educating children about computer science and technology.</p>
 					<p style="margin-bottom: 4rem;"><a href="https://github.com/lara-martin/CV/raw/main/LaraMartinCV.pdf" aria-label="Lara's CV pdf">Check out my CV</a> for more information.</p>
 					<h3 class="mb-4">Third-Person Bio</h3>
