@@ -83,6 +83,8 @@ layout: default
 					I run the <a href="./lab/">LARA Lab</a> and am a member of the <a href="http://iral.cs.umbc.edu/">Interactive Robotics and Language Lab (IRAL)</a>. My pronouns are <a aria-label="How to use she/they pronouns" href="https://en.pronouns.page/she&they">she/they</a>.
 					<br>
 					I'm also affiliate faculty in the <a href="https://informationsystems.umbc.edu/" aria-label="information systems department at UMBC">Information Systems Department</a>, member of <a href="https://ai.umbc.edu/" aria-label="UMBC's center for AI">UMBC's Center for AI</a>, and a Research Expert for the nonprofit <a href="https://robotsforall.us/" aria-label="Robots for All">Robots for All</a>.
+					<br>
+					<div style="font-size:20px"><b>I am not taking on new students for 2027.</b></div>
 					<div class="d-flex align-items-center justify-content-center justify-content-lg-start">
 						<br>
 						<a aria-label="Lara&#39;s CV" href="https://github.com/lara-martin/CV/raw/main/LaraMartinCV.pdf" class="btn btn-outline-dark mr-5"> CV</a>
